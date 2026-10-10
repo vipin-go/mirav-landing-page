@@ -89,6 +89,14 @@
       "heading": "A little clarity\nbefore you say hello.",
       "image": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-faq-folded-v1.png",
       "imageAlt": "Mirav smiles with his arms folded, looking toward your questions."
+    },
+    "localization": {
+      "translation": {
+        "enabled": true,
+        "sourceLanguage": "en",
+        "defaultLanguage": "en",
+        "autoDetectCountryLanguage": false
+      }
     }
   }
 }
