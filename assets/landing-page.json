@@ -51,6 +51,26 @@
         "question": "Can I switch between communities?",
         "answer": "Yes. Neighborhood and Schools have separate profiles and saved areas. One profile is active at a time."
       }
-    ]
+    ],
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-logo.svg",
+      "ctaLabel": "Meet Mirav",
+      "navItems": [
+        {
+          "label": "How it works",
+          "target": "how-it-works"
+        }
+      ]
+    },
+    "heroChat": {
+      "statusLabel": "A shared hello starts here",
+      "inputPlaceholder": "Say hello to Mirav\u2026",
+      "suggestedPrompts": [
+        "Find people near me",
+        "Connect with my school community",
+        "How do introductions work?"
+      ]
+    }
   }
 }

@@ -1,3 +1,7 @@
 # Mirav landing page
 
-Public marketing content and original character images. Runtime data, school affiliations, locations, contacts, and credentials stay in private resources. The community-connections renderer lives in Gabriel.
+Public marketing JSON and original character/logo assets. The mint M represents two people meeting inside a conversation and neighborhood circle. The orange dot is the shared meeting point.
+
+The community-connections template is registered in the Gabriel PersonaLandingPage theme registry. It mounts the host-owned native hero chat and uses the normal authenticated/guest floating chat widgets.
+
+Runtime profiles, contacts, locations and Maps credentials remain private and outside this repository.
