@@ -1,0 +1,8 @@
+{
+  "asset": "mirav-faq-folded-v1.png",
+  "mode": "built-in image_gen tool",
+  "useCase": "identity-preserve",
+  "reference": "mirav-full-body.png",
+  "transparentBackground": true,
+  "prompt": "Use case: identity-preserve\nAsset type: Mirav landing-page FAQ character, shared by Neighborhood and Schools.\nPrimary request: Show the same Mirav character from the reference with his arms folded, smiling warmly and looking slightly to his left toward the FAQ questions.\nInput image: mirav-full-body.png is the character identity and clothing reference.\nSubject: A youthful male student with the same face, brown curly hair, proportions, sage hoodie, cream shirt, orange backpack, charcoal trousers and cream trainers.\nStyle: Polished expressive 3D animated character render, matching the reference.\nComposition: Full body, head and shoes fully visible, vertical portrait framing, isolated character for the right side of the FAQ.\nScene/backdrop: Genuinely transparent background with preserved alpha.\nConstraints: Preserve character identity and clothing; remove the notebook to allow the folded-arm pose; no text, logos, extra people, environment or background. Natural hands and relaxed expression."
+}
