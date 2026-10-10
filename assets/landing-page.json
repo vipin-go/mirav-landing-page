@@ -21,7 +21,7 @@
     },
     "badge": "Good people. Right around you.",
     "headline": "Your people are closer than you think.",
-    "subheadline": "Meet your neighbors, find your school community, and turn shared interests into real-life plans. Mirav makes the first hello a little easier.",
+    "subheadline": "Find nearby people and activities on your phone. Join a neighborhood plan or discover after-school activities with kids and parents from your school.",
     "ctaLabel": "Find my neighborhood",
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-full-body.png",
     "featureTags": [
@@ -37,7 +37,7 @@
       },
       {
         "question": "What is the Schools profile?",
-        "answer": "A separate profile for families, school staff and community partners. Connections must use the same official school website domain and remain inside your saved circle."
+        "answer": "A separate community for families, school staff and partners. Parents create and join nearby activities for their family. Discovery stays inside your saved circle and uses the same school website domain; this does not verify affiliation."
       },
       {
         "question": "Who can see my details?",
@@ -79,6 +79,7 @@
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-neighborhood-og-banner-v1.webp",
       "alt": "Mirav neighborhood community \u2014 character-free social preview"
-    }
+    },
+    "mobileMapPreviewImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-mobile-map-v1.webp"
   }
 }
