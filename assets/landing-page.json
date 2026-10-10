@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 2,
+  "resourceKey": "landing_page.mirav",
+  "landingPage": {
+    "design": {
+      "variant": "community-connections",
+      "defaultThemeMode": "light",
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f8f5ee",
+            "surface": "#fffdf8",
+            "sidebar": "#efe9dc",
+            "text": "#171717",
+            "accent": "#b7d8cb",
+            "userBubble": "#dbe9df"
+          }
+        }
+      }
+    },
+    "badge": "Good people. Right around you.",
+    "headline": "Your people are closer than you think.",
+    "subheadline": "Meet your neighbors, find your school community, and turn shared interests into real-life plans. Mirav makes the first hello a little easier.",
+    "ctaLabel": "Find my neighborhood",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-full-body.png",
+    "featureTags": [
+      "Your own radius",
+      "Two community profiles",
+      "Approximate pins",
+      "Mutual consent"
+    ],
+    "faqs": [
+      {
+        "question": "How does the map work?",
+        "answer": "Choose a location and radius, then save your circle. Mirav shows approximate pins from completed profiles that have opted into visibility inside that area."
+      },
+      {
+        "question": "What is the Schools profile?",
+        "answer": "A separate profile for families, school staff and community partners. Connections must use the same official school website domain and remain inside your saved circle."
+      },
+      {
+        "question": "Who can see my details?",
+        "answer": "You choose whether your profile is searchable. Pins are approximate, and contact details are shared only after both people accept that specific introduction."
+      },
+      {
+        "question": "Can Mirav care for my child?",
+        "answer": "Mirav is an AI community guide. He can help you meet local people, but he is not a real babysitter and does not verify, vet or guarantee a caregiver."
+      },
+      {
+        "question": "Can I switch between communities?",
+        "answer": "Yes. Neighborhood and Schools have separate profiles and saved areas. One profile is active at a time."
+      }
+    ]
+  }
+}
