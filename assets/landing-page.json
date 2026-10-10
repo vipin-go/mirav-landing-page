@@ -19,10 +19,10 @@
         }
       }
     },
-    "badge": "Good people. Right around you.",
-    "headline": "Your people are closer than you think.",
-    "subheadline": "Find nearby people and activities on your phone. Join a neighborhood plan or discover after-school activities with kids and parents from your school.",
-    "ctaLabel": "Find my neighborhood",
+    "badge": "For parents. For kids. Right around you.",
+    "headline": "Little adventures. New parent friends.",
+    "subheadline": "Find nearby activities for your kids, meet other parents, and make a plan together. One parent can start it. A few families can make it special.",
+    "ctaLabel": "Find a family activity",
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-full-body.png",
     "featureTags": [
       "Your own radius",
@@ -32,24 +32,24 @@
     ],
     "faqs": [
       {
-        "question": "How does the map work?",
-        "answer": "Choose a location and radius, then save your circle. Mirav shows approximate pins from completed profiles that have opted into visibility inside that area."
+        "question": "Who is Neighborhood for?",
+        "answer": "Parents and guardians who want to find nearby activities for their kids and meet other parents. Adults create profiles and manage participation for their family."
       },
       {
-        "question": "What is the Schools profile?",
-        "answer": "A separate community for families, school staff and partners. Parents create and join nearby activities for their family. Discovery stays inside your saved circle and uses the same school website domain; this does not verify affiliation."
+        "question": "Can more than one parent organize an activity?",
+        "answer": "Yes. One parent starts the activity. A parent who joins can offer to co-host, and the original organizer reviews the offer. Parents can withdraw an offer or stop co-hosting."
       },
       {
-        "question": "Who can see my details?",
-        "answer": "You choose whether your profile is searchable. Pins are approximate, and contact details are shared only after both people accept that specific introduction."
+        "question": "How do we find activities nearby?",
+        "answer": "Choose a location and save your radius on the map. Discovery stays inside that circle. Activity cards show the place, time, age group and family capacity."
       },
       {
-        "question": "Can Mirav care for my child?",
-        "answer": "Mirav is an AI community guide. He can help you meet local people, but he is not a real babysitter and does not verify, vet or guarantee a caregiver."
+        "question": "Who can see our details?",
+        "answer": "Nearby profile pins are approximate. Activity attendance identities stay private; the organizer reviews adult co-host offers or school participation requests. Personal contact sharing still requires both people to accept an introduction."
       },
       {
-        "question": "Can I switch between communities?",
-        "answer": "Yes. Neighborhood and Schools have separate profiles and saved areas. One profile is active at a time."
+        "question": "Can Mirav look after my child?",
+        "answer": "Mirav is an AI guide, not a real caregiver. Parents and school organizers remain responsible for activities and supervision."
       }
     ],
     "header": {
@@ -80,6 +80,10 @@
       "src": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-neighborhood-og-banner-v1.webp",
       "alt": "Mirav neighborhood community \u2014 character-free social preview"
     },
-    "mobileMapPreviewImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-mobile-map-v1.webp"
+    "mobileMapPreviewImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-mobile-map-v1.webp",
+    "miravSchools": {
+      "headline": "One school. A whole world of possibilities.",
+      "subheadline": "Bring children from different groups together through sports, AI, music, and making. Your school leads the programme. Local experts bring new skills. Parents stay in the picture."
+    }
   }
 }
