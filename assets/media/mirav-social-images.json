@@ -1,0 +1,15 @@
+{
+  "defaultMode": "neighborhood",
+  "width": 1200,
+  "height": 630,
+  "images": {
+    "neighborhood": {
+      "bannerImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-neighborhood-og-banner-v1.webp",
+      "ogImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-neighborhood-og-banner-v1.webp"
+    },
+    "schools": {
+      "bannerImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-schools-og-banner-v1.webp",
+      "ogImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-schools-og-banner-v1.webp"
+    }
+  }
+}

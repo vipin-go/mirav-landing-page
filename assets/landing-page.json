@@ -54,7 +54,7 @@
     ],
     "header": {
       "brandMark": "image",
-      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-logo.svg",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-logo-black-v4.svg",
       "ctaLabel": "Meet Mirav",
       "navItems": [
         {
@@ -71,6 +71,14 @@
         "Connect with my school community",
         "How do introductions work?"
       ]
+    },
+    "profileModeSocialImages": {
+      "neighborhood": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-neighborhood-og-banner-v1.webp",
+      "schools": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-schools-og-banner-v1.webp"
+    },
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-neighborhood-og-banner-v1.webp",
+      "alt": "Mirav neighborhood community \u2014 character-free social preview"
     }
   }
 }

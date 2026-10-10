@@ -1,7 +1,7 @@
 # Mirav landing page
 
-Public marketing JSON and original character/logo assets. The mint M represents two people meeting inside a conversation and neighborhood circle. The orange dot is the shared meeting point.
+Public marketing content and original Mirav character and brand assets. The monochrome transparent mark places two dots fully inside a closed neighborhood circle and M.
 
-The community-connections template is registered in the Gabriel PersonaLandingPage theme registry. It mounts the host-owned native hero chat and uses the normal authenticated/guest floating chat widgets.
+The Neighborhood and Schools covers are character-free 1200×630 images, used as both persona banners and social previews. The shared landing template mounts native hero chat and the standard floating widget.
 
-Runtime profiles, contacts, locations and Maps credentials remain private and outside this repository.
+Runtime profiles, contacts, precise locations and Maps credentials remain private and outside this repository.
