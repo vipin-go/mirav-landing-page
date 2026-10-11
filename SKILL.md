@@ -203,7 +203,7 @@ valuation rules and translate both configurations independently.
   - `theme` (optional, theme object) — authored `palette`, required `primaryColor`, and optional `secondaryColor`/`accentColor` used by the landing page.
   - `brand` (optional, object) — bounded exact brand seeds shared by landing, chat, embed, and portalled dialogs. This is the model-generated branding surface; never generate CSS or Tailwind classes.
     - `presetRevision` (optional, currently `1`) — pins the persona to the immutable revision of its selected `variant`.
-    - `colors.light` / `colors.dark` (optional objects) — each accepts normalized six-digit lowercase hex values for `canvas`, `surface`, `sidebar`, `text`, `accent`, and `userBubble`. Dependent hover, muted, border, and contrast-safe foreground tokens are derived by the renderer.
+    - `colors.light` / `colors.dark` (optional objects) — each accepts normalized six-digit lowercase hex values for `canvas`, `surface`, `sidebar`, `text`, `accent`, optional `accentHover`, and `userBubble`. With no authored hover tone, it is derived from the accent. Muted, border, and contrast-safe foreground tokens (including a separate hover foreground) are derived by the renderer.
     - `typography.body` / `typography.display` / `typography.label` (optional objects) — either `{ "source": "builtin", "family": "inter" }` using `dm-sans`, `inter`, `system`, `roboto`, `poppins`, or `outfit`; or `{ "source": "google", "family": "TASA Orbiter" }` using a safe Google Font family name.
     - Normal text must reach WCAG AA contrast against both `canvas` and `surface`. Low decorative-accent contrast is reported as a warning.
 - `landingPage.localization` (required on every new landing page; optional only for backward-compatible reads of legacy pages) — public translation and IP-country routing. This is an additive schema-version-2 field; do not bump the landing-page schema version. New pages must set `translation.enabled: true`, `sourceLanguage: "en"`, `defaultLanguage: "en"`, `autoDetectCountryLanguage: true`, `generatedTranslations: []`, and `regionalPages: []` before authored regions or generated variants are added. Do not disable it during creation.
@@ -391,7 +391,7 @@ only the agreed languages. That skill owns bulk
 language selection, safe-string extraction, provider authorization, source revisions,
 resumable generation, validation, and child-to-parent mirroring. Prefer its private
 on-device Chrome provider; external providers still require explicit authorization.
-Do not hand-author `generatedTranslations` or invent source revisions in this skill.
+Do not hand-author `generatedTranslations` or invent source revisions in this skill. Course films and their translated narration are not landing-page JSON: read `../course-video-generation/SKILL.md` and `../course-video-translations/SKILL.md`, and store the media in the persona repository.
 
 After generation, run the generator's `--check`, commit and push a linked child first,
 then commit and push the parent Persona projection. If a provider is unavailable, leave

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "et",
   "regionKey": null,
-  "sourceRevision": "a85f3c7cf98db9f6269f5e62956634e9a0a88fb0aa1af91b7898bb00cb153fa9",
+  "sourceRevision": "1f7244efc0d885f3ee91dbf0b6ca5ede134c73d4257274fc1979da4b127625e6",
   "landingPage": {
     "design": {
       "variant": "community-connections",
@@ -16,7 +16,17 @@
             "sidebar": "#efe9dc",
             "text": "#171717",
             "accent": "#b7d8cb",
-            "userBubble": "#dbe9df"
+            "userBubble": "#dbe9df",
+            "accentHover": "#245c4c"
+          },
+          "dark": {
+            "canvas": "#181c19",
+            "surface": "#202720",
+            "sidebar": "#151c17",
+            "text": "#f5f5ed",
+            "accent": "#b7d8cb",
+            "userBubble": "#527962",
+            "accentHover": "#527962"
           }
         }
       }
@@ -4208,5 +4218,5 @@
       "sourceHash": "f50658d8d285971b54c9c9cd15c77b0c9e3c3049ca947a3de962ace78dad42ec"
     }
   ],
-  "generatedAt": "2026-10-11T14:00:21.484Z"
+  "generatedAt": "2026-10-11T20:56:01.028Z"
 }
