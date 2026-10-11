@@ -21,8 +21,8 @@
     },
     "badge": "For parents. For kids. Right around you.",
     "headline": "Little adventures. New parent friends.",
-    "subheadline": "Find nearby activities for your kids, meet other parents, and make a plan together. One parent can start it. A few families can make it special.",
-    "ctaLabel": "Find a family activity",
+    "subheadline": "Tell Mirav what your kids love. Shape an activity together, find families inside your circle, and meet the parents while the children play.",
+    "ctaLabel": "Plan an activity with Mirav",
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-full-body.png",
     "featureTags": [
       "Your own radius",
@@ -65,11 +65,11 @@
     },
     "heroChat": {
       "statusLabel": "A shared hello starts here",
-      "inputPlaceholder": "Say hello to Mirav\u2026",
+      "inputPlaceholder": "Say hello to Mirav…",
       "suggestedPrompts": [
-        "Find people near me",
-        "Connect with my school community",
-        "How do introductions work?"
+        "Help me plan an activity for my kids",
+        "Find family activities inside my circle",
+        "Draft a school workshop programme"
       ]
     },
     "profileModeSocialImages": {
@@ -78,7 +78,7 @@
     },
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-neighborhood-og-banner-v1.webp",
-      "alt": "Mirav neighborhood community \u2014 character-free social preview"
+      "alt": "Mirav neighborhood community — character-free social preview"
     },
     "mobileMapPreviewImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-mobile-map-v1.webp",
     "miravSchools": {
@@ -97,6 +97,616 @@
         "defaultLanguage": "en",
         "autoDetectCountryLanguage": false
       }
+    },
+    "mirav": {
+      "schemaVersion": 1,
+      "brand": {
+        "name": "Mirav"
+      },
+      "ui": {
+        "chooseYourCommunity": "Choose your community",
+        "schools": "Schools",
+        "neighborhood": "Neighborhood",
+        "miravHome": "Mirav home",
+        "realLifeStartsWithAHello": "Real life starts with a hello.",
+        "miravSections": "Mirav sections",
+        "howItWorks": "How it works",
+        "ourCommunity": "Our community",
+        "faq": "FAQ",
+        "closeMenu": "Close menu",
+        "openMenu": "Open menu",
+        "miravMobileNavigation": "Mirav mobile navigation",
+        "schoolSolution": "School solution",
+        "meetMirav": "Meet Mirav",
+        "forSchoolsTeachersLocalExperts": "For schools, teachers & local experts.",
+        "forParentsForKidsRightAroundYou": "For parents. For kids. Right around you.",
+        "oneSchool": "One school.",
+        "aWholeWorldOfPossibilities": "A whole world of possibilities.",
+        "littleAdventures": "Little adventures.",
+        "newParentFriends": "New parent friends.",
+        "bringChildrenFromDifferentGroupsTogetherThroughSports": "Bring children from different groups together through sports, AI, music, and making. Your school leads the programme. Local experts bring new skills. Parents stay in the picture.",
+        "tellMiravWhatYourKidsLoveShapeAn": "Tell Mirav what your kids love. Shape an activity together, find families inside your circle, and meet the parents while the children play.",
+        "miravHelpsDraftTheProgrammeYourSchoolShapes": "Mirav helps draft the programme. Your school shapes and approves it.",
+        "yourIdeaAnActivityDraftNearbyFamilyConnections": "Your idea. An activity draft. Nearby family connections. Mirav helps with each step.",
+        "buildMySchoolSolution": "Build my school solution",
+        "planAnActivityWithMirav": "Plan an activity with Mirav",
+        "draftAProgrammeWithMirav": "Draft a programme with Mirav",
+        "findFamilyActivities": "Find family activities",
+        "chatWithMirav": "Chat with Mirav",
+        "aSchoolIdeaAProgrammeToReview": "A school idea. A programme to review.",
+        "yourIdeaALittleHelpWithThePlan": "Your idea. A little help with the plan.",
+        "heyIMMiravWhatWouldYouLove": "Hey, I’m Mirav! What would you love your school to try? Let’s draft a workshop programme for your teachers to review.",
+        "heyIMMiravTellMeYourKids": "Hey, I’m Mirav! Tell me your kids’ ages and what they enjoy. We can draft an activity or explore nearby family plans together.",
+        "messageMirav": "Message Mirav",
+        "sayHelloToMirav": "Say hello to Mirav…",
+        "sendMessageToMirav": "Send message to Mirav",
+        "miravIsAIAndCanMakeMistakesPlease": "Mirav is AI and can make mistakes. Please double-check important information.",
+        "aDesktopWorkspaceForOrganizersAMobileApp": "A desktop workspace for organizers. A mobile app for families.",
+        "kidsPlayParentsConnectANeighborhoodFeelsA": "Kids play. Parents connect. A neighborhood feels a little more like home.",
+        "planWithMiravShapeItWithYourSchool": "Plan with Mirav. Shape it with your school.",
+        "aLittleHelpFromMiravAPlanMade": "A little help from Mirav. A plan made by you.",
+        "fromALittleIdea": "From a little idea",
+        "toASchoolWideProgramme": "to a school-wide programme.",
+        "fromAnIdeaWithMirav": "From an idea with Mirav",
+        "toALittleParentCircle": "to a little parent circle.",
+        "smallCirclesBiggerPossibilities": "Small circles. Bigger possibilities.",
+        "happyKids": "Happy kids.",
+        "aFewNewParentFriends": "A few new parent friends.",
+        "letMiravHelpWithTheActivityIdeaThe": "Let Mirav help with the activity idea, the details, and finding families inside your saved circle. Host it yourself or with another parent. You choose the plan and who to connect with; the kids get an afternoon together.",
+        "findActivitiesWithMirav": "Find activities with Mirav",
+        "illustrationOfANeighborhoodSearchCircle": "Illustration of a neighborhood search circle",
+        "thePark": "The park",
+        "school": "School",
+        "yourCircle": "Your circle",
+        "chooseYourRadiusKeepItLocal": "Choose your radius. Keep it local.",
+        "aLittleClarityBeforeYouSayHello": "A little clarity\nbefore you say hello.",
+        "miravSmilesWithHisArmsFoldedLookingToward": "Mirav smiles with his arms folded, looking toward your questions.",
+        "seeYouAround": "See you around.",
+        "aNewPossibility": "A new possibility",
+        "forEverySchoolDay": "for every school day.",
+        "yourNextFamilyAfternoon": "Your next family afternoon",
+        "couldBeRightAroundTheCorner": "could be right around the corner.",
+        "miravSchoolsMobileAppPreview": "Mirav Schools mobile app preview",
+        "miravNeighborhoodMobileAppPreview": "Mirav Neighborhood mobile app preview",
+        "forSchoolFamilies": "for school families",
+        "illustrationOfANeighborhoodWithASchoolPark": "Illustration of a neighborhood with a school, park and community spaces",
+        "mapleSchoolCommunity": "Maple School community",
+        "familyActivitiesAroundYou": "Family activities around you",
+        "aQuestionAboutAnActivity": "A question about an activity?",
+        "aLittleIdeaForSaturday": "A little idea for Saturday?",
+        "askMirav": "Ask Mirav",
+        "you": "You",
+        "previewActivity": "Preview activity",
+        "yourSchoolActivityPlan": "Your school’s activity plan",
+        "exploreWithMiravInYourCircle": "Explore with Mirav · In your circle",
+        "800M": "· 800 m",
+        "viewSampleActivity": "View sample activity",
+        "sameSchoolWithin2Km": "Same school · Within 2 km",
+        "yourSavedCircle2Km": "Your saved circle · 2 km",
+        "yourAISchoolGuide": "Your AI school guide",
+        "yourAIActivityHelper": "Your AI activity helper",
+        "example": "Example",
+        "explainAnActivity": "Explain an activity",
+        "planAnActivity": "Plan an activity",
+        "findTheRightSession": "Find the right session",
+        "whatShouldIKnowBeforeMyChildJoins": "What should I know before my child joins this school activity?",
+        "whichSchoolActivitiesCouldSuitMyChild": "Which school activities could suit my child?",
+        "myKidsAre6And9CouldWe": "My kids are 6 and 9. Could we plan something outdoors for Saturday?",
+        "canYouHelpUsFindFamilyActivitiesNearby": "Can you help us find family activities nearby?",
+        "iCanExplainTheTimeAgeGroupAnd": "I can explain the time, age group, and what to expect. Your school reviews participation.",
+        "letLookAtYourSchoolSessionsThenCompare": "Let’s look at your school’s sessions, then compare ages and interests together.",
+        "howAboutParkPlayAndParentCoffeeHere": "How about park play and parent coffee? Here’s a starting point. You can review it before creating the activity.",
+        "startWithActivitiesInsideYourSaved2Km": "Start with activities inside your saved 2 km circle. Compare age groups and times, then choose a plan to join.",
+        "activitySummary": "Activity summary",
+        "activityDraftForYourReview": "Activity draft · For your review",
+        "anActivityToExplore": "An activity to explore",
+        "parkPlayParentCoffee": "Park play & parent coffee",
+        "saturday1000": "Saturday · 10:00",
+        "willowPark": "Willow Park",
+        "ages610": "Ages 6–10",
+        "exploreSchoolActivities": "Explore school activities",
+        "viewSchoolActivity": "View school activity",
+        "exploreNearbyActivities": "Explore nearby activities",
+        "reviewActivityDraft": "Review activity draft",
+        "askMiravAboutAnActivity": "Ask Mirav about an activity…",
+        "miravIsAIYouReviewThePlan": "Mirav is AI. You review the plan.",
+        "schoolActivities": "School activities",
+        "familyActivities": "Family activities",
+        "letSJOININ": "LET’S JOIN IN",
+        "mapleSchoolFamilies": "Maple School · Families",
+        "parentHostedFamiliesNearby": "Parent-hosted · Families nearby",
+        "aSchoolLedSessionForDifferentGroupsParents": "A school-led session for different groups. Parents request participation for teacher review.",
+        "aParentPlanAFewNewFamiliesAnd": "A parent’s plan, a few new families, and a shared afternoon for the kids.",
+        "withAParent": "· With a parent",
+        "800MAwayInYourCircle": "800 m away · In your circle",
+        "4FamilyPlacesLeft": "4 family places left",
+        "askMiravAboutThisSession": "Ask Mirav about this session",
+        "askMiravIfThisFitsOurFamily": "Ask Mirav if this fits our family",
+        "requestToParticipate": "Request to participate",
+        "joinFamilyActivity": "Join family activity",
+        "createAnActivity": "Create an activity",
+        "draftedWithMirav": "Drafted with Mirav",
+        "yourIdea": "Your idea.",
+        "readyToShare": "Ready to share.",
+        "reviewTheDetailsYouChooseWhenToShare": "Review the details. You choose when to share and who to invite.",
+        "activity": "Activity",
+        "where": "Where",
+        "when": "When",
+        "ageGroup": "Age group",
+        "ages610WithAParent": "Ages 6–10 · With a parent",
+        "onlyYourSchoolCommunity": "Only your school community",
+        "parentOrganizedFamiliesNearby": "Parent-organized · Families nearby",
+        "parentsManageFamilyParticipation": "Parents manage family participation",
+        "inviteAnotherParentToCoHost": "Invite another parent to co-host",
+        "showActivityMapInPreview": "Show activity map in preview",
+        "activities": "Activities",
+        "explore": "Explore",
+        "saved": "Saved",
+        "showSchoolActivityInPreview": "Show school activity in preview",
+        "reviewANewActivityInPreview": "Review a new activity in preview",
+        "openAskMiravPreview": "Open Ask Mirav preview",
+        "profile": "Profile",
+        "appPreviewExampleAIConversation": "App preview · Example AI conversation",
+        "appPreviewSampleActivities": "App preview · Sample activities",
+        "miravSchoolDesktopWorkspacePreview": "Mirav school desktop workspace preview",
+        "miravForMapleSchool": "Mirav for Maple School",
+        "forSchools": "for schools",
+        "yourWORKSPACE": "YOUR WORKSPACE",
+        "workshopPalette": "Workshop palette",
+        "programme": "Programme",
+        "groupsFamilies": "Groups & families",
+        "localPartners": "Local partners",
+        "mapleSchool": "Maple School",
+        "exampleWorkspace": "Example workspace",
+        "yourSCHOOLYOURPROGRAMME": "YOUR SCHOOL. YOUR PROGRAMME.",
+        "whatWillWeTryNext": "What will we try next?",
+        "aPlanForEveryGroup": "A plan for every group.",
+        "newActivity": "New activity",
+        "pickALittlePossibility": "Pick a little possibility",
+        "mixMatch": "Mix & match",
+        "addToProgramme": "Add to programme",
+        "miravProgrammeSuggestion": "Mirav’s programme suggestion",
+        "teachersShapeTheFinalActivity": "Teachers shape the final activity.",
+        "thisWeekTogether": "This week, together",
+        "teacherReview": "Teacher review",
+        "years34Years56": "Years 3–4 + Years 5–6",
+        "years56Years78": "Years 5–6 + Years 7–8",
+        "mixedSchoolGroups": "Mixed school groups",
+        "tue1530": "TUE · 15:30",
+        "wed1400": "WED · 14:00",
+        "fri1530": "FRI · 15:30",
+        "reviewProvider": "Review provider",
+        "planReady": "Plan ready",
+        "miravHelpsExplainThePlan": "Mirav helps explain the plan",
+        "aParentSummaryOfDatesAgeGroupsLearning": "A parent summary of dates, age groups, learning goals, and what to expect.",
+        "schoolWorkspacePreviewExampleProgramme": "School workspace preview · Example programme",
+        "schoolLedPlans": "School-led plans",
+        "localExpertise": "Local expertise",
+        "parentsInTheLoop": "Parents in the loop",
+        "moreChildrenMorePossibilities": "More children, more possibilities",
+        "aPALETTEOFPOSSIBILITIES": "A PALETTE OF POSSIBILITIES",
+        "aSchoolDayWith": "A school day with",
+        "moreToDiscover": "more to discover.",
+        "chooseTheThemesAndGroupsMiravHelpsDraft": "Choose the themes and groups. Mirav helps draft a shared workshop; your teachers shape the final plan.",
+        "whichGroupsWillLearnTogether": "Which groups will learn together?",
+        "teachersChooseTheGroupsAndAdaptTheSession": "Teachers choose the groups and adapt the session to their needs.",
+        "askMiravToDraftMyProgramme": "Ask Mirav to draft my programme",
+        "oneCOMMUNITYDIFFERENTROLES": "ONE COMMUNITY. DIFFERENT ROLES.",
+        "theSchoolLeads": "The school leads.",
+        "everyoneBringsSomething": "Everyone brings something.",
+        "aTeacherKnowsTheChildrenAndChoosesThe": "A teacher knows the children and chooses the right activity. A specialist brings a new skill. Parents know what is happening and how to take part.",
+        "schoolsTeachers": "Schools & teachers",
+        "setLearningGoalsCombineGroupsChooseAVenue": "Set learning goals, combine groups, choose a venue, review providers, and agree the plan before it goes ahead.",
+        "workshopPartners": "Workshop partners",
+        "coachesMusiciansArtistsAndTechnologyEducatorsCanOffer": "Coaches, musicians, artists, and technology educators can offer their expertise, availability, session requirements, and a clear quote.",
+        "parentsFamilies": "Parents & families",
+        "seeTheScheduleMeetingPlaceAgeGroupAnd": "See the schedule, meeting place, age group, and host. Manage family participation and offer a helping hand when the school requests it.",
+        "planONTHEWEBPARTICIPATEONTHEPHONE": "PLAN ON THE WEB. PARTICIPATE ON THE PHONE.",
+        "bigPlansAtSchool": "Big plans at school.",
+        "aClearViewAtHome": "A clear view at home.",
+        "organizersDraftTheProgrammeWithMiravInTheir": "Organizers draft the programme with Mirav in their desktop workspace. Families have a separate school app, where Mirav can explain a session, its age group, and what to expect before parents request participation.",
+        "teacherSelectedGroupsAndAgeRanges": "Teacher-selected groups and age ranges",
+        "onePlaceForDatesVenuesAndLearningGoals": "One place for dates, venues, and learning goals",
+        "aSchoolCommunityInsideItsSavedCircle": "A school community inside its saved circle",
+        "buildASolutionForMySchool": "Build a solution for my school",
+        "aMODELTHATWORKSFORTHEWHOLECOMMUNITY": "A MODEL THAT WORKS FOR THE WHOLE COMMUNITY",
+        "localTalent": "Local talent.",
+        "sharedValue": "Shared value.",
+        "aClearOfferForPartners": "A clear offer for partners",
+        "startWithAWorkshopBriefAFeeOr": "Start with a workshop brief, a fee or quote, the materials needed, and the groups it suits. Schools choose the provider and agree delivery terms.",
+        "aSustainableSchoolProgramme": "A sustainable school programme",
+        "planProviderFeesAlongsideVenueMaterialsAndCoordination": "Plan provider fees alongside venue, materials, and coordination costs. Discuss permitted venue or service income with the school; keep the budget transparent.",
+        "fundingThatFitsYourLocation": "Funding that fits your location",
+        "exploreSchoolBudgetsLocalSponsorsCulturalPartnersAnd": "Explore school budgets, local sponsors, cultural partners, and eligible public programmes. The school confirms access rules and funding before committing.",
+        "examplesFromTheNetherlands": "Examples from the Netherlands",
+        "the": "The",
+        "schoolOmgevingProgramme": "School & Omgeving programme",
+        "bringsSchoolsMunicipalitiesAndLocalPartnersTogetherAround": "brings schools, municipalities, and local partners together around enrichment activities. Its 2025–2028 application rounds are currently closed.",
+        "cultuureducatieMetKwaliteit": "Cultuureducatie met Kwaliteit",
+        "isAnotherRouteToLocalCulturalPartnershipsFor": "is another route to local cultural partnerships. For Dutch school-organized activities,",
+        "voluntaryParentContributions": "voluntary parent contributions",
+        "cannotDetermineWhetherAChildParticipates": "cannot determine whether a child participates.",
+        "sourcesChecked10October2026EachSchoolConfirms": "Sources checked 10 October 2026. Each school confirms the rules and opportunities for its country and programme.",
+        "miravSHAPEDFORYOURSCHOOL": "MIRAV, SHAPED FOR YOUR SCHOOL",
+        "tellUsWhatYour": "Tell us what your",
+        "schoolCouldBecome": "school could become.",
+        "registerYourInterestInASchoolProgrammeBuilt": "Register your interest in a school programme built around your groups, local partners, and ambitions. Start with one workshop or a whole term.",
+        "yourSchoolGroupsAndGoals": "Your school, groups, and goals",
+        "aWorkshopMixAndDeliveryPlan": "A workshop mix and delivery plan",
+        "providerAndBudgetReviewWithTheSchool": "Provider and budget review with the school",
+        "aClearProgrammeForTeachersAndParents": "A clear programme for teachers and parents",
+        "aSolutionRequestStartsAConversationYourSchool": "A solution request starts a conversation. Your school confirms the programme and providers before delivery.",
+        "yourSchoolRequestIsIn": "Your school request is in.",
+        "weLlReviewTheBriefAndFollowUp": "We’ll review the brief and follow up using the contact details you supplied.",
+        "createAnotherBrief": "Create another brief",
+        "aLittleAboutYourSchool": "A little about your school",
+        "yourName": "Your name",
+        "yourRole": "Your role",
+        "schoolName": "School name",
+        "officialSchoolWebsite": "Official school website",
+        "cityAndCountry": "City and country",
+        "schoolOrWorkEmail": "School or work email",
+        "programmeFormat": "Programme format",
+        "fundingApproach": "Funding approach",
+        "whatWouldYouLikeToMakePossible": "What would you like to make possible?",
+        "theGroupsInterestsAndKindOfLearningYou": "The groups, interests, and kind of learning you have in mind…",
+        "themes": "themes ·",
+        "groupsToDiscuss": "Groups to discuss",
+        "yourRequestCouldNotBeSentPleaseTry": "Your request could not be sent. Please try again.",
+        "sending": "Sending…",
+        "registerMySchoolSolution": "Register my school solution",
+        "useAdultContactDetailsOnlyWeLlUse": "Use adult contact details only. We’ll use them to respond to this school solution request."
+      },
+      "media": {
+        "portraitImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-portrait.png",
+        "logoImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-logo-black-v4.svg",
+        "mapImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-mobile-map-v1.webp"
+      },
+      "activities": {
+        "neighborhood": [
+          {
+            "id": "activity-1",
+            "icon": "⚽",
+            "title": "Park play & parent coffee",
+            "interest": "Playtime",
+            "venue": "Willow Park",
+            "people": "6 families",
+            "age": "Ages 6–10",
+            "x": 67,
+            "y": 37,
+            "timeLabel": "Saturday · 10:00"
+          },
+          {
+            "id": "activity-2",
+            "icon": "🎨",
+            "title": "Little makers, together",
+            "interest": "Creative",
+            "venue": "Community art room",
+            "people": "2 parent hosts",
+            "age": "Ages 6–10",
+            "x": 28,
+            "y": 55,
+            "timeLabel": "Saturday · 10:00"
+          },
+          {
+            "id": "activity-3",
+            "icon": "🌿",
+            "title": "Sunday family adventure",
+            "interest": "Outdoors",
+            "venue": "Willow Park",
+            "people": "5 families",
+            "age": "All ages",
+            "x": 72,
+            "y": 65,
+            "timeLabel": "Sunday · 11:00"
+          }
+        ],
+        "schools": [
+          {
+            "id": "activity-1",
+            "icon": "⚽",
+            "title": "After-school football",
+            "interest": "Sports",
+            "venue": "School playing field",
+            "people": "6 families",
+            "age": "Ages 7–11",
+            "x": 67,
+            "y": 37,
+            "timeLabel": "Today · 16:00"
+          },
+          {
+            "id": "activity-2",
+            "icon": "🎨",
+            "title": "Make something together",
+            "interest": "Creative",
+            "venue": "School art room",
+            "people": "4 families",
+            "age": "Ages 6–10",
+            "x": 28,
+            "y": 55,
+            "timeLabel": "Saturday · 10:00"
+          },
+          {
+            "id": "activity-3",
+            "icon": "🌿",
+            "title": "Nature & science trail",
+            "interest": "Outdoors",
+            "venue": "School garden",
+            "people": "5 families",
+            "age": "Ages 7–11",
+            "x": 72,
+            "y": 65,
+            "timeLabel": "Friday · 14:00"
+          }
+        ]
+      },
+      "workshops": [
+        {
+          "id": "ai",
+          "icon": "✦",
+          "title": "AI & robotics",
+          "body": "Build, question, and experiment with tomorrow’s tools.",
+          "color": "#d7e5c4",
+          "outcome": "Make a simple AI project and explain how it works.",
+          "selected": true
+        },
+        {
+          "id": "sports",
+          "icon": "↗",
+          "title": "Sports & movement",
+          "body": "Team games that bring different groups together.",
+          "color": "#edcaa8",
+          "outcome": "Practice teamwork through an inclusive movement session.",
+          "selected": true
+        },
+        {
+          "id": "music",
+          "icon": "♫",
+          "title": "Music & sound",
+          "body": "Rhythm, songwriting, and a little room to perform.",
+          "color": "#e1daf0",
+          "outcome": "Create a rhythm or song together and share it.",
+          "selected": false
+        },
+        {
+          "id": "creative",
+          "icon": "✳",
+          "title": "Art & making",
+          "body": "Hands-on projects with artists and local makers.",
+          "color": "#f1ddac",
+          "outcome": "Make something together and describe the creative choices.",
+          "selected": false
+        },
+        {
+          "id": "outdoors",
+          "icon": "❋",
+          "title": "Nature & science",
+          "body": "Explore, investigate, and learn beyond the classroom.",
+          "color": "#c8e0d7",
+          "outcome": "Explore a local habitat and record what the group discovers.",
+          "selected": false
+        }
+      ],
+      "cohorts": [
+        {
+          "id": "Years 3–4",
+          "label": "Years 3–4",
+          "selected": true
+        },
+        {
+          "id": "Years 5–6",
+          "label": "Years 5–6",
+          "selected": true
+        },
+        {
+          "id": "Years 7–8",
+          "label": "Years 7–8",
+          "selected": false
+        }
+      ],
+      "process": {
+        "neighborhood": [
+          {
+            "id": "01",
+            "headingLines": [
+              "Tell Mirav your little idea"
+            ],
+            "body": "Share what your kids enjoy, their age group, and the afternoon you have in mind. Mirav helps turn that idea into an activity draft."
+          },
+          {
+            "id": "02",
+            "headingLines": [
+              "Kids play.",
+              "Parents meet."
+            ],
+            "body": "Ask Mirav to explore activities and families inside your saved circle. Compare interests, age groups, and times, then choose who to connect with."
+          },
+          {
+            "id": "03",
+            "headingLines": [
+              "Review it. Make it yours."
+            ],
+            "body": "Check the place, time, and age group. Add another parent as a co-host if you like, then create the activity when you are ready. Mirav helps with the draft; parents make the plan."
+          }
+        ],
+        "schools": [
+          {
+            "id": "01",
+            "headingLines": [
+              "Build your palette with Mirav"
+            ],
+            "body": "Choose sports, AI, music, making, or nature. Mirav helps turn the school’s interests and learning goals into a workshop outline."
+          },
+          {
+            "id": "02",
+            "headingLines": [
+              "A draft for teachers to shape"
+            ],
+            "body": "Ask Mirav for a mix of groups, session ideas, learning goals, and a parent summary. Teachers review the programme and the school chooses its local experts."
+          },
+          {
+            "id": "03",
+            "headingLines": [
+              "Help families understand the plan"
+            ],
+            "body": "In the school’s family app, parents can ask Mirav about age groups, dates, and what to expect. The school decides which children participate."
+          }
+        ]
+      },
+      "form": {
+        "roles": [
+          {
+            "id": "School leader",
+            "label": "School leader",
+            "selected": true
+          },
+          {
+            "id": "Teacher",
+            "label": "Teacher",
+            "selected": false
+          },
+          {
+            "id": "School programme coordinator",
+            "label": "School programme coordinator",
+            "selected": false
+          },
+          {
+            "id": "Workshop provider",
+            "label": "Workshop provider",
+            "selected": false
+          },
+          {
+            "id": "Parent representative",
+            "label": "Parent representative",
+            "selected": false
+          }
+        ],
+        "delivery": [
+          {
+            "id": "One workshop pilot",
+            "label": "One workshop pilot",
+            "selected": true
+          },
+          {
+            "id": "A term of activities",
+            "label": "A term of activities",
+            "selected": false
+          },
+          {
+            "id": "A school-wide programme",
+            "label": "A school-wide programme",
+            "selected": false
+          }
+        ],
+        "funding": [
+          {
+            "id": "School budget",
+            "label": "School budget",
+            "selected": true
+          },
+          {
+            "id": "Local sponsor or partner",
+            "label": "Local sponsor or partner",
+            "selected": false
+          },
+          {
+            "id": "Explore eligible public funding",
+            "label": "Explore eligible public funding",
+            "selected": false
+          },
+          {
+            "id": "Discuss options with the school",
+            "label": "Discuss options with the school",
+            "selected": false
+          }
+        ],
+        "websitePlaceholder": "https://school.example"
+      },
+      "actions": {
+        "neighborhoodPlan": {
+          "command": "Help me draft an activity for my kids and nearby families. Ask about ages, interests, a public place, and timing so I can review the plan before creating it."
+        },
+        "neighborhoodFind": {
+          "command": "Help me find activities for my kids and other parents inside my saved circle. Ask about our ages, interests, and availability before suggesting a connection."
+        },
+        "schoolPlan": {
+          "command": "Help me draft a school workshop programme for teachers, local providers and parents to review."
+        },
+        "schoolProgramme": {
+          "command": "Help me draft a school workshop programme. Themes: %themes%. Groups: %groups%. Suggest age-appropriate learning goals, a combined activity, provider requirements, supervision, and a clear parent summary. This is a plan for school review, not a booking or approval."
+        },
+        "schoolSolution": {
+          "command": "Mirav school solution request\nSchool: %school%\nSchool website: %website%\nLocation: %location%\nContact: %name% (%role%)\nEmail: %email%\nThemes: %themes%\nGroups: %groups%\nDelivery: %delivery%\nFunding approach: %funding%\nGoal: %goal%"
+        }
+      },
+      "previewPeople": [
+        {
+          "id": "parent-a",
+          "code": "A"
+        },
+        {
+          "id": "parent-j",
+          "code": "J"
+        },
+        {
+          "id": "parent-m",
+          "code": "M"
+        }
+      ],
+      "deviceTimeLabel": "9:41",
+      "schoolsFaqs": [
+        {
+          "question": "Who decides which groups participate?",
+          "answer": "The school and teachers shape the programme, choose the groups, and review learning goals, supervision, and the provider before delivery."
+        },
+        {
+          "question": "Can external experts offer a workshop?",
+          "answer": "Yes. Coaches, artists, musicians, and technology educators can register their interest. The school reviews suitability, availability, requirements, and the quote."
+        },
+        {
+          "question": "How do parents get involved?",
+          "answer": "Parents see the school activity plan on mobile and manage family participation. Schools can also invite a parent representative to help coordinate a programme."
+        },
+        {
+          "question": "What happens after a school solution request?",
+          "answer": "The brief starts a conversation about the school’s groups, workshop mix, partners, and budget. It is reviewed before a programme or provider booking is agreed."
+        }
+      ],
+      "schoolAccount": {
+        "code": "M"
+      },
+      "metrics": [
+        {
+          "id": "themes",
+          "value": 5,
+          "label": "Workshop themes"
+        },
+        {
+          "id": "groups",
+          "value": 3,
+          "label": "Groups together"
+        },
+        {
+          "id": "programme",
+          "value": 1,
+          "label": "Shared programme"
+        }
+      ],
+      "fundingSources": [
+        {
+          "id": "school-en-omgeving",
+          "url": "https://www.dus-i.nl/subsidies/primair-onderwijs/school-en-omgeving-2025"
+        },
+        {
+          "id": "cultuureducatie",
+          "url": "https://cultuurparticipatie.nl/subsidie-aanvragen/96/cultuureducatie-met-kwaliteit-2025-2028"
+        },
+        {
+          "id": "parent-contribution",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/financiering-onderwijs/is-de-vrijwillige-ouderbijdrage-op-de-basisschool-en-middelbare-school-verplicht"
+        }
+      ]
     }
-  }
+  },
+  "runtimeDataPolicy": "definitions_only"
 }
