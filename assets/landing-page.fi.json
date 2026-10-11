@@ -1,0 +1,4212 @@
+{
+  "schemaVersion": 2,
+  "language": "fi",
+  "regionKey": null,
+  "sourceRevision": "a85f3c7cf98db9f6269f5e62956634e9a0a88fb0aa1af91b7898bb00cb153fa9",
+  "landingPage": {
+    "design": {
+      "variant": "community-connections",
+      "defaultThemeMode": "light",
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f8f5ee",
+            "surface": "#fffdf8",
+            "sidebar": "#efe9dc",
+            "text": "#171717",
+            "accent": "#b7d8cb",
+            "userBubble": "#dbe9df"
+          }
+        }
+      }
+    },
+    "badge": "Vanhemmille. Lapsille. Aivan lähellä.",
+    "headline": "Pieniä seikkailuja. Uusia vanhempiystäviä.",
+    "subheadline": "Kerro Miraville lastesi mielipuuhat. Suunnitelkaa tekemistä, etsikää perheitä alueeltasi ja tutustu vanhempiin lasten leikkiessä.",
+    "ctaLabel": "Suunnittele Miravin kanssa",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-full-body.png",
+    "featureTags": [
+      "Oma hakusäde",
+      "Kaksi yhteisöprofiilia",
+      "Sijaintiarviot",
+      "Yhteinen lupa"
+    ],
+    "faqs": [
+      {
+        "question": "Kenelle Naapurusto sopii?",
+        "answer": "Vanhemmille ja huoltajille, jotka etsivät lähitoimintaa lapsilleen ja haluavat tavata muita vanhempia. Aikuiset luovat profiilit ja hallitsevat perheensä osallistumista."
+      },
+      {
+        "question": "Voiko useampi vanhempi järjestää toimintaa?",
+        "answer": "Kyllä. Yksi vanhempi aloittaa. Mukaan tuleva voi tarjoutua apujärjestäjäksi, ja aloittaja arvioi tarjouksen. Vanhemmat voivat perua tarjouksensa tai lopettaa apujärjestäjänä."
+      },
+      {
+        "question": "Miten löydämme toimintaa läheltä?",
+        "answer": "Valitse paikka ja tallenna hakusäde kartalle. Haku pysyy ympyrän sisällä. Toimintakortit näyttävät paikan, ajan, ikäryhmän ja perhepaikkojen määrän."
+      },
+      {
+        "question": "Kuka näkee tietomme?",
+        "answer": "Profiilien sijainnit ovat likimääräisiä. Osallistujat pysyvät yksityisinä; järjestäjä arvioi aikuisten apujärjestäjätarjoukset tai koulun osallistumispyynnöt. Yhteystietojen jako vaatii yhä molempien suostumuksen esittelyyn."
+      },
+      {
+        "question": "Voiko Mirav hoitaa lastani?",
+        "answer": "Mirav on AI-opas, ei oikea hoitaja. Vanhemmat ja koulun järjestäjät vastaavat toiminnasta ja valvonnasta."
+      }
+    ],
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-logo-black-v4.svg",
+      "ctaLabel": "Tapaa Mirav",
+      "navItems": [
+        {
+          "label": "Näin se toimii",
+          "target": "how-it-works"
+        }
+      ]
+    },
+    "heroChat": {
+      "statusLabel": "Yhteinen moikka alkaa tästä",
+      "inputPlaceholder": "Tervehdi Miravia…",
+      "suggestedPrompts": [
+        "Auta suunnittelemaan tekemistä lapsille",
+        "Etsi perhetoimintaa alueeltani",
+        "Luonnostele koulun työpajaohjelma"
+      ]
+    },
+    "profileModeSocialImages": {
+      "neighborhood": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-neighborhood-og-banner-v1.webp",
+      "schools": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-schools-og-banner-v1.webp"
+    },
+    "seoImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-neighborhood-og-banner-v1.webp",
+      "alt": "Miravin naapuriyhteisö — some-esikatselu ilman hahmoa"
+    },
+    "mobileMapPreviewImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-mobile-map-v1.webp",
+    "miravSchools": {
+      "headline": "Yksi koulu. Mahdollisuuksien maailma.",
+      "subheadline": "Tuo eri ryhmien lapset yhteen liikunnan, AI:n, musiikin ja luovan tekemisen pariin. Koulu johtaa ohjelmaa. Paikalliset osaajat tuovat uusia taitoja. Vanhemmat pysyvät ajan tasalla."
+    },
+    "faqIntro": {
+      "heading": "Hieman selkeyttä\nennen tervehdystä.",
+      "image": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-faq-folded-v1.png",
+      "imageAlt": "Mirav hymyilee kädet ristissä ja katsoo kohti kysymyksiäsi."
+    },
+    "mirav": {
+      "schemaVersion": 1,
+      "brand": {
+        "name": "Mirav"
+      },
+      "ui": {
+        "chooseYourCommunity": "Valitse yhteisösi",
+        "schools": "Koulut",
+        "neighborhood": "Naapurusto",
+        "miravHome": "Mirav – koti",
+        "realLifeStartsWithAHello": "Oikea elämä alkaa tervehdyksestä.",
+        "miravSections": "Miravin osiot",
+        "howItWorks": "Näin se toimii",
+        "ourCommunity": "Yhteisömme",
+        "faq": "FAQ",
+        "closeMenu": "Sulje menu",
+        "openMenu": "Avaa menu",
+        "miravMobileNavigation": "Miravin mobiilivalikko",
+        "schoolSolution": "Kouluratkaisu",
+        "meetMirav": "Tapaa Mirav",
+        "forSchoolsTeachersLocalExperts": "Kouluille, opettajille ja lähiosaajille.",
+        "forParentsForKidsRightAroundYou": "Vanhemmille. Lapsille. Aivan lähellä.",
+        "oneSchool": "Yksi koulu.",
+        "aWholeWorldOfPossibilities": "Maailma täynnä mahdollisuuksia.",
+        "littleAdventures": "Pieniä seikkailuja.",
+        "newParentFriends": "Uusia vanhempiystäviä",
+        "bringChildrenFromDifferentGroupsTogetherThroughSports": "Tuo eri ryhmien lapset yhteen liikunnan, AI:n, musiikin ja luovan tekemisen pariin. Koulu johtaa ohjelmaa. Paikalliset osaajat tuovat uusia taitoja. Vanhemmat pysyvät ajan tasalla.",
+        "tellMiravWhatYourKidsLoveShapeAn": "Kerro Miraville lastesi mielipuuhat. Suunnitelkaa tekemistä, etsikää perheitä alueeltasi ja tutustu vanhempiin lasten leikkiessä.",
+        "miravHelpsDraftTheProgrammeYourSchoolShapes": "Mirav auttaa luonnostelussa. Koulunne muokkaa ja hyväksyy ohjelman.",
+        "yourIdeaAnActivityDraftNearbyFamilyConnections": "Oma idea. Toimintaluonnos. Yhteys lähiseudun perheisiin. Mirav auttaa joka vaiheessa.",
+        "buildMySchoolSolution": "Luo kouluratkaisuni",
+        "planAnActivityWithMirav": "Suunnittele Miravin kanssa",
+        "draftAProgrammeWithMirav": "Luonnostele ohjelma Miravilla",
+        "findFamilyActivities": "Etsi perhetoimintaa",
+        "chatWithMirav": "Juttele Miraville",
+        "aSchoolIdeaAProgrammeToReview": "Kouluidea. Ohjelma arvioitavaksi.",
+        "yourIdeaALittleHelpWithThePlan": "Oma ideasi. Hieman apua suunnitteluun.",
+        "heyIMMiravWhatWouldYouLove": "Hei, olen Mirav! Mitä haluaisit koulusi kokeilevan? Luonnostellaan työpajaohjelma opettajien arvioitavaksi.",
+        "heyIMMiravTellMeYourKids": "Hei, olen Mirav! Kerro lastesi iät ja mielipuuhat. Voimme luonnostella toimintaa tai tutkia lähiseudun perheiden suunnitelmia.",
+        "messageMirav": "Viesti: Mirav",
+        "sayHelloToMirav": "Tervehdi Miravia…",
+        "sendMessageToMirav": "Lähetä viesti Miraville",
+        "miravIsAIAndCanMakeMistakesPlease": "Mirav on AI ja voi erehtyä. Tarkista tärkeät tiedot.",
+        "aDesktopWorkspaceForOrganizersAMobileApp": "Työpöytätila järjestäjille. Mobiilisovellus perheille.",
+        "kidsPlayParentsConnectANeighborhoodFeelsA": "Lapset leikkivät. Vanhemmat tutustuvat. Naapurusto tuntuu enemmän kodilta.",
+        "planWithMiravShapeItWithYourSchool": "Suunnittele Miravin kanssa. Muokkaa koululla.",
+        "aLittleHelpFromMiravAPlanMade": "Hieman apua Miravilta. Itse tehty suunnitelma.",
+        "fromALittleIdea": "Pienestä ideasta",
+        "toASchoolWideProgramme": "koko koulun ohjelmaksi.",
+        "fromAnIdeaWithMirav": "Ideasta Miravin kanssa",
+        "toALittleParentCircle": "pieneksi vanhempien piiriksi.",
+        "smallCirclesBiggerPossibilities": "Pienet piirit. Enemmän mahdollisuuksia.",
+        "happyKids": "Iloa lapsille",
+        "aFewNewParentFriends": "Muutama uusi vanhempituttu.",
+        "letMiravHelpWithTheActivityIdeaThe": "Mirav auttaa ideoinnissa, yksityiskohdissa ja perheiden haussa tallennetulta alueeltasi. Järjestä itse tai toisen vanhemman kanssa. Valitset suunnitelman ja kenet tapaat; lapset saavat yhteisen iltapäivän.",
+        "findActivitiesWithMirav": "Etsi tekemistä Miravin kanssa",
+        "illustrationOfANeighborhoodSearchCircle": "Kuva naapuruston hakuympyrästä",
+        "thePark": "Puisto",
+        "school": "Koulu",
+        "yourCircle": "Oma piirisi",
+        "chooseYourRadiusKeepItLocal": "Valitse hakusäde. Pysy lähialueella.",
+        "aLittleClarityBeforeYouSayHello": "Hieman selkeyttä\nennen tervehdystä.",
+        "miravSmilesWithHisArmsFoldedLookingToward": "Mirav hymyilee kädet ristissä ja katsoo kohti kysymyksiäsi.",
+        "seeYouAround": "Nähdään taas.",
+        "aNewPossibility": "Uusi mahdollisuus",
+        "forEverySchoolDay": "jokaiseen koulupäivään.",
+        "yourNextFamilyAfternoon": "Seuraava perheiltapäivänne",
+        "couldBeRightAroundTheCorner": "voi löytyä aivan kulman takaa.",
+        "miravSchoolsMobileAppPreview": "Mirav Koulut -mobiiliesikatselu",
+        "miravNeighborhoodMobileAppPreview": "Mirav Naapurusto -mobiiliesikatselu",
+        "forSchoolFamilies": "koulun perheille",
+        "illustrationOfANeighborhoodWithASchoolPark": "Kuva naapurustosta, jossa on koulu, puisto ja yhteisiä tiloja",
+        "mapleSchoolCommunity": "Maple School -yhteisö",
+        "familyActivitiesAroundYou": "Perhetoimintaa lähelläsi",
+        "aQuestionAboutAnActivity": "Kysyttävää toiminnasta?",
+        "aLittleIdeaForSaturday": "Pieni idea lauantaiksi?",
+        "askMirav": "Kysy: Mirav",
+        "you": "Sinä",
+        "previewActivity": "Esikatso toiminta",
+        "yourSchoolActivityPlan": "Koulusi toimintasuunnitelma",
+        "exploreWithMiravInYourCircle": "Tutki Miravin kanssa · Omalla alueella",
+        "800M": "· 800 m",
+        "viewSampleActivity": "Katso mallitoiminta",
+        "sameSchoolWithin2Km": "Sama koulu · Enintään 2 km",
+        "yourSavedCircle2Km": "Tallennettu alueesi · 2 km",
+        "yourAISchoolGuide": "Oma AI-kouluoppaasi",
+        "yourAIActivityHelper": "Oma AI-toiminta-apurisi",
+        "example": "Esimerkki",
+        "explainAnActivity": "Selitä toimintaa",
+        "planAnActivity": "Suunnittele puuhaa",
+        "findTheRightSession": "Löydä sopiva tuokio",
+        "whatShouldIKnowBeforeMyChildJoins": "Mitä pitää tietää ennen kuin lapseni aloittaa tämän koulutoiminnan?",
+        "whichSchoolActivitiesCouldSuitMyChild": "Mikä koulutoiminta voisi sopia lapselleni?",
+        "myKidsAre6And9CouldWe": "Lapseni ovat 6 ja 9. Voisimmeko suunnitella ulkoilua lauantaiksi?",
+        "canYouHelpUsFindFamilyActivitiesNearby": "Autatko löytämään perheille tekemistä läheltä?",
+        "iCanExplainTheTimeAgeGroupAnd": "Kerron ajasta, ikäryhmästä ja ohjelmasta. Koulu arvioi osallistumisen.",
+        "letLookAtYourSchoolSessionsThenCompare": "Katsotaan koulun toimintaa ja vertaillaan yhdessä ikiä ja kiinnostuksen kohteita.",
+        "howAboutParkPlayAndParentCoffeeHere": "Puistoleikkejä ja kahvit vanhemmille? Tässä alkuidea, jonka voit tarkistaa ennen toiminnan luomista.",
+        "startWithActivitiesInsideYourSaved2Km": "Aloita tallennetulta 2 km alueeltasi. Vertaa ikäryhmiä ja aikoja ja valitse toiminta, johon osallistut.",
+        "activitySummary": "Toiminnan kooste",
+        "activityDraftForYourReview": "Toimintaluonnos · Tarkistettavaksi",
+        "anActivityToExplore": "Tutustu toimintaan",
+        "parkPlayParentCoffee": "Puistoleikit, aikuiskahvit",
+        "saturday1000": "Lauantai · 10:00",
+        "willowPark": "Willow Park",
+        "ages610": "6–10 v.",
+        "exploreSchoolActivities": "Tutustu koulun toimintaan",
+        "viewSchoolActivity": "Näytä koulun toiminta",
+        "exploreNearbyActivities": "Tutustu lähitoimintaan",
+        "reviewActivityDraft": "Arvioi toimintaluonnos",
+        "askMiravAboutAnActivity": "Kysy Mirav: toiminnasta…",
+        "miravIsAIYouReviewThePlan": "Mirav on tekoäly. Tarkistat itse.",
+        "schoolActivities": "Koulun toiminta",
+        "familyActivities": "Perhetoiminta",
+        "letSJOININ": "TULE MUKAAN",
+        "mapleSchoolFamilies": "Maple School · Perheet",
+        "parentHostedFamiliesNearby": "Vanhempi vetää · Lähistön perheet",
+        "aSchoolLedSessionForDifferentGroupsParents": "Koulun toimintaa eri ryhmille. Vanhemmat hakevat osallistumista opettajan arvioitavaksi.",
+        "aParentPlanAFewNewFamiliesAnd": "Vanhemman idea, uusia perheitä ja lapsille yhteinen iltapäivä.",
+        "withAParent": "· Vanhempi mukana",
+        "800MAwayInYourCircle": "800 m päässä · Alueellasi",
+        "4FamilyPlacesLeft": "4 perhepaikkaa vapaana",
+        "askMiravAboutThisSession": "Kysy Mirav: tästä toiminnasta",
+        "askMiravIfThisFitsOurFamily": "Kysy: Mirav, sopiiko perheellemme?",
+        "requestToParticipate": "Pyydä osallistumista",
+        "joinFamilyActivity": "Liity perhetoimintaan",
+        "createAnActivity": "Luo toimintaa",
+        "draftedWithMirav": "Luotu yhdessä: Mirav",
+        "yourIdea": "Ideasi.",
+        "readyToShare": "Valmis jakoon.",
+        "reviewTheDetailsYouChooseWhenToShare": "Tarkista tiedot. Päätät itse, milloin jaat ja kenet kutsut.",
+        "activity": "Toiminta",
+        "where": "Missä",
+        "when": "Aika",
+        "ageGroup": "Ikäryhmä",
+        "ages610WithAParent": "6–10 v. · Vanhemman kanssa",
+        "onlyYourSchoolCommunity": "Vain koulusi yhteisö",
+        "parentOrganizedFamiliesNearby": "Vanhempi järjestää · Lähistön perheet",
+        "parentsManageFamilyParticipation": "Vanhemmat hoitavat osallistumisen",
+        "inviteAnotherParentToCoHost": "Kutsu toinen vanhempi avuksi",
+        "showActivityMapInPreview": "Esikatsele toimintakarttaa",
+        "activities": "Toiminta",
+        "explore": "Tutustu",
+        "saved": "Tall.",
+        "showSchoolActivityInPreview": "Esikatsele koulun toimintaa",
+        "reviewANewActivityInPreview": "Tarkista uuden toiminnan esikatselu",
+        "openAskMiravPreview": "Esikatsele: Kysy Mirav",
+        "profile": "Profiili",
+        "appPreviewExampleAIConversation": "Sovellusesikatselu · Tekoälykeskustelu",
+        "appPreviewSampleActivities": "Sovellusnäyte · Esimerkkitoimintaa",
+        "miravSchoolDesktopWorkspacePreview": "Mirav: koulun työpöytätilan esikatselu",
+        "miravForMapleSchool": "Mirav: Maple School",
+        "forSchools": "kouluille",
+        "yourWORKSPACE": "TYÖTILASI",
+        "workshopPalette": "Työpajavalikoima",
+        "programme": "Ohjelma",
+        "groupsFamilies": "Ryhmät ja perheet",
+        "localPartners": "Lähikumppanit",
+        "mapleSchool": "Maple School",
+        "exampleWorkspace": "Esimerkkityötila",
+        "yourSCHOOLYOURPROGRAMME": "KOULUNNE. OHJELMANNE.",
+        "whatWillWeTryNext": "Mitä kokeilemme nyt?",
+        "aPlanForEveryGroup": "Ohjelma joka ryhmälle.",
+        "newActivity": "Uusi toiminta",
+        "pickALittlePossibility": "Valitse pieni mahdollisuus",
+        "mixMatch": "Yhdistele",
+        "addToProgramme": "Lisää ohjelmaan",
+        "miravProgrammeSuggestion": "Ohjelmaehdotus: Mirav",
+        "teachersShapeTheFinalActivity": "Opettajat viimeistelevät toiminnan.",
+        "thisWeekTogether": "Tämä viikko yhdessä",
+        "teacherReview": "Opettajan arvio",
+        "years34Years56": "Luokat 3–4 + 5–6",
+        "years56Years78": "Luokat 5–6 + 7–8",
+        "mixedSchoolGroups": "Koulun sekaryhmät",
+        "tue1530": "TI · 15:30",
+        "wed1400": "KE · 14:00",
+        "fri1530": "PE · 15:30",
+        "reviewProvider": "Arvioi tarjoaja",
+        "planReady": "Valmis plan",
+        "miravHelpsExplainThePlan": "Mirav selventää suunnitelmaa",
+        "aParentSummaryOfDatesAgeGroupsLearning": "Kooste vanhemmille: päivämäärät, ikäryhmät, oppimistavoitteet ja ohjelman kulku.",
+        "schoolWorkspacePreviewExampleProgramme": "Koulun työtilan esikatselu · Esimerkkiohjelma",
+        "schoolLedPlans": "Koulu suunnittelee",
+        "localExpertise": "Paikallistuntemus",
+        "parentsInTheLoop": "Vanhemmat kartalla",
+        "moreChildrenMorePossibilities": "Enemmän lapsia ja mahdollisuuksia",
+        "aPALETTEOFPOSSIBILITIES": "MAHDOLLISUUKSIEN PALETTI",
+        "aSchoolDayWith": "Koulupäivä, jossa",
+        "moreToDiscover": "löytyy enemmän.",
+        "chooseTheThemesAndGroupsMiravHelpsDraft": "Valitse aiheet ja ryhmät. Mirav luonnostelee yhteisen työpajan, ja opettajat viimeistelevät suunnitelman.",
+        "whichGroupsWillLearnTogether": "Mitkä ryhmät oppivat yhdessä?",
+        "teachersChooseTheGroupsAndAdaptTheSession": "Opettajat valitsevat ryhmät ja sovittavat toiminnan niiden tarpeisiin.",
+        "askMiravToDraftMyProgramme": "Pyydä Mirav: ohjelmaluonnos",
+        "oneCOMMUNITYDIFFERENTROLES": "YKSI YHTEISÖ. ERI ROOLIT.",
+        "theSchoolLeads": "Koulu johtaa.",
+        "everyoneBringsSomething": "Jokainen tuo jotain.",
+        "aTeacherKnowsTheChildrenAndChoosesThe": "Opettaja tuntee lapset ja valitsee sopivan toiminnan. Asiantuntija tuo uuden taidon. Vanhemmat tietävät, mitä tapahtuu ja miten osallistua.",
+        "schoolsTeachers": "Koulut ja opettajat",
+        "setLearningGoalsCombineGroupsChooseAVenue": "Aseta oppimistavoitteet, yhdistä ryhmät, valitse paikka, arvioi tarjoajat ja sovi suunnitelmasta ennen toteutusta.",
+        "workshopPartners": "Työpajakumppanit",
+        "coachesMusiciansArtistsAndTechnologyEducatorsCanOffer": "Valmentajat, muusikot, taiteilijat ja teknologiaopettajat tarjoavat osaamista, vapaat ajat, toiminnan vaatimukset ja selkeän tarjouksen.",
+        "parentsFamilies": "Vanhemmat ja perheet",
+        "seeTheScheduleMeetingPlaceAgeGroupAnd": "Katso aikataulu, tapaamispaikka, ikäryhmä ja vetäjä. Hallinnoi perheen osallistumista ja auta koulun pyytäessä.",
+        "planONTHEWEBPARTICIPATEONTHEPHONE": "SUUNNITTELE VERKOSSA. OSALLISTU PUHELIMELLA.",
+        "bigPlansAtSchool": "Koulun isot aikeet.",
+        "aClearViewAtHome": "Selkeä kuva kotona.",
+        "organizersDraftTheProgrammeWithMiravInTheir": "Järjestäjät laativat ohjelman Miravin kanssa tietokoneella. Perheillä on oma koulusovellus, jossa Mirav kertoo tuokiosta, ikäryhmästä ja odotettavasta sisällöstä ennen osallistumispyyntöä.",
+        "teacherSelectedGroupsAndAgeRanges": "Opettajien valitsemat ryhmät ja ikärajat",
+        "onePlaceForDatesVenuesAndLearningGoals": "Ajat, paikat ja oppimistavoitteet yhdessä paikassa",
+        "aSchoolCommunityInsideItsSavedCircle": "Kouluyhteisö tallennetussa piirissään",
+        "buildASolutionForMySchool": "Luo ratkaisu koululleni",
+        "aMODELTHATWORKSFORTHEWHOLECOMMUNITY": "KOKO YHTEISÖÄ PALVELEVA MALLI",
+        "localTalent": "Lähiosaamista.",
+        "sharedValue": "Yhteistä arvoa.",
+        "aClearOfferForPartners": "Selkeä tarjous kumppaneille",
+        "startWithAWorkshopBriefAFeeOr": "Aloita työpajan kuvauksesta, hinnasta tai tarjouksesta, tarvikkeista ja kohderyhmistä. Koulu valitsee toteuttajan ja sopii toteutusehdoista.",
+        "aSustainableSchoolProgramme": "Kestävä kouluohjelma",
+        "planProviderFeesAlongsideVenueMaterialsAndCoordination": "Budjetoi palkkiot sekä tila-, materiaali- ja koordinointikulut. Sovi koulun kanssa sallituista tila- ja palvelutuloista. Pidä budjetti avoimena.",
+        "fundingThatFitsYourLocation": "Paikkakuntaasi sopiva rahoitus",
+        "exploreSchoolBudgetsLocalSponsorsCulturalPartnersAnd": "Selvitä koulun varat, paikalliset sponsorit, kulttuurikumppanit ja sopivat julkiset ohjelmat. Koulu varmistaa pääsyehdot ja rahoituksen ennen sitoutumista.",
+        "examplesFromTheNetherlands": "Esimerkkejä Alankomaista",
+        "the": "Tämä",
+        "schoolOmgevingProgramme": "School & Omgeving -ohjelma",
+        "bringsSchoolsMunicipalitiesAndLocalPartnersTogetherAround": "yhdistää koulut, kunnat ja paikalliset kumppanit oppimista rikastavaan toimintaan. Vuosien 2025–2028 hakukierrokset ovat nyt suljettuja.",
+        "cultuureducatieMetKwaliteit": "Cultuureducatie met Kwaliteit",
+        "isAnotherRouteToLocalCulturalPartnershipsFor": "on toinen väylä paikalliseen kulttuuriyhteistyöhön. Alankomaiden koulujen toiminnassa",
+        "voluntaryParentContributions": "vapaaehtoiset vanhempainmaksut",
+        "cannotDetermineWhetherAChildParticipates": "eivät saa ratkaista lapsen osallistumista.",
+        "sourcesChecked10October2026EachSchoolConfirms": "Lähteet tarkistettu 10.10.2026. Kukin koulu varmistaa maansa ja ohjelmansa säännöt ja mahdollisuudet.",
+        "miravSHAPEDFORYOURSCHOOL": "Mirav, KOULUSI NÄKÖINEN",
+        "tellUsWhatYour": "Kerro, mitä",
+        "schoolCouldBecome": "koulu voisi olla.",
+        "registerYourInterestInASchoolProgrammeBuilt": "Ilmoita kiinnostuksesi ryhmienne, paikallisten kumppanien ja tavoitteiden mukaiseen ohjelmaan. Aloita yhdestä työpajasta tai koko lukukaudesta.",
+        "yourSchoolGroupsAndGoals": "Koulunne, ryhmät ja tavoitteet",
+        "aWorkshopMixAndDeliveryPlan": "Työpajat ja toteutussuunnitelma",
+        "providerAndBudgetReviewWithTheSchool": "Toteuttajien ja budjetin arvio koulun kanssa",
+        "aClearProgrammeForTeachersAndParents": "Selkeä ohjelma opettajille ja vanhemmille",
+        "aSolutionRequestStartsAConversationYourSchool": "Ratkaisupyyntö avaa keskustelun. Koulu vahvistaa ohjelman ja toteuttajat ennen toteutusta.",
+        "yourSchoolRequestIsIn": "Koulusi pyyntö vastaanotettu.",
+        "weLlReviewTheBriefAndFollowUp": "Käymme kuvauksen läpi ja otamme yhteyttä antamiesi yhteystietojen kautta.",
+        "createAnotherBrief": "Luo uusi kuvaus",
+        "aLittleAboutYourSchool": "Hieman koulustasi",
+        "yourName": "Nimesi",
+        "yourRole": "Roolisi",
+        "schoolName": "Koulun nimi",
+        "officialSchoolWebsite": "Koulun viralliset sivut",
+        "cityAndCountry": "Kaupunki ja maa",
+        "schoolOrWorkEmail": "Koulu-/työsähköposti",
+        "programmeFormat": "Ohjelman muoto",
+        "fundingApproach": "Rahoitustapa",
+        "whatWouldYouLikeToMakePossible": "Mitä haluaisit mahdollistaa?",
+        "theGroupsInterestsAndKindOfLearningYou": "Mielessäsi olevat ryhmät, kiinnostuksen kohteet ja oppimistavat…",
+        "themes": "teemat ·",
+        "groupsToDiscuss": "Käsiteltävät ryhmät",
+        "yourRequestCouldNotBeSentPleaseTry": "Pyyntöäsi ei voitu lähettää. Yritä uudelleen.",
+        "sending": "Lähetys…",
+        "registerMySchoolSolution": "Ilmoita kouluni ratkaisu",
+        "useAdultContactDetailsOnlyWeLlUse": "Anna vain aikuisen yhteystiedot. Käytämme niitä tähän kouluratkaisupyyntöön vastaamiseen."
+      },
+      "media": {
+        "portraitImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-portrait.png",
+        "logoImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-logo-black-v4.svg",
+        "mapImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-mobile-map-v1.webp"
+      },
+      "activities": {
+        "neighborhood": [
+          {
+            "id": "activity-1",
+            "icon": "⚽",
+            "title": "Puistoleikit, aikuiskahvit",
+            "interest": "Leikkiaika",
+            "venue": "Willow Park",
+            "people": "6 perhettä",
+            "age": "6–10 v.",
+            "x": 67,
+            "y": 37,
+            "timeLabel": "Lauantai · 10:00"
+          },
+          {
+            "id": "activity-2",
+            "icon": "🎨",
+            "title": "Pienet tekijät yhdessä",
+            "interest": "Luovuus",
+            "venue": "Yhteisön taidetila",
+            "people": "2 vanh. vetäjinä",
+            "age": "6–10 v.",
+            "x": 28,
+            "y": 55,
+            "timeLabel": "Lauantai · 10:00"
+          },
+          {
+            "id": "activity-3",
+            "icon": "🌿",
+            "title": "Sunnuntain perheseikkailu",
+            "interest": "Ulkoilu",
+            "venue": "Willow Park",
+            "people": "5 perhettä",
+            "age": "Kaikenikä",
+            "x": 72,
+            "y": 65,
+            "timeLabel": "Su · 11:00"
+          }
+        ],
+        "schools": [
+          {
+            "id": "activity-1",
+            "icon": "⚽",
+            "title": "Futista koulun jälkeen",
+            "interest": "Urheilu",
+            "venue": "Koulun pelikenttä",
+            "people": "6 perhettä",
+            "age": "7–11 vuotta",
+            "x": 67,
+            "y": 37,
+            "timeLabel": "Tänään · 16:00"
+          },
+          {
+            "id": "activity-2",
+            "icon": "🎨",
+            "title": "Tehkää jotain yhdessä",
+            "interest": "Luovuus",
+            "venue": "Koulun taidetila",
+            "people": "4 perhettä",
+            "age": "6–10 v.",
+            "x": 28,
+            "y": 55,
+            "timeLabel": "Lauantai · 10:00"
+          },
+          {
+            "id": "activity-3",
+            "icon": "🌿",
+            "title": "Luonto- ja tiedepolku",
+            "interest": "Ulkoilu",
+            "venue": "Koulun puutarha",
+            "people": "5 perhettä",
+            "age": "7–11 vuotta",
+            "x": 72,
+            "y": 65,
+            "timeLabel": "Pe · 14:00"
+          }
+        ]
+      },
+      "workshops": [
+        {
+          "id": "ai",
+          "icon": "✦",
+          "title": "AI & robotiikka",
+          "body": "Rakenna, kysy ja kokeile huomisen työkaluilla.",
+          "color": "#d7e5c4",
+          "outcome": "Tee helppo AI-projekti ja selitä, miten se toimii.",
+          "selected": true
+        },
+        {
+          "id": "sports",
+          "icon": "↗",
+          "title": "Urheilu & liikunta",
+          "body": "Joukkuepelit tuovat eri ryhmät yhteen.",
+          "color": "#edcaa8",
+          "outcome": "Harjoittele tiimityötä kaikille sopivassa liikuntatuokiossa.",
+          "selected": true
+        },
+        {
+          "id": "music",
+          "icon": "♫",
+          "title": "Musiikki & ääni",
+          "body": "Rytmiä, lauluntekoa ja hieman tilaa esiintyä.",
+          "color": "#e1daf0",
+          "outcome": "Luokaa yhdessä rytmi tai laulu ja jakakaa se.",
+          "selected": false
+        },
+        {
+          "id": "creative",
+          "icon": "✳",
+          "title": "Taidetta käsin",
+          "body": "Projekteja taiteilijoiden ja lähitekijöiden kanssa.",
+          "color": "#f1ddac",
+          "outcome": "Tehkää jotain yhdessä ja kuvatkaa luovat valintanne.",
+          "selected": false
+        },
+        {
+          "id": "outdoors",
+          "icon": "❋",
+          "title": "Luonto & tiede",
+          "body": "Tutki, selvitä ja opi luokkahuoneen ulkopuolella.",
+          "color": "#c8e0d7",
+          "outcome": "Tutkikaa lähialueen elinympäristöä ja kirjatkaa ryhmän löydöt.",
+          "selected": false
+        }
+      ],
+      "cohorts": [
+        {
+          "id": "Years 3–4",
+          "label": "Luokat 3–4",
+          "selected": true
+        },
+        {
+          "id": "Years 5–6",
+          "label": "Luokat 5–6",
+          "selected": true
+        },
+        {
+          "id": "Years 7–8",
+          "label": "Luokat 7–8",
+          "selected": false
+        }
+      ],
+      "process": {
+        "neighborhood": [
+          {
+            "id": "01",
+            "headingLines": [
+              "Kerro pieni ideasi Miraville"
+            ],
+            "body": "Kerro lasten mielipuuhat, ikäryhmä ja mielessäsi oleva iltapäivä. Mirav auttaa muokkaamaan ideasta toimintaluonnoksen."
+          },
+          {
+            "id": "02",
+            "headingLines": [
+              "Lapsi pelaa.",
+              "Tapaa vanhempia"
+            ],
+            "body": "Pyydä Miravia etsimään toimintaa ja perheitä tallennetusta piiristäsi. Vertaa kiinnostuksia, ikäryhmiä ja aikoja ja valitse, kehen otat yhteyttä."
+          },
+          {
+            "id": "03",
+            "headingLines": [
+              "Tarkista. Tee siitä omasi."
+            ],
+            "body": "Tarkista paikka, aika ja ikäryhmä. Lisää halutessasi toinen vanhempi apuvetäjäksi ja luo toiminta, kun olet valmis. Mirav auttaa luonnoksessa; vanhemmat tekevät suunnitelman."
+          }
+        ],
+        "schools": [
+          {
+            "id": "01",
+            "headingLines": [
+              "Luo palettisi Miravin kanssa"
+            ],
+            "body": "Valitse liikunta, AI, musiikki, käsityöt tai luonto. Mirav auttaa muuntamaan koulun kiinnostukset ja oppimistavoitteet työpajarungoksi."
+          },
+          {
+            "id": "02",
+            "headingLines": [
+              "Luonnos opettajien muokattavaksi"
+            ],
+            "body": "Pyydä Miravilta ryhmiä, tuokioideoita, oppimistavoitteita ja tiivistelmä vanhemmille. Opettajat arvioivat ohjelman, ja koulu valitsee paikalliset asiantuntijat."
+          },
+          {
+            "id": "03",
+            "headingLines": [
+              "Selvennä suunnitelmaa perheille"
+            ],
+            "body": "Koulun perhesovelluksessa vanhemmat voivat kysyä Miravilta ikäryhmistä, ajoista ja odotettavasta sisällöstä. Koulu päättää osallistuvista lapsista."
+          }
+        ]
+      },
+      "form": {
+        "roles": [
+          {
+            "id": "School leader",
+            "label": "Koulun johtaja",
+            "selected": true
+          },
+          {
+            "id": "Teacher",
+            "label": "Opettaja",
+            "selected": false
+          },
+          {
+            "id": "School programme coordinator",
+            "label": "Kouluohjelman koordinaattori",
+            "selected": false
+          },
+          {
+            "id": "Workshop provider",
+            "label": "Työpajan tarjoaja",
+            "selected": false
+          },
+          {
+            "id": "Parent representative",
+            "label": "Vanhempien edustaja",
+            "selected": false
+          }
+        ],
+        "delivery": [
+          {
+            "id": "One workshop pilot",
+            "label": "Yksi kokeilutyöpaja",
+            "selected": true
+          },
+          {
+            "id": "A term of activities",
+            "label": "Lukukauden toimintaa",
+            "selected": false
+          },
+          {
+            "id": "A school-wide programme",
+            "label": "Koko koulun ohjelma",
+            "selected": false
+          }
+        ],
+        "funding": [
+          {
+            "id": "School budget",
+            "label": "Koulun budjetti",
+            "selected": true
+          },
+          {
+            "id": "Local sponsor or partner",
+            "label": "Lähialueen tukija/kumppani",
+            "selected": false
+          },
+          {
+            "id": "Explore eligible public funding",
+            "label": "Selvitä sopiva julkinen rahoitus",
+            "selected": false
+          },
+          {
+            "id": "Discuss options with the school",
+            "label": "Keskustele vaihtoehdoista koululla",
+            "selected": false
+          }
+        ],
+        "websitePlaceholder": "https://school.example"
+      },
+      "actions": {
+        "neighborhoodPlan": {
+          "command": "Help me draft an activity for my kids and nearby families. Ask about ages, interests, a public place, and timing so I can review the plan before creating it."
+        },
+        "neighborhoodFind": {
+          "command": "Help me find activities for my kids and other parents inside my saved circle. Ask about our ages, interests, and availability before suggesting a connection."
+        },
+        "schoolPlan": {
+          "command": "Help me draft a school workshop programme for teachers, local providers and parents to review."
+        },
+        "schoolProgramme": {
+          "command": "Help me draft a school workshop programme. Themes: %themes%. Groups: %groups%. Suggest age-appropriate learning goals, a combined activity, provider requirements, supervision, and a clear parent summary. This is a plan for school review, not a booking or approval."
+        },
+        "schoolSolution": {
+          "command": "Mirav school solution request\nSchool: %school%\nSchool website: %website%\nLocation: %location%\nContact: %name% (%role%)\nEmail: %email%\nThemes: %themes%\nGroups: %groups%\nDelivery: %delivery%\nFunding approach: %funding%\nGoal: %goal%"
+        }
+      },
+      "previewPeople": [
+        {
+          "id": "parent-a",
+          "code": "A"
+        },
+        {
+          "id": "parent-j",
+          "code": "J"
+        },
+        {
+          "id": "parent-m",
+          "code": "M"
+        }
+      ],
+      "deviceTimeLabel": "9:41",
+      "schoolsFaqs": [
+        {
+          "question": "Kuka päättää osallistuvat ryhmät?",
+          "answer": "Koulu ja opettajat laativat ohjelman, valitsevat ryhmät ja arvioivat oppimistavoitteet, valvonnan ja toteuttajan ennen aloitusta."
+        },
+        {
+          "question": "Voiko ulkopuolinen osaaja vetää työpajan?",
+          "answer": "Kyllä. Valmentajat, taiteilijat, muusikot ja teknologiaopettajat voivat ilmoittautua. Koulu arvioi soveltuvuuden, saatavuuden, vaatimukset ja tarjouksen."
+        },
+        {
+          "question": "Miten vanhemmat osallistuvat?",
+          "answer": "Vanhemmat näkevät koulun toimintasuunnitelman mobiilissa ja hallinnoivat perheen osallistumista. Koulu voi kutsua vanhempien edustajan avuksi ohjelman koordinointiin."
+        },
+        {
+          "question": "Mitä kouluratkaisupyynnön jälkeen tapahtuu?",
+          "answer": "Kuvaus avaa keskustelun koulun ryhmistä, työpajavalikoimasta, kumppaneista ja budjetista. Se arvioidaan ennen ohjelmasta tai toteuttajan varauksesta sopimista."
+        }
+      ],
+      "schoolAccount": {
+        "code": "M"
+      },
+      "metrics": [
+        {
+          "id": "themes",
+          "value": 5,
+          "label": "Työpajojen teemat"
+        },
+        {
+          "id": "groups",
+          "value": 3,
+          "label": "Ryhmät yhdessä"
+        },
+        {
+          "id": "programme",
+          "value": 1,
+          "label": "Yhteinen ohjelma"
+        }
+      ],
+      "fundingSources": [
+        {
+          "id": "school-en-omgeving",
+          "url": "https://www.dus-i.nl/subsidies/primair-onderwijs/school-en-omgeving-2025"
+        },
+        {
+          "id": "cultuureducatie",
+          "url": "https://cultuurparticipatie.nl/subsidie-aanvragen/96/cultuureducatie-met-kwaliteit-2025-2028"
+        },
+        {
+          "id": "parent-contribution",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/financiering-onderwijs/is-de-vrijwillige-ouderbijdrage-op-de-basisschool-en-middelbare-school-verplicht"
+        }
+      ]
+    }
+  },
+  "translationIndex": [
+    {
+      "path": [
+        "landingPage",
+        "badge"
+      ],
+      "sourceHash": "7f1bf2b2a7cdc33cc9fc1e1fc43357556b0765032637a7c26b756e5cf4ae54b6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "headline"
+      ],
+      "sourceHash": "2cc4c48c2a7198e634443b3a8dc596cf3ea0afc6371d62cc9dd0b38b02ec5573"
+    },
+    {
+      "path": [
+        "landingPage",
+        "subheadline"
+      ],
+      "sourceHash": "33ab6c90557950b0cdd4a4df5dc2a5316bc4d7adaf2df20d85606f3bc75848ea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "ctaLabel"
+      ],
+      "sourceHash": "19229e1a3c2a27197cc605b44deb25a089c1d93cd9b1aa7d375021e8f49c8e6f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "featureTags",
+        0
+      ],
+      "sourceHash": "0014de5fda4d02b8868bb7973ea6d31600f8d4d61a2c39054e48a2caa0c33851"
+    },
+    {
+      "path": [
+        "landingPage",
+        "featureTags",
+        1
+      ],
+      "sourceHash": "07c35a643f9517cba23dbea6a2633f84b4fb122f35fcec466046d554837cabef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "featureTags",
+        2
+      ],
+      "sourceHash": "346d915b5c1a4a6e0484c06025f630b5525505918ef1ce7f663187b322386606"
+    },
+    {
+      "path": [
+        "landingPage",
+        "featureTags",
+        3
+      ],
+      "sourceHash": "ca4cb8c6cb36bc417285af4a67186e646f2a899b6b626bfc23f693dfa94b557b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        0,
+        "question"
+      ],
+      "sourceHash": "d7a6ded2c80fb5dd65f16c2deee3a12d5f9ce633add9cc891182056482cae2b0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        0,
+        "answer"
+      ],
+      "sourceHash": "23326cb89d42b7e264a8ff2ac8f70ba7cdc01aa5093ed4d7b56636ea66d66df4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        1,
+        "question"
+      ],
+      "sourceHash": "c8b07e3cfb371c5aa01583b2682be1f5478c4ca70e6aff7cf2ef8555ea429730"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        1,
+        "answer"
+      ],
+      "sourceHash": "275caf2ac589f13b3daa5d7750ef6d35dc58679f7a01dfb51d444b5bfd3aa612"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        2,
+        "question"
+      ],
+      "sourceHash": "c90c9a1418f542b3ad75eae46aed371481e325e5786af9238276804d63dcfabd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        2,
+        "answer"
+      ],
+      "sourceHash": "bc2b05ffe7845188005112749db5f87d903e924ffda5631f9216d3a887fcb76b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        3,
+        "question"
+      ],
+      "sourceHash": "6e31fbe96901e192d485fc1eeaf77c0b55ef2f361380849fad91260918151609"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        3,
+        "answer"
+      ],
+      "sourceHash": "c7a45750110c8b611f217cf524d1368c9c2c3cec6a0863ee0987eff22673e526"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        4,
+        "question"
+      ],
+      "sourceHash": "b7da9443f23acbb1dfdd5914c261e764c9883c55f943c68a8ca034da6ae4b0cf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        4,
+        "answer"
+      ],
+      "sourceHash": "c58aaec187172a66662e304a02f23684830275530c696484180debde0a1b070d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "ctaLabel"
+      ],
+      "sourceHash": "a6893412b859a79da5e513c80f2e15d8087ff6707f7409e450c2c5a591992c91"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        0,
+        "label"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "statusLabel"
+      ],
+      "sourceHash": "4ec04fbd5aa9a3e1e3f93c4b1fae0b924a41c7d2b30a08b877db7cbdc71c7e5f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "069e1c3040870d873fe6f028dc9aef09a018f466fe77260229990e4c2c0e604b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        0
+      ],
+      "sourceHash": "6998ac5622dcc420b1d0b3338abce765d434730eb63724553e70cb6319e54e00"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        1
+      ],
+      "sourceHash": "1ce23cb1d7c5e2ad80fcb075fb9fde0afba37ab297338a6ec188d4eedc1b20ff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        2
+      ],
+      "sourceHash": "b25f5c66e27fbaaba3494dd810fdabf87854c223d93677d9611612ba090d0cbe"
+    },
+    {
+      "path": [
+        "landingPage",
+        "seoImage",
+        "alt"
+      ],
+      "sourceHash": "60f58d62aba99925739c4492027ac0c4acbe7ada4b2a4b3f869205f6ac4c5514"
+    },
+    {
+      "path": [
+        "landingPage",
+        "miravSchools",
+        "headline"
+      ],
+      "sourceHash": "581e9ffc6015ec6d69e5ff1e8428b394c6a80b6ea24aed4e90a2c941ce3e74fa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "miravSchools",
+        "subheadline"
+      ],
+      "sourceHash": "d636606f04c12410e660453fbc9991a9565fdf6a08296d19e5b0e68bba95538f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqIntro",
+        "heading"
+      ],
+      "sourceHash": "2cf89b1aa6c792f19892e05c5b7094abb77fb8313f55ff279898625af70a07b1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqIntro",
+        "imageAlt"
+      ],
+      "sourceHash": "61fe706567b141056289ab53464f35eb84c70b3aebfb46b7791c22719a70f46a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "brand",
+        "name"
+      ],
+      "sourceHash": "946d93f2015951b541af2406b476b019936ec15caed7487b44c61b1279af779c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "chooseYourCommunity"
+      ],
+      "sourceHash": "88fd0da756fd4e6d0f12b6263beee3eb677a3dac9647ba2193f511badd2c2a54"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "schools"
+      ],
+      "sourceHash": "af2e91296939b127fa0fec451894ce13292397008f69712a8437d87d42947fdf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "neighborhood"
+      ],
+      "sourceHash": "1e99f126692fb20f877b69ef0702c492174986d5c237b01226acb72165a86628"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravHome"
+      ],
+      "sourceHash": "e77ab0a3abdc091516a7be5929b1b33e35ccea5844344f3a4b0717cd8456e454"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "realLifeStartsWithAHello"
+      ],
+      "sourceHash": "1f8e7f2f193b28ac4c6d5b1d390839c635e05f248395e109362602875506608a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravSections"
+      ],
+      "sourceHash": "e4833f7afd15d7dde8e2668db432cdd6c5066ee4f028dece62516cce614e0333"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "howItWorks"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "ourCommunity"
+      ],
+      "sourceHash": "c0f92fc35f1296d26fdb6097fab374bb5b2dbec35b98d3db597b0a577aa01618"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "faq"
+      ],
+      "sourceHash": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "closeMenu"
+      ],
+      "sourceHash": "6ccd5c7856042d36476ffd35a41b54518be95621cc741ac3ed55b8108ea41586"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "openMenu"
+      ],
+      "sourceHash": "b40b3713b43dc702682dc967ea5c2dbe20ae414c30baf100d162a8250a928065"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravMobileNavigation"
+      ],
+      "sourceHash": "72a430121a5d3592c35ee2afcf945ae57e16e74d12a9d0f8808d4ef20681e349"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "schoolSolution"
+      ],
+      "sourceHash": "1f31aed9d808a1490d8660bbc949622889bc7e6660f4f19af59e71d910731a65"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "meetMirav"
+      ],
+      "sourceHash": "a6893412b859a79da5e513c80f2e15d8087ff6707f7409e450c2c5a591992c91"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "forSchoolsTeachersLocalExperts"
+      ],
+      "sourceHash": "404a99da2da35de8a9332aceae01d45c93ef7ff5f2f15afe1805ebed0aa7718f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "forParentsForKidsRightAroundYou"
+      ],
+      "sourceHash": "7f1bf2b2a7cdc33cc9fc1e1fc43357556b0765032637a7c26b756e5cf4ae54b6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "oneSchool"
+      ],
+      "sourceHash": "7e943339a1129d74a22b1a6059a3092272850c751474a84eb8e9ae0edd5f4bcf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aWholeWorldOfPossibilities"
+      ],
+      "sourceHash": "8296a17ebb58e0933816df89e29a86e7c8e50c62c126219bb4da19424ec66833"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "littleAdventures"
+      ],
+      "sourceHash": "1ff6b3326e9bfb143bd5c44d5641c8a5fedf2656b626180722005dd5f1cfaadf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "newParentFriends"
+      ],
+      "sourceHash": "d135e92ea69fb49550d531de2d0440bb4f812d60998d45c827cabc39a4939a4f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "bringChildrenFromDifferentGroupsTogetherThroughSports"
+      ],
+      "sourceHash": "d636606f04c12410e660453fbc9991a9565fdf6a08296d19e5b0e68bba95538f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "tellMiravWhatYourKidsLoveShapeAn"
+      ],
+      "sourceHash": "33ab6c90557950b0cdd4a4df5dc2a5316bc4d7adaf2df20d85606f3bc75848ea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravHelpsDraftTheProgrammeYourSchoolShapes"
+      ],
+      "sourceHash": "cc35f98b458feb98a5c52403f996e185922bd640c8a9189efbfa04cc3784c912"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourIdeaAnActivityDraftNearbyFamilyConnections"
+      ],
+      "sourceHash": "17c08adf8e8a0e417e1cf034ee6cc32349e151ec8fd74ad3f30418491365c375"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "buildMySchoolSolution"
+      ],
+      "sourceHash": "463bab7030ea51262b947ccba805ab364e7f8fa9090c8ddb8529a32319d6133c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "planAnActivityWithMirav"
+      ],
+      "sourceHash": "19229e1a3c2a27197cc605b44deb25a089c1d93cd9b1aa7d375021e8f49c8e6f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "draftAProgrammeWithMirav"
+      ],
+      "sourceHash": "2ab19e4e8fea34009ff765aa52d213687b1a08a1a38d8a579a8db494f0b49017"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "findFamilyActivities"
+      ],
+      "sourceHash": "1b490f839519babfafefc74f647e7a5bbbfb9c8cfb24320c5f8ff5b6bccb8d1f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "chatWithMirav"
+      ],
+      "sourceHash": "67a524b86ace0aabba87be06785d0c446ec5a811b664bded321bb9cc44f727d2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aSchoolIdeaAProgrammeToReview"
+      ],
+      "sourceHash": "abf27bfe0c956b61592598dcd51e51bffe49ee0fa128fed145036867a3e74373"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourIdeaALittleHelpWithThePlan"
+      ],
+      "sourceHash": "8f67249f887ac570b551f0505b8ee34adaf2ee243c3e882578faa0f961a02a1a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "heyIMMiravWhatWouldYouLove"
+      ],
+      "sourceHash": "9e54c5e245955bbae4e2b22ebd868af0ae4fed09b0d7cbecc68888f1e0d5fa66"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "heyIMMiravTellMeYourKids"
+      ],
+      "sourceHash": "f64f1785810b16e7642aca87b369823501493605c36fc98635fcd7147a91226c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "messageMirav"
+      ],
+      "sourceHash": "a314daf56abf58877d6eb3df1561b05ac3c3e819742aea20e4391dafc7474dbd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "sayHelloToMirav"
+      ],
+      "sourceHash": "069e1c3040870d873fe6f028dc9aef09a018f466fe77260229990e4c2c0e604b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "sendMessageToMirav"
+      ],
+      "sourceHash": "93c0970a3ec224444c88bb846e7081a4c131cc7af26b841f6f840b66b9450b5b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravIsAIAndCanMakeMistakesPlease"
+      ],
+      "sourceHash": "32718e39d10774b69f676ab4ceebac1dbcaa86ac4fccb30e19928b05e5aa319e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aDesktopWorkspaceForOrganizersAMobileApp"
+      ],
+      "sourceHash": "4c49203fd3ef7831ab9c905c8512e999c4ca331dc5779ad0b4060949f9764a56"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "kidsPlayParentsConnectANeighborhoodFeelsA"
+      ],
+      "sourceHash": "0091785c74ff89dbbfd8249bde83395c2660c283eaf69ed013ffc9d8dcd95bde"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "planWithMiravShapeItWithYourSchool"
+      ],
+      "sourceHash": "bb7bcf2b24db9fa240f3a5e21682cba44f0df540d8082671e5ee1d2da85d2285"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aLittleHelpFromMiravAPlanMade"
+      ],
+      "sourceHash": "396a238fd5d319e688748449ebb5c812e8554a91a41a93e51c15c100928bac9c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "fromALittleIdea"
+      ],
+      "sourceHash": "0dd7e543a7c7bc735f3ead668743e34a165e880da9ffe80f23ef8aed7aad87ac"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "toASchoolWideProgramme"
+      ],
+      "sourceHash": "035a0516ce188506e9f5e3b56fbd190ff37d021b8c0bcad9ce869521ad160b68"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "fromAnIdeaWithMirav"
+      ],
+      "sourceHash": "09a9297e4bfce92b29735449e6453b05faa660bc7a4ec72d3d2e62767ec43164"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "toALittleParentCircle"
+      ],
+      "sourceHash": "68dbfc50a33cb3f472bdf5450587b060a25e617deafaeb930a73b28843d5299b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "smallCirclesBiggerPossibilities"
+      ],
+      "sourceHash": "e5b9730d87cebcfc090b9950c2642a5010a7526cc491a3b151a79aac1e40ea5a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "happyKids"
+      ],
+      "sourceHash": "622535e2a9ef6cc3f027c87f298dbd4c363fe78d277eb1c14297521d78f9aecb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aFewNewParentFriends"
+      ],
+      "sourceHash": "27843953478df18edb249c299152b3a94a5cac4d21372771e4e8866a7f434071"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "letMiravHelpWithTheActivityIdeaThe"
+      ],
+      "sourceHash": "96f40acd83884c01d8cb8c96197f09ad3fa2fe0e79085069bd25eaa70f36c134"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "findActivitiesWithMirav"
+      ],
+      "sourceHash": "7dabddd21a0f47380236407b8fa12cc11baf34648af0c4dc896d7cd89ca6df11"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "illustrationOfANeighborhoodSearchCircle"
+      ],
+      "sourceHash": "4ef17dc117426e14267d36d9a174e98a99d3ff5838ecc9ba0e77c46b5f55a0b4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "thePark"
+      ],
+      "sourceHash": "f07b0cda70d8c9a8e4f654984854c98d586a8e2ddfd931c5eb380b7eb52e296d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "school"
+      ],
+      "sourceHash": "6cd2e331855da821ec18452ef337985a5dc2f2ee6eb0bc2b0c894768d5a95c32"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourCircle"
+      ],
+      "sourceHash": "a6606da2178ec7075e39cb15fc6a3249beba83f946732bc9e18e43766cef640c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "chooseYourRadiusKeepItLocal"
+      ],
+      "sourceHash": "31c57d38d77e09f7a887916051fd6907ec61d4c16f550467e55badd52c16bc62"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aLittleClarityBeforeYouSayHello"
+      ],
+      "sourceHash": "2cf89b1aa6c792f19892e05c5b7094abb77fb8313f55ff279898625af70a07b1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravSmilesWithHisArmsFoldedLookingToward"
+      ],
+      "sourceHash": "61fe706567b141056289ab53464f35eb84c70b3aebfb46b7791c22719a70f46a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "seeYouAround"
+      ],
+      "sourceHash": "117bcc53d62b2e2cacbfda7ef68927c425c360fccbd1a720b9d73adec64988c4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aNewPossibility"
+      ],
+      "sourceHash": "0bcc2a709d10da9f93159ee1998899ee1ff07be063235fcb48b1fd60c1400a7a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "forEverySchoolDay"
+      ],
+      "sourceHash": "7fa920efd1eaf1ae10bc22b83b9d5ecea59fead58aba00089e55b63edbaccadb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourNextFamilyAfternoon"
+      ],
+      "sourceHash": "7280c741420f4bbdc3ac3d7ea7df4058e0819fb1bc0a45270e6aa99efef7654e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "couldBeRightAroundTheCorner"
+      ],
+      "sourceHash": "738de859fe3512b0a380e6194b2bda53de7455b84aedf40d475c5aa12ef16990"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravSchoolsMobileAppPreview"
+      ],
+      "sourceHash": "2c2ff6be7f546831695119f3bcdc76d1e6cb448e31dedff6d89cd729d22f418b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravNeighborhoodMobileAppPreview"
+      ],
+      "sourceHash": "8a8da7172dda28e9c865ca0481a14d1723f6f2f3442836eae8bc927256baee3e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "forSchoolFamilies"
+      ],
+      "sourceHash": "c3f3afe5e9e3f371a9817c59d4013c4f048430b011414128288dd1025fed9e14"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "illustrationOfANeighborhoodWithASchoolPark"
+      ],
+      "sourceHash": "1a864cc5774809683304c463486a4a4c2a9f2ebaffae0d75dc19fd2b12411fa8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "mapleSchoolCommunity"
+      ],
+      "sourceHash": "fad7eaa4f5a528b2cd2119c0665ddce7ab6512ae42e3b8d844772622208f1093"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "familyActivitiesAroundYou"
+      ],
+      "sourceHash": "99f81ca4fce1419f0bf7bab1d7e754e5b860397ce21ffe7f2112f239a4dfc45a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aQuestionAboutAnActivity"
+      ],
+      "sourceHash": "3d94987192329d331715e3da5abded50c108b70dc72407801bc1df988417c5bc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aLittleIdeaForSaturday"
+      ],
+      "sourceHash": "7915c91c19168778e81847c22f397cd51fa0434ed343f244c59c574ea9a52d5e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "askMirav"
+      ],
+      "sourceHash": "0dfb7e39eee19ea0aa92654ff9812bf58b5484947631490a0e52fc1cee839492"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "you"
+      ],
+      "sourceHash": "08b041935798fbf6fd6ff51099ffedb140a475889986d14f5559ff8e7fc571dd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "previewActivity"
+      ],
+      "sourceHash": "c8e6f097097f96fdde5adcfbfa01e4825e8b6793094b95424f7511ff4a0d25b0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourSchoolActivityPlan"
+      ],
+      "sourceHash": "3c5018198c4e098eca3b7753ffe18cda19d7313a83902b9148888162abbf694e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "exploreWithMiravInYourCircle"
+      ],
+      "sourceHash": "24850b4b16d92d29c29cc1c1e92be3a828b717bbc5bc9020a321de35f2ed4bde"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "800M"
+      ],
+      "sourceHash": "cc04c9ff9798a1f806f2172ad144b44a41288e768f9882ddb3580e5bb0a6b50d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "viewSampleActivity"
+      ],
+      "sourceHash": "2aefc6c1426ec01c59ef18f5dbb64ec4016e8fdf868c2630a3b872e3185d33f0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "sameSchoolWithin2Km"
+      ],
+      "sourceHash": "847e49ccd27957e07e339663f41397cc99672ce6709e67eed30422b3418dbed8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourSavedCircle2Km"
+      ],
+      "sourceHash": "fa74231665426399425b77b0e34f070f38ac6904fd874a5161096a844232740b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourAISchoolGuide"
+      ],
+      "sourceHash": "131cb006cd434b01f5df81d7ae0abe86275e759ea0e5cca587ee480ca07b9a11"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourAIActivityHelper"
+      ],
+      "sourceHash": "ecd27c2326bc26fb8222217b97b7a8276f770a7117b00b4f68a5d1cfbd054ae1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "example"
+      ],
+      "sourceHash": "d029f87e3d80f8fd9b1be67c7426b4cc1ff47b4a9d0a8461c826a59d8c5eb6cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "explainAnActivity"
+      ],
+      "sourceHash": "820eaed17bac2f40fd312ab253c920324e5f65eb963eacc2d2e3eac4b04a97a8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "planAnActivity"
+      ],
+      "sourceHash": "88c027e1a1a743057987fa73af5c1e6646e3e1830f1a8e7b4b24196ced1871f4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "findTheRightSession"
+      ],
+      "sourceHash": "9f2c18d3d69719cd08ae596e002896419944b01ace1770897c159d3ce0c14783"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "whatShouldIKnowBeforeMyChildJoins"
+      ],
+      "sourceHash": "0cb222a8e848188ac2a4be5e18c137261d34894684c5555c104fc714f9d4fd14"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "whichSchoolActivitiesCouldSuitMyChild"
+      ],
+      "sourceHash": "04f191993dbab0bf7aefecd34fee98f8b3f67e66f8c5de8545c1ab49de728bcf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "myKidsAre6And9CouldWe"
+      ],
+      "sourceHash": "0668c149987ad1f9473d0425945f881d90ec4a0e7463e47711af8191ce8406f0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "canYouHelpUsFindFamilyActivitiesNearby"
+      ],
+      "sourceHash": "550c5763d0037da6a9a2a7c7f7a09764cbd18e103f5353a17ad4a0909ee2b8b0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "iCanExplainTheTimeAgeGroupAnd"
+      ],
+      "sourceHash": "5d707107012ca2b1d947bcfd510c8539c37a8481356f62b8db75f479c9ef7dc3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "letLookAtYourSchoolSessionsThenCompare"
+      ],
+      "sourceHash": "327b9fbeb98201966233e3c8c4e4babd4e0729885ffcec17f36175a8ddf61220"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "howAboutParkPlayAndParentCoffeeHere"
+      ],
+      "sourceHash": "e5d559c9ea304917929380a9a40bfbde25eb4cd64cfeaf6ff281aa4d46c3f03c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "startWithActivitiesInsideYourSaved2Km"
+      ],
+      "sourceHash": "4b92bc66b2cf0ad63a5a8fa4f3fe8b0f970033b92563d177b4ea6e783cc868ed"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activitySummary"
+      ],
+      "sourceHash": "6757cf8e4bc29fd205e6ae174662aa68b6c0ea68c70690a1009e53b92f6934d5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityDraftForYourReview"
+      ],
+      "sourceHash": "af98734eedb5ad062fd73c28ae653eb548ae8848b6fbe42d4e34f7a468a4d2f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "anActivityToExplore"
+      ],
+      "sourceHash": "e3918e511ee5e9546e81c5bd6a0fe1836a02022e12ac73f8e7688d4cedaa4018"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "parkPlayParentCoffee"
+      ],
+      "sourceHash": "db277258fc98aa8bc356a31bc77c4952510e6cca78cdffe952db6e457b9c44c5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "saturday1000"
+      ],
+      "sourceHash": "9c9a620fdb2f9940814bf7a64dfa9fe5de4cd49d03e7b80a7f33ec966f60d387"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "willowPark"
+      ],
+      "sourceHash": "f9778ee38a8cc874cecb98560e563bd26201fb5c7323fe101b7d7bec3d30362f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "ages610"
+      ],
+      "sourceHash": "8a58dddbfdbc0c8ed00d65d289aab7b1e6365a60112ab9e9aba60eb296ff00cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "exploreSchoolActivities"
+      ],
+      "sourceHash": "99f942e7257afef4ac113454948bf42591f961f91356ea35433a00ca638f1421"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "viewSchoolActivity"
+      ],
+      "sourceHash": "07673dc370e8ff18b2081bf4f60213e241b11d42ac1cf07beb5dbb183dfa1437"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "exploreNearbyActivities"
+      ],
+      "sourceHash": "cab1e21800924a5714f5c55a2fd983ab10f42d09e47e9b4924496f35a2dc0162"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "reviewActivityDraft"
+      ],
+      "sourceHash": "2ee7f3f34847d11a2f77a92b325e605f7ca5bd90881f6e8e4bb3b891b918ae3b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "askMiravAboutAnActivity"
+      ],
+      "sourceHash": "151624961cc2e64fee0d31783ac2f6969e986427a5b10906976e03f6a8a7f53d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravIsAIYouReviewThePlan"
+      ],
+      "sourceHash": "8c8a88287023fcdee9b550cb7b6248ccd1c4cbed3c58bcdd3251fa17384ce913"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "schoolActivities"
+      ],
+      "sourceHash": "8c234b83f337ab890aabf1fb1138fc35a671461af06c823a4cf95ad8ecbc20bf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "familyActivities"
+      ],
+      "sourceHash": "2a5a118afd05b3bb879a26d1926a6ce0391f8e560d5e5836835e939dfb547c31"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "letSJOININ"
+      ],
+      "sourceHash": "be96b72f33da10067f520d73804353f0655454563aebbd66d1ef1dd90483d34b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "mapleSchoolFamilies"
+      ],
+      "sourceHash": "86e2471bcf656dd2eed27459a3e07f0635f34ba3fc355395c1dd57be2358d853"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "parentHostedFamiliesNearby"
+      ],
+      "sourceHash": "3d2bc6eac6a6acd5fb6739a5315454b7f8b1ceb1319644a1cd9c3ef8c09f2c03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aSchoolLedSessionForDifferentGroupsParents"
+      ],
+      "sourceHash": "63be6c2daae46d5331fe596a9f4a47361f7ff2ec4b05a58140a2bf75f5b545cc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aParentPlanAFewNewFamiliesAnd"
+      ],
+      "sourceHash": "9e710ca9b6711c8aa5f46135cbfaeabd06003ff1f86e4297e1d7ffbea5c1fac2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "withAParent"
+      ],
+      "sourceHash": "cfc37dd2cbb778b2fad8147130584529e67b9291a5df548cae4277f34b628edc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "800MAwayInYourCircle"
+      ],
+      "sourceHash": "b977064ec8e2399bd51fe5398709c78dc8f5983368d49386b89d50afa3b77280"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "4FamilyPlacesLeft"
+      ],
+      "sourceHash": "d3657dbd761825f468d3e560dc7a14bc094421618df5b385849ff9527a01954c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "askMiravAboutThisSession"
+      ],
+      "sourceHash": "58972df9fe923291b69906ea32c9aa9c433e82ebe92cc60ff6f972a07ea75f73"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "askMiravIfThisFitsOurFamily"
+      ],
+      "sourceHash": "a90d9c705a0d600798e0351dca3645d781205e60f09526e967ac281425b889f4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "requestToParticipate"
+      ],
+      "sourceHash": "a1e01477bafe64b33cf0c25bca4e357124ab9f628772b4bf7721dcb332cbed44"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "joinFamilyActivity"
+      ],
+      "sourceHash": "ed4892ab9c2bf95117d85707f82e9b2263265d6767ebd76dff51d407360f14ab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "createAnActivity"
+      ],
+      "sourceHash": "30285250dc630c00f67cdd6f1b0baacca4134ed203cfb35023b160773dd459c6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "draftedWithMirav"
+      ],
+      "sourceHash": "c1d286e9446a70ff5ae9429c087ff7e0f8bacc8be8f5eae8437eb1c18c266bf4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourIdea"
+      ],
+      "sourceHash": "b93aabbb05c43d1f8d0767d59fd3438d5806f9e9fc02305c1c229a5e4553a747"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "readyToShare"
+      ],
+      "sourceHash": "4cb8c79a7482dea36b6794cfd192ffd7ca14626930a9e543aca3d36e821dfdd3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "reviewTheDetailsYouChooseWhenToShare"
+      ],
+      "sourceHash": "5248eb032b3d92fd327063fdf12ca9b50820ff7817209732d6c7672cb474ebe1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activity"
+      ],
+      "sourceHash": "38da1505ca8373288489495101b14f24ac95078f520ad64df18272aa6054f750"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "where"
+      ],
+      "sourceHash": "1daaa38f33cd860e9710c74ef1ebbb00af9f348ad0e991b94bba044a61ece936"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "when"
+      ],
+      "sourceHash": "cf9c7aa24a26aac4f0ec4b6395cbfdcc055677c3dac87bd6af898bccd66d4e17"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "ageGroup"
+      ],
+      "sourceHash": "b26d964d1ce7c2a60f8b123eedeb013fde7396659535ebae0c69dfe269de0c5e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "ages610WithAParent"
+      ],
+      "sourceHash": "f125531c0491064b0541cad18bed3be497ce01976decbf26b716aafff1c356c5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "onlyYourSchoolCommunity"
+      ],
+      "sourceHash": "af314485934a9a722e39994eba585574ef2a4c902516808bd25c64faee4f6279"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "parentOrganizedFamiliesNearby"
+      ],
+      "sourceHash": "0eba157186069934cdca3f1e2269eaab710924430ffa8a7749bf2f44fb663ff8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "parentsManageFamilyParticipation"
+      ],
+      "sourceHash": "8dcb0dd3d52dcbbf7671a5a91af7b2d9b50ae1be330097e2b1b35ce9f4e96f61"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "inviteAnotherParentToCoHost"
+      ],
+      "sourceHash": "107655a238c363e0607c933d537ec2be78758dac4e860cdcbcb36992238404ff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "showActivityMapInPreview"
+      ],
+      "sourceHash": "78f84757d044ae63f83da2a819b1ba9bba45b7e0f978c5d1bdc326cc82aa97b2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activities"
+      ],
+      "sourceHash": "4d0076e6b4c71059f0403fbdebc3a4079e4eb2124cb19b3c6be54ff9c0a30d06"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "explore"
+      ],
+      "sourceHash": "3b73900b8d29f963dece78edd4bd9529d855e50f2a3fcc39b3d66cd657630905"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "saved"
+      ],
+      "sourceHash": "b5c120b316c237a0deab3140267aebedba61947d3ae268d708a53d5be119e9fb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "showSchoolActivityInPreview"
+      ],
+      "sourceHash": "27a65736f1b6404dee3fd9b2574c16976be0b6b9e788aee8bdf9d475026acaac"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "reviewANewActivityInPreview"
+      ],
+      "sourceHash": "c13914d2013151f7c49157d4b581481cc1728a4181ae796694ccc46a9ca207fe"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "openAskMiravPreview"
+      ],
+      "sourceHash": "cba2e6dea1b483ab493da994a122f04e4a40a16134e494a3c802f1d07c49964c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "profile"
+      ],
+      "sourceHash": "d696a35bdd1883da07a8d6c41bb7a3153381b23aa197629ee273479a6eaa5a9c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "appPreviewExampleAIConversation"
+      ],
+      "sourceHash": "af5effa0d49ea74d16bf8bafac1e3f11437e3b8e665bb3e853057e33097b3ab1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "appPreviewSampleActivities"
+      ],
+      "sourceHash": "4206a4e369290b8cde34e5f70c4ad8fca6921b8a5df752799695de708f9d2118"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravSchoolDesktopWorkspacePreview"
+      ],
+      "sourceHash": "de8aa71e1afc4fed3fb1e0acd64828fac54791b62923e1834abd194110d32a16"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravForMapleSchool"
+      ],
+      "sourceHash": "4b287e991c1aac660ad35e4ae7cf382c829838538205fd594eae123deb9783e0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "forSchools"
+      ],
+      "sourceHash": "e7b274aaac24e32a0ef172d70ce41abd3ec6aad0dd76820d52fbc9f0686fc36b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourWORKSPACE"
+      ],
+      "sourceHash": "cd2d7f2c5c6988635f3a69fb86c466a542c78427aa4e165434b1afa5547ba277"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "workshopPalette"
+      ],
+      "sourceHash": "c8f3596befe9e03fa042c3e1bb29493f89030143932d6eac23fbd04e19c3454b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "programme"
+      ],
+      "sourceHash": "30556a7a38a54f7935b69b5d80d7f577dc5b1430b12689538d78929950b213a0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "groupsFamilies"
+      ],
+      "sourceHash": "a091be21826bb6602f312bc1e3bd96aea963d49d3d274c45b98a46786381072d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "localPartners"
+      ],
+      "sourceHash": "bc3af8f2ad615afe5ad85f093429c801488ce61d49e1e7a585a36418dee7e699"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "mapleSchool"
+      ],
+      "sourceHash": "86b7e7aaf81ea99dab1810e7299e8c460095bdea402bfbe8b13df68d95f11520"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "exampleWorkspace"
+      ],
+      "sourceHash": "d261d2c0945fa8fce120301862b4483b11d97bb4aabf35c121176e23a3afe2eb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourSCHOOLYOURPROGRAMME"
+      ],
+      "sourceHash": "5ff2e321fe966e35c149ca659574fa87893a108326cd0d79189081d1f4453f42"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "whatWillWeTryNext"
+      ],
+      "sourceHash": "ac67616e81f7dd402ab910c6958ddae144beb3b99338b0204f8cf89dbd0b5d0c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aPlanForEveryGroup"
+      ],
+      "sourceHash": "474b93547fc177a7d39714f7ffcd0bc82f33b1307d2b0b8ae470cbb9804806d2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "newActivity"
+      ],
+      "sourceHash": "f7573bf001d513a8119fe82f67d55d7e6f804e6200b80aa9884b99e6b1da4f82"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "pickALittlePossibility"
+      ],
+      "sourceHash": "c8e153c36fade1df247517354e18970ed91c72f0aece798504aae360c618a962"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "mixMatch"
+      ],
+      "sourceHash": "de54f78bee6fbdd154cced27f5a8e3001545952352950fd8d5f44dc0673c751a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "addToProgramme"
+      ],
+      "sourceHash": "a3313a9d943cb17ddd4c54c7963ea699d3622726892f51fad48dde91df508d47"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravProgrammeSuggestion"
+      ],
+      "sourceHash": "398d3c3c6329034484dc7006a839ee3a27dcda385d6db0d5839fbecfb7a4ca44"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "teachersShapeTheFinalActivity"
+      ],
+      "sourceHash": "2d24975c36d5fe3899066445e0d017d53418f6281456fbdcfd80880eb189c421"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "thisWeekTogether"
+      ],
+      "sourceHash": "e6a355586204bf32c601c8f4dfc0520f9b5414d739ca6fe1f7a6fc93048cddca"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "teacherReview"
+      ],
+      "sourceHash": "31055db7ce2eaebf4453bd570b7796e249c4325181063b770b01e95427099d0b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "years34Years56"
+      ],
+      "sourceHash": "c7ae8d22e9b7602c6a4fdf51f0cb0023af6749b884a1741ead1ae2bf60dfad79"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "years56Years78"
+      ],
+      "sourceHash": "915422b89791fac016f1619d41567d308f8a535990a9f2d99f9d57f77d7b1ab2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "mixedSchoolGroups"
+      ],
+      "sourceHash": "c39bb8b2549b74c24e31bae6e7a71dc733831756100586cc90af1c3c66fedf36"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "tue1530"
+      ],
+      "sourceHash": "9214df99a27f9ccc8852fb2e61391e9a09d236c37d5fc3f9ddd0ba30c0daf527"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "wed1400"
+      ],
+      "sourceHash": "a557996c031b62d8a07a872303de9f65ef6c293f004c8236bb882c96d0fafcb2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "fri1530"
+      ],
+      "sourceHash": "95c2d9893363e00862e3b38e31064ab286291ebe7dbb99da815301a98c9f98cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "reviewProvider"
+      ],
+      "sourceHash": "1d44184721d68395f58949517993a39639154b7324fbf52bec0e24b1691a2d3a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "planReady"
+      ],
+      "sourceHash": "d7b9c873dcdadbee89f2ba4d663fe2d0cd6ef2f84b82a2907686d531357c1e98"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravHelpsExplainThePlan"
+      ],
+      "sourceHash": "067654a8ea4c598b886b85a5947851e2a4965477c83122a187156ee06e709e71"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aParentSummaryOfDatesAgeGroupsLearning"
+      ],
+      "sourceHash": "9cf9708155b01b3e0589a525fe7f19ce81a382fafa82f9299cc5ef0e8f1f52ad"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "schoolWorkspacePreviewExampleProgramme"
+      ],
+      "sourceHash": "8c9094b80aa23fda28eb0fe539dfa37414b3e3e0442878391b2b295f79708d57"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "schoolLedPlans"
+      ],
+      "sourceHash": "f9a655b8b8c2ecf7c03ac9c62901874c71ea7fc24880b3c0759f826b7f5115cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "localExpertise"
+      ],
+      "sourceHash": "7e6f5e80e72b5a13331da19b3ba36d88e051407f8ec25f4ec6b5a36160d92b3c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "parentsInTheLoop"
+      ],
+      "sourceHash": "6ed678c694df15b06a98553fd852ff28ddb46f710281266d38bd076574dd9f91"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "moreChildrenMorePossibilities"
+      ],
+      "sourceHash": "3604b1d3ce5c2076652210f79940da4729f102fab8e5c9d2fd8c0688f7710c31"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aPALETTEOFPOSSIBILITIES"
+      ],
+      "sourceHash": "d37824cc8885374efd4a4d1301348ec1f5db918b6b661e7608c24b6e5632ea27"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aSchoolDayWith"
+      ],
+      "sourceHash": "45a92eed6c6d4d4b4fc5347aa1150ba48a8c12daa341dcd83b78f4dae6c324c6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "moreToDiscover"
+      ],
+      "sourceHash": "093a424fe0f3433665862184470ece86405f5da1bdc00a748d5d231ad83ee3eb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "chooseTheThemesAndGroupsMiravHelpsDraft"
+      ],
+      "sourceHash": "2684eab4887072ba2c1a0c1e0e8ea4694abf16647359a0a0827861537a159652"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "whichGroupsWillLearnTogether"
+      ],
+      "sourceHash": "8291610c22c8fd677814462b6b66a9c77e912a581d85287c03532de0fe4d53d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "teachersChooseTheGroupsAndAdaptTheSession"
+      ],
+      "sourceHash": "de5c5a4c6d5e1f8d18ec49dc2719b80d3cfc82030120d831b9d6da6ce7bab327"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "askMiravToDraftMyProgramme"
+      ],
+      "sourceHash": "20e44ab3a90d89577419fb1d7b877a59b1d4c59e72b70b24aea3221033383c4b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "oneCOMMUNITYDIFFERENTROLES"
+      ],
+      "sourceHash": "fcedd40ab89d99c3abe6442f3f59132336ba21c40e40967fb371984696a7d71f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "theSchoolLeads"
+      ],
+      "sourceHash": "42397a0dc6ef0f033e10e67504b2dd48a8961e22b348d5856293625b78caf778"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "everyoneBringsSomething"
+      ],
+      "sourceHash": "e2a36e6395b0b1021822a9365d670ae76cc34cd5a79bb1f1977314cab4294f41"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aTeacherKnowsTheChildrenAndChoosesThe"
+      ],
+      "sourceHash": "1db718041eb7b47bd5bba7a77073c9765b03de730731af864bd457d145e5349a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "schoolsTeachers"
+      ],
+      "sourceHash": "1a3f9dd5854bdfdff1045f24340fc1b1201ba30cca43478eca06328752eeae83"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "setLearningGoalsCombineGroupsChooseAVenue"
+      ],
+      "sourceHash": "cf712b7f878c8d821cfc3eddaf6a9a521ddb6a3e4b2bc9235cb6416803de9657"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "workshopPartners"
+      ],
+      "sourceHash": "b03226394ac4fed4c16bdd7b7e1484c59a0ff88a85d010de9ee7f990af5ce179"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "coachesMusiciansArtistsAndTechnologyEducatorsCanOffer"
+      ],
+      "sourceHash": "8cf7e05c25a4264343c45faf9c11faccf4ee8b9d72650bd7caf2a74c98c532b9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "parentsFamilies"
+      ],
+      "sourceHash": "3c6af86123f3f3177c74bd5ef373df8b47a66bd44f8b11278e12e81435ee0876"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "seeTheScheduleMeetingPlaceAgeGroupAnd"
+      ],
+      "sourceHash": "5e708a5f5a9f5bd569f9f1aa6254d06b692ea15ce70871bb406ddfafff75160a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "planONTHEWEBPARTICIPATEONTHEPHONE"
+      ],
+      "sourceHash": "23ab57a5c688782598c4b4bdf98d1179675eba2fc823fc2545af6f4d8d9f92b3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "bigPlansAtSchool"
+      ],
+      "sourceHash": "40e7fa0b41370f4461380a3638ac3fe742694ee90f80292ae8345759267a8542"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aClearViewAtHome"
+      ],
+      "sourceHash": "ef8bc961cb452992c5071a5829198b1ff7f93559a80cbb80cdaf97a6896a3630"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "organizersDraftTheProgrammeWithMiravInTheir"
+      ],
+      "sourceHash": "2ed6e9be669ab8613e02c207663188de794720f80347b793b5a13963bd17c2cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "teacherSelectedGroupsAndAgeRanges"
+      ],
+      "sourceHash": "5a6d415f7841d772f303237c3530c629a55b8dc033c2ffc2b5d662c53b5c5cca"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "onePlaceForDatesVenuesAndLearningGoals"
+      ],
+      "sourceHash": "f940b9acdd87295a198cfe0163587ecff14338dc7f994aa3a78d41273aa5d993"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aSchoolCommunityInsideItsSavedCircle"
+      ],
+      "sourceHash": "3fa697c4c310581f62ab51e7fbe81cf697a6029ebbdb5610d6ecd64ceaca11b2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "buildASolutionForMySchool"
+      ],
+      "sourceHash": "951f837cdff344844f3879b41832e258ca75333fea6cab5b968e220da2ca40d5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aMODELTHATWORKSFORTHEWHOLECOMMUNITY"
+      ],
+      "sourceHash": "7bef0a459f015ae631f31964a31d2c3d066e06aa0eb2b34651b036db27e20eac"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "localTalent"
+      ],
+      "sourceHash": "586e7ee288e156230233d8e0f9e6632650abce416a55f4c191bfeed76a6166bf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "sharedValue"
+      ],
+      "sourceHash": "4ffdb394729a8ce70022eaf545f536ef70cf197e17a1e2ced44f623db50f7289"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aClearOfferForPartners"
+      ],
+      "sourceHash": "00486689a6d0c5a5c03b535f5d5e157602f950954fbfabcaa01c077208ec5249"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "startWithAWorkshopBriefAFeeOr"
+      ],
+      "sourceHash": "fa97ebdad2bc316779e257f509f51a88606a0bed88b6c5e167a7e259f7bf52d1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aSustainableSchoolProgramme"
+      ],
+      "sourceHash": "8086ce73c2fd5f8d26522f303b131745d01672e9b1d37b67be9f115213d01ec3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "planProviderFeesAlongsideVenueMaterialsAndCoordination"
+      ],
+      "sourceHash": "08a78a427b772afacdbe6c2309c6572ea40b0b90cf8be1edcdf4db3c49358488"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "fundingThatFitsYourLocation"
+      ],
+      "sourceHash": "594d08f705ed146503c7e38326cd185fb2278c85a054f45dcb507f73e1a280b1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "exploreSchoolBudgetsLocalSponsorsCulturalPartnersAnd"
+      ],
+      "sourceHash": "c8cf2306b0cc055583873b950b7042997102fca6f1528ab8041dcf6e9d69e28d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "examplesFromTheNetherlands"
+      ],
+      "sourceHash": "a71cefdc0e370aa66d948e34b16c99c494c8444f236f8ff3ba9fa54aecd50bf7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "the"
+      ],
+      "sourceHash": "b344d80e24a3679999fa964450b34bc24d1578a35509f934c1418b0a20d21a67"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "schoolOmgevingProgramme"
+      ],
+      "sourceHash": "9f1f0ce2bff221a61116b647ab21130029620f2924ea4951575649db21d2c7ba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "bringsSchoolsMunicipalitiesAndLocalPartnersTogetherAround"
+      ],
+      "sourceHash": "ef7ef47cd17916af3e04a13b3daa80dab3374fc77510e4a40403429ae2693dda"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "cultuureducatieMetKwaliteit"
+      ],
+      "sourceHash": "9c71e7444cded670c2e7694738d39f3b53ed2128544b567f1688521645b7ef66"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "isAnotherRouteToLocalCulturalPartnershipsFor"
+      ],
+      "sourceHash": "0d04642cb001ee311afd821534a7ad32bdb943c2e69593d97084deb7e8344c1d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "voluntaryParentContributions"
+      ],
+      "sourceHash": "425fb9a9ba73427f08c9ad9385f682e16c4042ef5796cabaee5b0983bc1350c3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "cannotDetermineWhetherAChildParticipates"
+      ],
+      "sourceHash": "fbeec5502ea1a1c7d81d0d9f759081bd1a7c60f277a0e89181aba4a9af6ef455"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "sourcesChecked10October2026EachSchoolConfirms"
+      ],
+      "sourceHash": "1f64e74ec689972cafd25acca3969c3238c66287f9d09f531f41eb0e528845cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "miravSHAPEDFORYOURSCHOOL"
+      ],
+      "sourceHash": "bdcfa48d8a74e45d4277b702fe80f6f51a252fbdccaca67ffebfeef5233a63b6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "tellUsWhatYour"
+      ],
+      "sourceHash": "2136731e083d71d66dd8595ec24d3dff3fc105720f09ae98a903aa2d689316a2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "schoolCouldBecome"
+      ],
+      "sourceHash": "bb4f161440a990ac758b04c8b303032c7337a52f7192143ee2b05adb00953ae4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "registerYourInterestInASchoolProgrammeBuilt"
+      ],
+      "sourceHash": "daaf5a16c9e5af04b67963327ce9c7318b4997ac03503528d6b9cf44daa705c3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourSchoolGroupsAndGoals"
+      ],
+      "sourceHash": "e3c3004ad80802cc9423e77532fa1cc558a75afee3cc56f5c54f21b1b9e5e9c6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aWorkshopMixAndDeliveryPlan"
+      ],
+      "sourceHash": "01c0d289f61c2113d5082e03c7baa607b3d21aead0aa300d34a7a4ae91929784"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "providerAndBudgetReviewWithTheSchool"
+      ],
+      "sourceHash": "9037396a083a3315db720c3882c1cf8d1c54694489c3235a77ee339a42575db6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aClearProgrammeForTeachersAndParents"
+      ],
+      "sourceHash": "a2978c358e82e0c9a4a7c02b3a2f2e89eb1096f0b6593eec7c6bd0b62a9e5918"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aSolutionRequestStartsAConversationYourSchool"
+      ],
+      "sourceHash": "3ad1a2292d743c65a8e34ca19d900529dba98c0606187870a1d943da682f8cce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourSchoolRequestIsIn"
+      ],
+      "sourceHash": "cd4436d220d458d6feebd7bbe267570761f3cccf3d3650643a4a44bb1d1db444"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "weLlReviewTheBriefAndFollowUp"
+      ],
+      "sourceHash": "a1b6b4cbe311913ceb17c8504d83c3d4e961a44a83369a162f2eec542b355e9a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "createAnotherBrief"
+      ],
+      "sourceHash": "32b320692ad989c080ea0bc478cfb3b1b1fa2612230dfa943af9b721fce34af6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "aLittleAboutYourSchool"
+      ],
+      "sourceHash": "37d3b49955c5e64a4dc483340ad8a33d6cebe10b9b92940ea0072637d6b00177"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourName"
+      ],
+      "sourceHash": "2c6b2e253c01fb2ed7209c15766745ccee92a35ac8209f544789bdf9500e0944"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourRole"
+      ],
+      "sourceHash": "09bdccc5fb698cfb834074203526a8d90f950b3378cfb2df20fab3e77c3cef6b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "schoolName"
+      ],
+      "sourceHash": "eb2cbd328ce2250dde75bc5baa0fdef0b46c3c906a6a5b39c6872924338484a2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "officialSchoolWebsite"
+      ],
+      "sourceHash": "f391773a902ca376ef2d91714db7467f73fe9bfeb9cc2427d475071384690bf1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "cityAndCountry"
+      ],
+      "sourceHash": "334643ba264c00419634a97a341a6ca248a597c4a5a7f7364c487e8e691fc563"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "schoolOrWorkEmail"
+      ],
+      "sourceHash": "6dd20e13b1039805591056382e967c010f58bc935b6e0a218bfd9eefe2ccc504"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "programmeFormat"
+      ],
+      "sourceHash": "fb03b08b5c1051c42425b3ec9e327bdc5d3b93508076f037504fcd96f7a6466e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "fundingApproach"
+      ],
+      "sourceHash": "0cdb20822996e84861312fadd893bee1a208d8d924e064dc4ba365bad1bd88f3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "whatWouldYouLikeToMakePossible"
+      ],
+      "sourceHash": "93bbe81a723be4ba36422544610363a2be7172f7517efaad6c8577451cbd28a9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "theGroupsInterestsAndKindOfLearningYou"
+      ],
+      "sourceHash": "e2464cfa1844effca48b498858b5e5f8337a61cb2fea9ca1ccb08661507fdac4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "themes"
+      ],
+      "sourceHash": "f8061b9c88503afd284ffe652d0741a809be5bfdf921aa7972fac6b5ad601f69"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "groupsToDiscuss"
+      ],
+      "sourceHash": "8fd8993475c487ce4db264183fb39ab8e8e1ceecd0565f07b0d5ed7fe337e27f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "yourRequestCouldNotBeSentPleaseTry"
+      ],
+      "sourceHash": "4ffc21ec3fd91712a0ffb61509aeb42b469b96cccf93a030cdbdc992d2ce5cd8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "sending"
+      ],
+      "sourceHash": "b8ed5279e897be5def6b902caa5121b3c1ee6957209f715187878a93ae0ca8be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "registerMySchoolSolution"
+      ],
+      "sourceHash": "058b36eeb69eb9e60873c931c4c0b5e2ee557de3986d7d3b3ef323ea13a1f7a3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "useAdultContactDetailsOnlyWeLlUse"
+      ],
+      "sourceHash": "df3e33763366a41bf73ec5a9d36f6eccec6109f75f968598d04870f596c354c5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        0,
+        "title"
+      ],
+      "sourceHash": "db277258fc98aa8bc356a31bc77c4952510e6cca78cdffe952db6e457b9c44c5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        0,
+        "interest"
+      ],
+      "sourceHash": "0fbccb3e2558f271269d2de544c385e12f85cd0d4de7ed1c2b9efbd90f4befda"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        0,
+        "venue"
+      ],
+      "sourceHash": "f9778ee38a8cc874cecb98560e563bd26201fb5c7323fe101b7d7bec3d30362f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        0,
+        "people"
+      ],
+      "sourceHash": "6c707f8a29553c95a23dd4bc54b2593c5292dc2b1ab066077fcb582001219653"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        0,
+        "age"
+      ],
+      "sourceHash": "8a58dddbfdbc0c8ed00d65d289aab7b1e6365a60112ab9e9aba60eb296ff00cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        0,
+        "timeLabel"
+      ],
+      "sourceHash": "9c9a620fdb2f9940814bf7a64dfa9fe5de4cd49d03e7b80a7f33ec966f60d387"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        1,
+        "title"
+      ],
+      "sourceHash": "17798379006201a9e96e800d61d27acf066202cc1516a44e34cf67d478709a76"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        1,
+        "interest"
+      ],
+      "sourceHash": "2c7e63313045bbdff6dbfcc7d3565142a96abb111be1aeedf7d9fb3efcc5cffa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        1,
+        "venue"
+      ],
+      "sourceHash": "f28a432d326a704463149991d1c77e871e911907521ad29df79af2ab96c1dede"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        1,
+        "people"
+      ],
+      "sourceHash": "6fdac07c283740687a73a236969b10cce6b7baf820586bc9af06a264e9dec005"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        1,
+        "age"
+      ],
+      "sourceHash": "8a58dddbfdbc0c8ed00d65d289aab7b1e6365a60112ab9e9aba60eb296ff00cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        1,
+        "timeLabel"
+      ],
+      "sourceHash": "9c9a620fdb2f9940814bf7a64dfa9fe5de4cd49d03e7b80a7f33ec966f60d387"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        2,
+        "title"
+      ],
+      "sourceHash": "fddf9cc29f3dd89c1c24df4044c9e7b55d6d1f131616c0c40be46d0fda251b70"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        2,
+        "interest"
+      ],
+      "sourceHash": "8bf8ef16e0e5f9e2ce17a85eb808b19a1de881f509d1eede015594a6bcdfa0bf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        2,
+        "venue"
+      ],
+      "sourceHash": "f9778ee38a8cc874cecb98560e563bd26201fb5c7323fe101b7d7bec3d30362f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        2,
+        "people"
+      ],
+      "sourceHash": "0025f6ce8ac8ac9b8473c4f0a8b29601052d7cb2ef1d6bf3c66816d6819b4b15"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        2,
+        "age"
+      ],
+      "sourceHash": "f92b1ab234194ae499978ad1f66671c46b9200afffdefbdca01d1ce3287c3a82"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "neighborhood",
+        2,
+        "timeLabel"
+      ],
+      "sourceHash": "52d59b3a906bdc3a4860453f35ea0f3e857a3d89ac54c8beeb33218502c4cbfe"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        0,
+        "title"
+      ],
+      "sourceHash": "d9f9c12f2bcc1d5f338ba8eacb4f1e1d3b915ed60b9fe3eb5b157f8a70481e5c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        0,
+        "interest"
+      ],
+      "sourceHash": "9b1f5daf0a3d610e5a819b6c7664ffde2ea2f299fb1cacedfc6d1b68bed5e351"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        0,
+        "venue"
+      ],
+      "sourceHash": "30d89c7804e4f5d8d1974d51b30f6bb994b0e1ac92e4a38c3652edd03e2b5a33"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        0,
+        "people"
+      ],
+      "sourceHash": "6c707f8a29553c95a23dd4bc54b2593c5292dc2b1ab066077fcb582001219653"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        0,
+        "age"
+      ],
+      "sourceHash": "4e2d6c89beb803facf3229dc3b523f4fb667bdfe842840052db776cb43b8f353"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        0,
+        "timeLabel"
+      ],
+      "sourceHash": "158b7e904a0a4968aeec72e96a522f934bc8a561d1eab45ee381de26c348c6fb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        1,
+        "title"
+      ],
+      "sourceHash": "981a8ae99f83f0ecdf75b70d25901853c6248734e2a089b6521d1072aebfa712"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        1,
+        "interest"
+      ],
+      "sourceHash": "2c7e63313045bbdff6dbfcc7d3565142a96abb111be1aeedf7d9fb3efcc5cffa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        1,
+        "venue"
+      ],
+      "sourceHash": "37687877d244c10be66e5ac61644d5329ee9c8bb313640da08aa905c21db7527"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        1,
+        "people"
+      ],
+      "sourceHash": "5cc070a5e23c9cfe9451e5000e4e490a0bd5573b50af8cb72d48e11cbaf0a416"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        1,
+        "age"
+      ],
+      "sourceHash": "8a58dddbfdbc0c8ed00d65d289aab7b1e6365a60112ab9e9aba60eb296ff00cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        1,
+        "timeLabel"
+      ],
+      "sourceHash": "9c9a620fdb2f9940814bf7a64dfa9fe5de4cd49d03e7b80a7f33ec966f60d387"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        2,
+        "title"
+      ],
+      "sourceHash": "d8cb646ae74bc1740cfe3f16cf34a35dd3b1cd94550c5b95b752facea0e4b0b4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        2,
+        "interest"
+      ],
+      "sourceHash": "8bf8ef16e0e5f9e2ce17a85eb808b19a1de881f509d1eede015594a6bcdfa0bf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        2,
+        "venue"
+      ],
+      "sourceHash": "23c53bbeebc9290725b7b3deccfd9068e15addac4a58d2483a499828c8e8cc95"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        2,
+        "people"
+      ],
+      "sourceHash": "0025f6ce8ac8ac9b8473c4f0a8b29601052d7cb2ef1d6bf3c66816d6819b4b15"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        2,
+        "age"
+      ],
+      "sourceHash": "4e2d6c89beb803facf3229dc3b523f4fb667bdfe842840052db776cb43b8f353"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activities",
+        "schools",
+        2,
+        "timeLabel"
+      ],
+      "sourceHash": "129c2ed911a41e2f483b03e84b19ecf8fb46b5c4e465fc089f74ab66b06d0d65"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        0,
+        "title"
+      ],
+      "sourceHash": "823833bc0448924bafdf4b8f9864c9644234d782b6032d60a9fb36af15a1aa3b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        0,
+        "body"
+      ],
+      "sourceHash": "69588f26f1e36c5d8285fe9db13179be68dcfcec88a0920e7f92b03db8ed1b7e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        0,
+        "outcome"
+      ],
+      "sourceHash": "0e22340ccbcdcf9338bb216a17941a28575527a74f56057b7d87e42c74426254"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        1,
+        "title"
+      ],
+      "sourceHash": "2fc7ed28c6d7b1514eb2757ab87f35f4883444600366b4e52165048879a437d0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        1,
+        "body"
+      ],
+      "sourceHash": "78d3a76b698137bf6f62430827afe6decea79e25fafe32161674332ecc71ed8f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        1,
+        "outcome"
+      ],
+      "sourceHash": "aafb05f164d85a65f4468d4c76460f149a3a0d02d101cf64627ff6a52bb79a7e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        2,
+        "title"
+      ],
+      "sourceHash": "5fb826551fc3ad95c5a4054fa9b964004af5d86342de9c79047917093d22ca64"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        2,
+        "body"
+      ],
+      "sourceHash": "fa21fdcec7f33d8cc391fd8adb9706e74fe94e04e6c550a822b80890357a6ad1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        2,
+        "outcome"
+      ],
+      "sourceHash": "bebb8aff8baa2efbad61157e06b6be4557ef98846b2f3d9c5a55b58238ac734f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        3,
+        "title"
+      ],
+      "sourceHash": "b79bdda6c77954d4905b6999de3e8f5c09d92244a0f98c526dc21cf4f2c3b6fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        3,
+        "body"
+      ],
+      "sourceHash": "a7a7c87b5f4d929ba87412cacad35d34adfe07f798af645b488a99e05030c6ed"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        3,
+        "outcome"
+      ],
+      "sourceHash": "e5500182ee0797226a7d1f3fe955b3883b9b23772b8df44787c4cb688b084da4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        4,
+        "title"
+      ],
+      "sourceHash": "3b7bacf44fd31c69111f7fb22b5b9fe8f351ad28c6df5348f6b480c5ef0c63b9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        4,
+        "body"
+      ],
+      "sourceHash": "586f4c4e5b423b566683cc29015486f554c4ed8e4591a71a02e2ad1b64e99fa6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "workshops",
+        4,
+        "outcome"
+      ],
+      "sourceHash": "93b090c2d225f20e73acae95decb536c16eb0e80c90eeabc9d0496966f0f9a5e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "cohorts",
+        0,
+        "label"
+      ],
+      "sourceHash": "ea10d7163e0baaa7043e63342e398fa697b9ad8b37cad69dc0ecdb61d4916c96"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "cohorts",
+        1,
+        "label"
+      ],
+      "sourceHash": "c19931aefa864d861887348db20584b632acb87150096d824f76c91cb9fed798"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "cohorts",
+        2,
+        "label"
+      ],
+      "sourceHash": "370294021226ab6768ee43b9c72508f8bb1e669d85a32e1c6ba8211c077971b5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "neighborhood",
+        0,
+        "headingLines",
+        0
+      ],
+      "sourceHash": "85b0e47db34989e9e944c9036ab1227f7e06cae26c717861ca46b462257733eb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "neighborhood",
+        0,
+        "body"
+      ],
+      "sourceHash": "f80e95db144a029ef99c0c1ba67e28bb43b82e07a37068b877b5a335101299e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "neighborhood",
+        1,
+        "headingLines",
+        0
+      ],
+      "sourceHash": "6a3203eec457d90b25e13a723148ae4789e913e830a60e43cb099e5bdacec9f6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "neighborhood",
+        1,
+        "headingLines",
+        1
+      ],
+      "sourceHash": "297412044824581117279ac530e276d06bce4d9bc3757c5ca76167853a1123b5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "neighborhood",
+        1,
+        "body"
+      ],
+      "sourceHash": "695b734101143e18a499c9c4b5717607324b4a99d1718c5e8a8d802160fbd679"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "neighborhood",
+        2,
+        "headingLines",
+        0
+      ],
+      "sourceHash": "68356d18e46ed1787cddbdee841a3426b7d14903d3105818d14b1cec5deff5d1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "neighborhood",
+        2,
+        "body"
+      ],
+      "sourceHash": "014f7fa90b503d15de97982f36c29fa4506ab29739cd7f81982f8458089a3cd2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "schools",
+        0,
+        "headingLines",
+        0
+      ],
+      "sourceHash": "2537fca298a20152eca428672167d7837f22f9f0c5d01cc966de7ac197f19dbd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "schools",
+        0,
+        "body"
+      ],
+      "sourceHash": "c5b9fb0d98450937b461afbe1ae753f1578bce44c8adb64774e709350d96242f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "schools",
+        1,
+        "headingLines",
+        0
+      ],
+      "sourceHash": "1f214dd42de6b08cd72b8922300fc6b5f67a9d2ed25f9874a88093be0140ae18"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "schools",
+        1,
+        "body"
+      ],
+      "sourceHash": "2acc4d9ca5a80bcd8a97962b1f04e9643820f882e4350b7cccc5dc33bdf781fb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "schools",
+        2,
+        "headingLines",
+        0
+      ],
+      "sourceHash": "cf7256a58892051a85ffcfa2531bb2a262ebe01fc125c1cca98ccd7e03f1b282"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "process",
+        "schools",
+        2,
+        "body"
+      ],
+      "sourceHash": "5489ad230e4590139bb5f30a3c5b9600585607d3c1b222594135122266580de3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "roles",
+        0,
+        "label"
+      ],
+      "sourceHash": "2e333a157a2a91dc6d7351c3eca430f2a87dfd64f7ebf207b96a84c74851f19e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "roles",
+        1,
+        "label"
+      ],
+      "sourceHash": "5eeee52ec1e580989be944ee7cae917d7b8115a193759c60f246f8097a4a744c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "roles",
+        2,
+        "label"
+      ],
+      "sourceHash": "6c1c152733633fe853c70548356871199448935427109c77d64a585141939d77"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "roles",
+        3,
+        "label"
+      ],
+      "sourceHash": "7576fddde381cbd879fc5e033b5f9266be0793edd43c50bd23d90fe43d61d75f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "roles",
+        4,
+        "label"
+      ],
+      "sourceHash": "d62b021f2938f0adbb8bbad9edc2ebc721d80a31d55b453eb5aa5cb850f74bb5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "delivery",
+        0,
+        "label"
+      ],
+      "sourceHash": "d9dc7a2da3530ad8b3c5fc0bd473653a51c5dce50131374a56e425b407035355"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "delivery",
+        1,
+        "label"
+      ],
+      "sourceHash": "353417fc0d0b5f60a4fe8691f1f4b1e40625ec5fd38d8e93da218089416f47db"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "delivery",
+        2,
+        "label"
+      ],
+      "sourceHash": "1899ee9f098403a90283d92b2360f0d77bada3ff43875274384568f34244e737"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "funding",
+        0,
+        "label"
+      ],
+      "sourceHash": "900581c0190582502f68e4296b4d42afde1b3c26ec4e36e4fe221063f53df623"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "funding",
+        1,
+        "label"
+      ],
+      "sourceHash": "de342adb05b3fcaab6f22c4f31fcf00abb52f2544e889eeda91b658f9629cb2a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "funding",
+        2,
+        "label"
+      ],
+      "sourceHash": "ba43f309b9ebb713f6806652d3af60c5058a35e5c999ee05eb8e9f32c1a843e3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "form",
+        "funding",
+        3,
+        "label"
+      ],
+      "sourceHash": "9c0672fdc58513f6b8b86cb7ec014e2d3319ab3043280f37c27a0ff162e06a78"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "deviceTimeLabel"
+      ],
+      "sourceHash": "27192114f254950c99e755dab939e1dde56337d21775b168481172a0467791a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "schoolsFaqs",
+        0,
+        "question"
+      ],
+      "sourceHash": "7bf9065722d58bdcf59e7b8e7bf31183e68240ccaffce00ffa1fc6e660319803"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "schoolsFaqs",
+        0,
+        "answer"
+      ],
+      "sourceHash": "6ab92115835347fd95db82c4ce7203506f25de848fa1f5c716d4fd3c8944ca8d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "schoolsFaqs",
+        1,
+        "question"
+      ],
+      "sourceHash": "a4bd97df464331b485ea8599c10def9300153e307ab336599a93a93da7b8ade7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "schoolsFaqs",
+        1,
+        "answer"
+      ],
+      "sourceHash": "3a283f71a9370ca797a9a9a4f50a0ef911c7418a4502af76b342c417df2c21b7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "schoolsFaqs",
+        2,
+        "question"
+      ],
+      "sourceHash": "fb8bc6e5a536e9bd637dceeefeee9f5c320334b8ae4d215d91cd82d5ea001d84"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "schoolsFaqs",
+        2,
+        "answer"
+      ],
+      "sourceHash": "422803feffd082f534c147e2806916297dad80e849474084dd7c1ea13a3a62a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "schoolsFaqs",
+        3,
+        "question"
+      ],
+      "sourceHash": "6d0b6c119d9dfaf4f17619280f087e452cc93440f30e7c8f15ab94f61abb9298"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "schoolsFaqs",
+        3,
+        "answer"
+      ],
+      "sourceHash": "c45a4b08cc16f8aae6181af2c0a41a07e208808340c59c0a3e55998d619e7070"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "metrics",
+        0,
+        "label"
+      ],
+      "sourceHash": "f78d0dd71195bed6036e3afcaad1ec638db6b45e0dd885395d7f342ff80c483b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "metrics",
+        1,
+        "label"
+      ],
+      "sourceHash": "fef103ce23429275d089705a4ea0a77dd5cfdcf21c8ee76388d3389c5b6d8a24"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "metrics",
+        2,
+        "label"
+      ],
+      "sourceHash": "f50658d8d285971b54c9c9cd15c77b0c9e3c3049ca947a3de962ace78dad42ec"
+    }
+  ],
+  "generatedAt": "2026-10-11T14:00:21.484Z"
+}
