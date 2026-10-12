@@ -1,0 +1,12 @@
+{
+  "tool": "image_gen",
+  "useCase": "identity-preserve",
+  "prompt": "Use case: identity-preserve precise facial edit. Image 1 is the edit target: the existing square Mirav portrait, a friendly young male student caregiver character rendered in polished 3D animation style. Change only his eyes and necessary adjacent eyelid shape. His current eyes look too enlarged and toy-like. Make the eyes convincingly human-like in anatomy and proportions: slightly smaller almond-shaped eye openings, realistic iris-to-sclera proportions with the upper eyelids naturally overlapping the irises, normal pupils, soft brown/hazel irises, matching eye direction looking warmly toward the camera, subtly defined lids and inner corners, restrained consistent catchlights. Both eyes must look harmonious and naturally aligned with the tilted head, without bulging or crossed gaze. Keep him the exact same recognizable character and age; preserve his head tilt, smile, nose, eyebrows, hairstyle, skin tone, skin texture, hoodie, shirt, orange backpack straps, lighting, cream background, framing and square composition. Keep the beautiful existing 3D style; do not turn him into a different person or a live-action photograph. No text or logos. Produce a high-quality square portrait suitable for small circular chat avatars and mobile app icons.",
+  "source": {
+    "repository": "vipin-go/mirav-landing-page",
+    "revision": "9d7291e466acc69f93ce0532f4556a596359dab2",
+    "path": "assets/media/mirav-portrait.png"
+  },
+  "sha256": "ddf52484e6af468daf0345bf60ead76ca5d720d39f69ee0af83651983fac7a51",
+  "iconSha256": "27a0485ec5b35e75c521011b43683a0488d0d7fdf161405549c6874ca65e4627"
+}

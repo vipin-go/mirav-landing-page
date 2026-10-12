@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "fa",
   "regionKey": null,
-  "sourceRevision": "1f7244efc0d885f3ee91dbf0b6ca5ede134c73d4257274fc1979da4b127625e6",
+  "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
   "landingPage": {
     "design": {
       "variant": "community-connections",
@@ -362,7 +362,7 @@
         "useAdultContactDetailsOnlyWeLlUse": "فقط اطلاعات تماس بزرگسالان را بدهید. از آن برای پاسخ به درخواست راهکار مدرسه استفاده می‌کنیم."
       },
       "media": {
-        "portraitImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-portrait.png",
+        "portraitImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-portrait-v2.png",
         "logoImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-logo-black-v4.svg",
         "mapImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-mobile-map-v1.webp"
       },
@@ -4218,5 +4218,5 @@
       "sourceHash": "f50658d8d285971b54c9c9cd15c77b0c9e3c3049ca947a3de962ace78dad42ec"
     }
   ],
-  "generatedAt": "2026-10-11T20:56:01.028Z"
+  "generatedAt": "2026-10-12T10:44:57.443Z"
 }
