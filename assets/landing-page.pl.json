@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "pl",
   "regionKey": null,
-  "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
+  "sourceRevision": "3cdabc658219d031269907640657a1dfb38068fbd2f759527117fdc87d9b6316",
   "landingPage": {
     "design": {
       "variant": "community-connections",
@@ -243,7 +243,7 @@
         "inviteAnotherParentToCoHost": "Zaproś rodzica do współorganizacji",
         "showActivityMapInPreview": "Pokaż podgląd mapy zajęć",
         "activities": "Zajęcia",
-        "explore": "Odkrywaj",
+        "explore": "Eksploruj",
         "saved": "Wpisano",
         "showSchoolActivityInPreview": "Pokaż podgląd zajęć szkolnych",
         "reviewANewActivityInPreview": "Sprawdź podgląd nowych zajęć",
@@ -271,7 +271,7 @@
         "miravProgrammeSuggestion": "Propozycja programu od Mirav",
         "teachersShapeTheFinalActivity": "Nauczyciele ustalają kształt zajęć.",
         "thisWeekTogether": "Ten tydzień razem",
-        "teacherReview": "Opinia pedagoga",
+        "teacherReview": "Ocena pedagoga",
         "years34Years56": "Klasy 3–4 + klasy 5–6",
         "years56Years78": "Klasy 5–6 + klasy 7–8",
         "mixedSchoolGroups": "Grupy z różnych szkół",
@@ -778,7 +778,7 @@
       "enabled": true,
       "currency": "EUR",
       "heading": "Ceny i ROI",
-      "subheading": "Prosty szacunek na podstawie Twoich danych. Sprawdź założenia, zanim porównasz zwrot z ceną.",
+      "subheading": "Twoje dane. Twój szacowany zwrot.",
       "disclaimer": "Szacunki planistyczne są odrębne od ROI. Pomiar zwrotu opiera się tylko na uznanych wynikach i porównywalnych zapisanych kosztach.",
       "inputs": [],
       "metrics": [],
@@ -788,19 +788,19 @@
         "copy": {
           "navLabel": "Ceny",
           "heading": "Ceny i ROI",
-          "intro": "Prosty szacunek na podstawie Twoich danych. Sprawdź założenia, zanim porównasz zwrot z ceną.",
+          "intro": "Twoje dane. Twój szacowany zwrot.",
           "monthly": "Miesiąc",
           "weekly": "Tydz.",
           "daily": "Dzień",
-          "cost": "Koszt abonamentu apki",
-          "benefit": "Szacowana korzyść",
-          "net": "Szacunek netto",
+          "cost": "Płacisz",
+          "benefit": "Szacowany zwrot",
+          "net": "Zysk netto",
           "roi": "Szacowany ROI",
           "timeBenefit": "Szac. wartość czasu",
           "timeRoi": "ROI czasu",
           "timeBack": "Odzyskane godz.",
           "missing": "Wpisz swoje dane",
-          "noRatio": "Nie dotyczy",
+          "noRatio": "Not applicable",
           "method": "Sposób obliczania",
           "reset": "Resetuj",
           "audience": "Odbiorcy",
@@ -835,7 +835,7 @@
               },
               {
                 "id": "minutes_saved",
-                "label": "Zysk minut netto na jednostkę",
+                "label": "Zyskane minuty",
                 "help": "Twój szacunek po kontroli, akceptacji i poprawkach. Wartości ujemne oznaczają dodatkową pracę.",
                 "defaultValue": null,
                 "min": -1440,
@@ -845,7 +845,7 @@
               },
               {
                 "id": "hourly_value",
-                "label": "Wartość godziny Twojej pracy",
+                "label": "Wartość godz.",
                 "help": "Twoja opcjonalna wycena. To nie obietnica oszczędności pieniężnych ani redukcji płac.",
                 "defaultValue": null,
                 "min": 0,
@@ -889,7 +889,7 @@
               },
               {
                 "id": "minutes_saved",
-                "label": "Zysk minut netto na jednostkę",
+                "label": "Zyskane minuty",
                 "help": "Twój szacunek po kontroli, akceptacji i poprawkach. Wartości ujemne oznaczają dodatkową pracę.",
                 "defaultValue": null,
                 "min": -1440,
@@ -899,7 +899,7 @@
               },
               {
                 "id": "hourly_value",
-                "label": "Wartość godziny Twojej pracy",
+                "label": "Wartość godz.",
                 "help": "Twoja opcjonalna wycena. To nie obietnica oszczędności pieniężnych ani redukcji płac.",
                 "defaultValue": null,
                 "min": 0,
@@ -4909,7 +4909,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "204e88b73e5035504d93c66c8c3069e3fbe99a5c804de46d1cfeb7c99906e917"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -4947,7 +4947,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "204e88b73e5035504d93c66c8c3069e3fbe99a5c804de46d1cfeb7c99906e917"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -4987,7 +4987,7 @@
         "copy",
         "cost"
       ],
-      "sourceHash": "6b00164d12b12257462cb8db4599181d06f68c53fdd1d7694534c6c31c6f14ce"
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
     },
     {
       "path": [
@@ -4997,7 +4997,7 @@
         "copy",
         "benefit"
       ],
-      "sourceHash": "403f4e0ea0a868858b6325692307e2502762c35a692ecd0422e246c8336fe797"
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
     },
     {
       "path": [
@@ -5007,7 +5007,7 @@
         "copy",
         "net"
       ],
-      "sourceHash": "314d1b6ed53e4420d1dc2abe427dcf45bee388dac89975afd7b4417b1495f830"
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
     },
     {
       "path": [
@@ -5257,7 +5257,7 @@
         1,
         "label"
       ],
-      "sourceHash": "c5e3629b523dde7916cd537091bba205d75b6696b6d8e4584016df627442b58e"
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
     },
     {
       "path": [
@@ -5283,7 +5283,7 @@
         2,
         "label"
       ],
-      "sourceHash": "84a1a4780f9b2b77ea5bb2f654a8acf9bfb4a5e792168e98017bbb3b2ca208f6"
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
     },
     {
       "path": [
@@ -5428,7 +5428,7 @@
         1,
         "label"
       ],
-      "sourceHash": "c5e3629b523dde7916cd537091bba205d75b6696b6d8e4584016df627442b58e"
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
     },
     {
       "path": [
@@ -5454,7 +5454,7 @@
         2,
         "label"
       ],
-      "sourceHash": "84a1a4780f9b2b77ea5bb2f654a8acf9bfb4a5e792168e98017bbb3b2ca208f6"
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
     },
     {
       "path": [
@@ -5552,5 +5552,5 @@
       "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-13T12:15:17.441Z"
+  "generatedAt": "2026-10-13T14:19:37.591Z"
 }

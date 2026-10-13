@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "he",
   "regionKey": null,
-  "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
+  "sourceRevision": "3cdabc658219d031269907640657a1dfb38068fbd2f759527117fdc87d9b6316",
   "landingPage": {
     "design": {
       "variant": "community-connections",
@@ -80,7 +80,7 @@
       "inputPlaceholder": "ספרו ל־Mirav על רעיון לפעילות…",
       "suggestedPrompts": [
         "תכנון פעילות",
-        "מציאת פעילויות"
+        "חיפוש פעילויות"
       ]
     },
     "profileModeSocialImages": {
@@ -178,7 +178,7 @@
         "aQuestionAboutAnActivity": "שאלה על פעילות?",
         "aLittleIdeaForSaturday": "רעיון קטן לשבת?",
         "askMirav": "שאלו Mirav",
-        "you": "אתם",
+        "you": "לך",
         "previewActivity": "תצוגת פעילות",
         "yourSchoolActivityPlan": "תוכנית הפעילות של בית הספר",
         "exploreWithMiravInYourCircle": "גלו עם Mirav · במעגל שלכם",
@@ -243,7 +243,7 @@
         "inviteAnotherParentToCoHost": "הזמינו הורה נוסף לארח יחד",
         "showActivityMapInPreview": "הצגת מפת פעילות בתצוגה מקדימה",
         "activities": "פעילויות",
-        "explore": "לגלות",
+        "explore": "לַחקוֹר",
         "saved": "שמורים",
         "showSchoolActivityInPreview": "הציגו פעילות בית ספר בתצוגה מקדימה",
         "reviewANewActivityInPreview": "בדקו פעילות חדשה בתצוגה המקדימה",
@@ -271,7 +271,7 @@
         "miravProgrammeSuggestion": "הצעת התוכנית של Mirav",
         "teachersShapeTheFinalActivity": "המורים מעצבים את הפעילות הסופית.",
         "thisWeekTogether": "השבוע, ביחד",
-        "teacherReview": "בדיקת מורה",
+        "teacherReview": "ביקורת מורה",
         "years34Years56": "כיתות 3–4 + כיתות 5–6",
         "years56Years78": "כיתות 5–6 + כיתות 7–8",
         "mixedSchoolGroups": "קבוצות ביה״ס מעורבות",
@@ -343,8 +343,8 @@
         "weLlReviewTheBriefAndFollowUp": "נבחן את התקציר וניצור קשר באמצעות הפרטים שסיפקתם.",
         "createAnotherBrief": "יצירת תקציר נוסף",
         "aLittleAboutYourSchool": "קצת על בית הספר שלכם",
-        "yourName": "השם שלכם",
-        "yourRole": "התפקיד שלכם",
+        "yourName": "שמך",
+        "yourRole": "התפקיד שלך",
         "schoolName": "שם בית הספר",
         "officialSchoolWebsite": "האתר הרשמי של בית הספר",
         "cityAndCountry": "עיר ומדינה",
@@ -356,25 +356,25 @@
         "themes": "נושאים ·",
         "groupsToDiscuss": "קבוצות לדיון",
         "yourRequestCouldNotBeSentPleaseTry": "לא ניתן לשלוח את הבקשה. נסו שוב.",
-        "sending": "שולח…",
+        "sending": "שולח...",
         "registerMySchoolSolution": "רישום בקשת פתרון לבית הספר",
         "useAdultContactDetailsOnlyWeLlUse": "הזינו פרטי קשר של מבוגרים בלבד. נשתמש בהם כדי להשיב לבקשת הפתרון לבית הספר.",
         "planActivity": "תכנון פעילות",
-        "findActivities": "מציאת פעילויות",
+        "findActivities": "חיפוש פעילויות",
         "adjustActivity": "התאמת תוכנית",
         "activityMarket": "מדינה / שוק",
         "activityVenue": "בחרו מקום מפגש ציבורי",
-        "activityVenueSearch": "חפשו את המקום בתוך המעגל ששמרתם",
-        "activityUseVenue": "בחירת מקום המפגש הזה",
-        "activitySaveArea": "שמירת האזור הזה לשוק הזה",
-        "activitySourceStatus": "מוכנות מקורות הפעילות",
-        "activityCompleteProfile": "השלימו פרופיל ושמרו אזור כדי להמשיך",
+        "activityVenueSearch": "חפשו את המקום בתוך המעגל השמור שלכם",
+        "activityUseVenue": "בחירה במקום מפגש זה",
+        "activitySaveArea": "שמירת אזור זה לשוק זה",
+        "activitySourceStatus": "מוכנות מקורות הפעילויות",
+        "activityCompleteProfile": "השלימו את הפרופיל ושמרו אזור כדי להמשיך",
         "activityParentCheckIn": "לאחר הפעילות",
-        "activityAttendedTogether": "המשפחה שלנו פגשה את המשפחות האחרות",
+        "activityAttendedTogether": "משפחתנו פגשה את המשפחות האחרות",
         "activityChildrenPlayed": "הילדים שיחקו יחד",
         "activityWorkshopDelivered": "הסדנה הבית־ספרית התקיימה",
         "activityGroupsParticipated": "קבוצות שהשתתפו",
-        "activityFamilyParticipants": "מבוגרים וילדים מהמשפחה שלי שנכחו",
+        "activityFamilyParticipants": "מבוגרים וילדים ממשפחתי שנכחו",
         "activityFirstMeeting": "זה היה המפגש הראשון שלנו דרך Mirav",
         "activityWithoutMirav": "האם המפגש היה מתקיים ללא Mirav?",
         "activityYes": "כן",
@@ -386,28 +386,28 @@
         "activityCompletedMeetups": "מפגשי משפחות שאושרו בידי הורים",
         "activityCompletedWorkshops": "סדנאות בית־ספריות שהושלמו",
         "activityOutcomeCoverage": "כיסוי התוצאות",
-        "activityCompletionRate": "שיעור השלמה מאומת",
-        "activityUnknownOutcomes": "תוצאות לא מאומתות",
-        "activityCostUnknown": "נתוני העלות חלקיים; ROI כספי אינו ידוע.",
-        "activityReportNotice": "אלו דיווחי מבוגרים, ולא מעקב מיקום או אימות פיזי בלתי תלוי.",
-        "activityRefresh": "רענון מקורות הפעילות",
-        "activitySourcesNeedConnection": "חלק מהמקורות דורשים חיבור או בדיקת מקור. אין תוצאות מומצאות.",
-        "activitySaveSignals": "שמירת העדפות Signal שלי",
+        "activityCompletionRate": "שיעור השלמה מאושרת",
+        "activityUnknownOutcomes": "תוצאות שלא אושרו",
+        "activityCostUnknown": "כיסוי העלויות חלקי; ה־ROI הכספי אינו ידוע.",
+        "activityReportNotice": "אלה דיווחי מבוגרים, לא מעקב מיקום או אימות פיזי בלתי תלוי.",
+        "activityRefresh": "רענון מקורות הפעילויות",
+        "activitySourcesNeedConnection": "חלק מהמקורות דורשים חיבור או בדיקת מקור. אין המצאת תוצאות.",
+        "activitySaveSignals": "שמירת העדפות האיתותים שלי",
         "activitySignals": "איתותי פעילות",
-        "activitySignalReview": "האיתותים מכינים הצעות. כל פרסום, הזמנה או שינוי עוברים לבדיקה שלכם.",
-        "activitySourceExternal": "פעילות חיצונית — ללא כרטיס או הזמנה אצל הספק",
-        "activityStartsAt": "מתחיל ב־(זמן מקומי במכשיר)",
-        "activityEndsAt": "מסתיים ב־(זמן מקומי במכשיר)",
-        "activityVenueNotSelected": "בחרו את המקום הציבורי במפה לפני הפרסום",
+        "activitySignalReview": "האיתותים מכינים הצעות. אתם בודקים כל פרסום, הזמנה או שינוי.",
+        "activitySourceExternal": "פעילות חיצונית — ללא כרטיס או הזמנה אצל ספק",
+        "activityStartsAt": "התחלה (זמן מקומי במכשיר)",
+        "activityEndsAt": "סיום (זמן מקומי במכשיר)",
+        "activityVenueNotSelected": "בחרו מקום ציבורי במפה לפני הפרסום",
         "activityPlaces": "מקומות למשפחות",
         "activitySchoolGroup": "קבוצת בית ספר",
         "activityJoin": "הצטרפות או בקשת השתתפות",
         "activityNoResults": "אין פעילות מתאימה באזור השמור הזה. צרו תוכנית עם Mirav.",
-        "activityProposalOnly": "מורה או איש צוות בית הספר חייבים לפרסם את ההצעה הזו.",
+        "activityProposalOnly": "מורה או איש צוות מבית הספר חייבים לפרסם הצעה זו.",
         "activityPrivatePreferences": "שיתוף העדפות פעילות עם משפחות קרובות שהסכימו לכך",
         "activityInterests": "תחומי עניין, מופרדים בפסיקים",
-        "activityAvailableFrom": "זמינים החל מ־",
-        "activityAvailableUntil": "זמינים עד",
+        "activityAvailableFrom": "זמינות החל מ־",
+        "activityAvailableUntil": "זמינות עד",
         "activityRepeatWanted": "הצעת פעילות נוספת לאחר מפגש מוצלח"
       },
       "media": {
@@ -768,7 +768,7 @@
         },
         "copy": {
           "heading": "נתוני בסיס לארגון (רשות)",
-          "disclaimer": "העלויות כוללות עבודה שלא צלחה. אי־התאמות במטבע ונתוני עלות או מאמץ חסרים נותרים לא ידועים. ערך הזמן הוא אומדן, לא כסף שהתקבל."
+          "disclaimer": "העלויות כוללות עבודה שלא צלחה. פערי מטבע וכיסוי חסר של עלויות או מאמץ נותרים לא ידועים. ערך הזמן הוא אומדן, לא כסף שהתקבל."
         }
       }
     },
@@ -777,56 +777,56 @@
       "methodologyVersion": 2,
       "enabled": true,
       "currency": "EUR",
-      "heading": "מחירים ו־ROI",
-      "subheading": "אומדן פשוט לפי הנתונים שלכם. בדקו את ההנחות לפני השוואת התשואה למחיר.",
-      "disclaimer": "אומדני תכנון נפרדים מ־ROI מדוד. רק תוצאות שהתקבלו ועלויות מתועדות בנות השוואה תומכות בתשואה מדודה.",
+      "heading": "תמחור ו־ROI",
+      "subheading": "הנתונים שלך. התשואה המשוערת שלך.",
+      "disclaimer": "אומדני תכנון נפרדים מ־ROI מדוד. רק תוצאות שאושרו ועלויות מתועדות בנות השוואה מבססות תשואה מדודה.",
       "inputs": [],
       "metrics": [],
       "compact": {
         "schemaVersion": 1,
         "defaultProfileId": "neighborhood",
         "copy": {
-          "navLabel": "מחירים",
-          "heading": "מחירים ו־ROI",
-          "intro": "אומדן פשוט לפי הנתונים שלכם. בדקו את ההנחות לפני השוואת התשואה למחיר.",
+          "navLabel": "תמחור",
+          "heading": "תמחור ו־ROI",
+          "intro": "הנתונים שלך. התשואה המשוערת שלך.",
           "monthly": "חודש",
           "weekly": "שבוע",
           "daily": "יום",
-          "cost": "עלות המנוי לאפליקציה",
-          "benefit": "תועלת משוערת",
-          "net": "אומדן נטו",
+          "cost": "משלמים",
+          "benefit": "תשואה משוערת",
+          "net": "רווח נקי",
           "roi": "ROI משוער",
           "timeBenefit": "ערך זמן משוער",
           "timeRoi": "ROI של ערך הזמן",
           "timeBack": "שעות שהתפנו",
           "missing": "הזינו נתונים",
-          "noRatio": "לא רלוונטי",
-          "method": "איך זה מחושב",
+          "noRatio": "Not applicable",
+          "method": "איך מחשבים",
           "reset": "איפוס",
-          "audience": "קהל יעד",
+          "audience": "קהל",
           "includedVat": "כולל VAT",
           "excludedVat": "ללא VAT",
           "perMonth": "לחודש",
-          "equivalents": "חיוב חודשי. הנתונים ליום ולשבוע הם ממוצעים, לא חיובים יומיים או שבועיים או תשואות מובטחות.",
-          "timeNote": "ערך הזמן הוא אומדן לבחירתכם, לא כסף שהתקבל או הפחתת שכר. הדקות נטו כוללות את זמן הבדיקה והאישור שלכם.",
-          "estimateNote": "אומדני תכנון נפרדים מ־ROI מדוד. רק תוצאות שהתקבלו ועלויות מתועדות בנות השוואה תומכות בתשואה מדודה.",
-          "limitNote": "לשימוש נוסף או עבודה בתמחור נפרד, צרו קשר. האומדן מכסה רק את החבילה הכלולה.",
-          "timeFormula": "ערך זמן = יחידות × דקות נטו שנחסכו ÷ 60 × ערך השעה שלכם.",
-          "profitFormula": "רווח תרומה = מפגשי המלצות זכאים × שיפור בהמרה ÷ 100 × רווח להזמנה נוספת.",
-          "proceedsFormula": "תקבולים נוספים = אצוות או איסופים × (תקבולים נטו אחרי − תקבולים נטו לפני).",
-          "roiFormula": "נטו = תועלת − עלות מנוי לאפליקציה. ROI = נטו ÷ עלות מנוי לאפליקציה × 100. לחבילות חינם אין אחוז ROI."
+          "equivalents": "החיוב חודשי. הנתונים ליום ולשבוע הם ממוצעים, ולא חיובים יומיים או שבועיים או תשואה מובטחת.",
+          "timeNote": "ערך הזמן הוא אומדן רשות שלכם, לא כסף שהתקבל או הפחתת שכר. הדקות נטו כוללות את זמן הבדיקה והאישור שלכם.",
+          "estimateNote": "אומדני תכנון נפרדים מ־ROI מדוד. רק תוצאות שאושרו ועלויות מתועדות בנות השוואה מבססות תשואה מדודה.",
+          "limitNote": "לשימוש נוסף או לעבודה בתמחור נפרד, צרו קשר. האומדן מכסה רק את הכלול במסלול.",
+          "timeFormula": "ערך זמן = יחידות × דקות שנחסכו נטו ÷ 60 × ערך שעה שלכם.",
+          "profitFormula": "רווח תרומה = מפגשי המלצה זכאים × שיפור בהמרה ÷ 100 × רווח להזמנה נוספת.",
+          "proceedsFormula": "תוספת תקבולים = אצוות או איסופים × (תקבולים נטו אחרי − תקבולים נטו לפני).",
+          "roiFormula": "נטו = תועלת − עלות המינוי ליישום. ROI = נטו ÷ עלות המינוי ליישום × 100. במסלולים חינמיים אין אחוז ROI."
         },
         "profiles": [
           {
             "id": "neighborhood",
-            "label": "מארגן · לקבוצה",
+            "label": "מארגן · לכל קבוצה",
             "model": "time_value",
             "unitsPerWorkload": 1,
             "inputs": [
               {
                 "id": "units",
-                "label": "תוכניות מפגש לחודש",
-                "help": "עבודה שבכוונתכם לבדוק בחודש אחד, במסגרת המכסה הכלולה.",
+                "label": "תוכניות למפגשים בחודש",
+                "help": "העבודה שבכוונתכם לבדוק בחודש, במסגרת המכסה הכלולה.",
                 "defaultValue": 10,
                 "min": 0,
                 "max": 10,
@@ -835,7 +835,7 @@
               },
               {
                 "id": "minutes_saved",
-                "label": "דקות נטו שנחסכו ליחידה",
+                "label": "דקות שנחסכו",
                 "help": "האומדן שלכם לאחר בדיקה, אישור ותיקונים. ערכים שליליים משמעם מאמץ נוסף.",
                 "defaultValue": null,
                 "min": -1440,
@@ -845,8 +845,8 @@
               },
               {
                 "id": "hourly_value",
-                "label": "ערך שעת העבודה שלכם",
-                "help": "הערכה אישית לבחירתכם. אין כאן הבטחה לחיסכון כספי או להפחתת שכר.",
+                "label": "ערך לשעה",
+                "help": "הערכת שווי שלכם, לבחירתכם. אין זו הבטחה לחיסכון כספי או להפחתת שכר.",
                 "defaultValue": null,
                 "min": 0,
                 "max": 1000,
@@ -857,30 +857,30 @@
             "offer": {
               "monthlyPrice": 19,
               "basis": "fixed",
-              "unit": "מארגן · לקבוצה",
+              "unit": "מארגן · לכל קבוצה",
               "vatIncluded": false,
               "includedUnits": 10,
               "allowance": "10 תוכניות / 30 משתתפים",
-              "extras": "ההשתתפות חינם. המארגן משלם לכל קבוצה; עבודה מותאמת לבתי ספר מתומחרת בנפרד."
+              "extras": "ההשתתפות בחינם. המארגן משלם לכל קבוצה; עבודה מותאמת לבית הספר מתומחרת בנפרד."
             },
             "assumptions": [
-              "לא מניחים חיסכון בזמן נטו. הזינו אומדן משלכם.",
-              "הדקות נטו כוללות בדיקת לקוח. אתם קובעים את ערך הזמן הכספי; הוא אינו כסף שהתקבל."
+              "אין הנחה של חיסכון בזמן נטו. הזינו אומדן משלכם.",
+              "הדקות נטו כוללות בדיקת לקוח. אתם קובעים את הערך הכספי של הזמן; אין מדובר בכסף שהתקבל."
             ],
-            "loop": "פעילות מתאימה או זמינות משותפת → מציאת/יצירת/התאמת מפגש → אישור מבוגרים → ההורים מאשרים שהמשפחות נפגשו והילדים שיחקו.",
-            "ctaLabel": "נסו את ההדגמה",
+            "loop": "פעילות מתאימה או זמינות משותפת → מציאת/יצירת/התאמת מפגש → המבוגרים מאשרים → ההורים מאשרים שהמשפחות נפגשו והילדים שיחקו.",
+            "ctaLabel": "נסו הדגמה",
             "ctaTarget": "mirav-home"
           },
           {
             "id": "schools",
-            "label": "מארגן בית־ספרי · לקבוצה",
+            "label": "מארגן בית־ספרי · לכל קבוצה",
             "model": "time_value",
             "unitsPerWorkload": 1,
             "inputs": [
               {
                 "id": "units",
-                "label": "תוכניות סדנה לחודש",
-                "help": "עבודה שבכוונתכם לבדוק בחודש אחד, במסגרת המכסה הכלולה.",
+                "label": "תוכניות לסדנאות בחודש",
+                "help": "העבודה שבכוונתכם לבדוק בחודש, במסגרת המכסה הכלולה.",
                 "defaultValue": 10,
                 "min": 0,
                 "max": 10,
@@ -889,7 +889,7 @@
               },
               {
                 "id": "minutes_saved",
-                "label": "דקות נטו שנחסכו ליחידה",
+                "label": "דקות שנחסכו",
                 "help": "האומדן שלכם לאחר בדיקה, אישור ותיקונים. ערכים שליליים משמעם מאמץ נוסף.",
                 "defaultValue": null,
                 "min": -1440,
@@ -899,8 +899,8 @@
               },
               {
                 "id": "hourly_value",
-                "label": "ערך שעת העבודה שלכם",
-                "help": "הערכה אישית לבחירתכם. אין כאן הבטחה לחיסכון כספי או להפחתת שכר.",
+                "label": "ערך לשעה",
+                "help": "הערכת שווי שלכם, לבחירתכם. אין זו הבטחה לחיסכון כספי או להפחתת שכר.",
                 "defaultValue": null,
                 "min": 0,
                 "max": 1000,
@@ -911,18 +911,18 @@
             "offer": {
               "monthlyPrice": 19,
               "basis": "fixed",
-              "unit": "מארגן בית־ספרי · לקבוצה",
+              "unit": "מארגן בית־ספרי · לכל קבוצה",
               "vatIncluded": false,
               "includedUnits": 10,
               "allowance": "10 תוכניות / 30 משתתפים",
-              "extras": "ההשתתפות חינם. שירותים ייעודיים לבתי ספר מתומחרים בנפרד."
+              "extras": "ההשתתפות בחינם. שירותים ייעודיים לבית הספר מתומחרים בנפרד."
             },
             "assumptions": [
-              "לא מניחים חיסכון בזמן נטו. הזינו אומדן משלכם.",
-              "הדקות נטו כוללות בדיקת לקוח. אתם קובעים את ערך הזמן הכספי; הוא אינו כסף שהתקבל."
+              "אין הנחה של חיסכון בזמן נטו. הזינו אומדן משלכם.",
+              "הדקות נטו כוללות בדיקת לקוח. אתם קובעים את הערך הכספי של הזמן; אין מדובר בכסף שהתקבל."
             ],
-            "loop": "צורך בפעילות בית־ספרית → הכנת סדנה → אישור בית הספר והמבוגרים → תיעוד קיום הסדנה והשתתפות שאושרה בידי מבוגרים.",
-            "ctaLabel": "נסו את ההדגמה",
+            "loop": "צורך בפעילות בית־ספרית → הכנת סדנה → בית הספר והמבוגרים מאשרים → תיעוד קיום הסדנה וההשתתפות שאושרה בידי מבוגרים.",
+            "ctaLabel": "נסו הדגמה",
             "ctaTarget": "mirav-home"
           }
         ]
@@ -4909,7 +4909,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "204e88b73e5035504d93c66c8c3069e3fbe99a5c804de46d1cfeb7c99906e917"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -4947,7 +4947,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "204e88b73e5035504d93c66c8c3069e3fbe99a5c804de46d1cfeb7c99906e917"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -4987,7 +4987,7 @@
         "copy",
         "cost"
       ],
-      "sourceHash": "6b00164d12b12257462cb8db4599181d06f68c53fdd1d7694534c6c31c6f14ce"
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
     },
     {
       "path": [
@@ -4997,7 +4997,7 @@
         "copy",
         "benefit"
       ],
-      "sourceHash": "403f4e0ea0a868858b6325692307e2502762c35a692ecd0422e246c8336fe797"
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
     },
     {
       "path": [
@@ -5007,7 +5007,7 @@
         "copy",
         "net"
       ],
-      "sourceHash": "314d1b6ed53e4420d1dc2abe427dcf45bee388dac89975afd7b4417b1495f830"
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
     },
     {
       "path": [
@@ -5257,7 +5257,7 @@
         1,
         "label"
       ],
-      "sourceHash": "c5e3629b523dde7916cd537091bba205d75b6696b6d8e4584016df627442b58e"
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
     },
     {
       "path": [
@@ -5283,7 +5283,7 @@
         2,
         "label"
       ],
-      "sourceHash": "84a1a4780f9b2b77ea5bb2f654a8acf9bfb4a5e792168e98017bbb3b2ca208f6"
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
     },
     {
       "path": [
@@ -5428,7 +5428,7 @@
         1,
         "label"
       ],
-      "sourceHash": "c5e3629b523dde7916cd537091bba205d75b6696b6d8e4584016df627442b58e"
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
     },
     {
       "path": [
@@ -5454,7 +5454,7 @@
         2,
         "label"
       ],
-      "sourceHash": "84a1a4780f9b2b77ea5bb2f654a8acf9bfb4a5e792168e98017bbb3b2ca208f6"
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
     },
     {
       "path": [
@@ -5552,5 +5552,5 @@
       "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-13T12:15:17.441Z"
+  "generatedAt": "2026-10-13T14:19:37.591Z"
 }
