@@ -74,12 +74,11 @@
       ]
     },
     "heroChat": {
-      "statusLabel": "A shared hello starts here",
-      "inputPlaceholder": "Say hello to Mirav…",
+      "statusLabel": "Online · parents review the plan",
+      "inputPlaceholder": "Tell Mirav your activity idea…",
       "suggestedPrompts": [
-        "Help me plan an activity for my kids",
-        "Find family activities inside my circle",
-        "Draft a school workshop programme"
+        "Plan an activity",
+        "Find activities"
       ]
     },
     "profileModeSocialImages": {
@@ -357,7 +356,57 @@
         "yourRequestCouldNotBeSentPleaseTry": "Your request could not be sent. Please try again.",
         "sending": "Sending…",
         "registerMySchoolSolution": "Register my school solution",
-        "useAdultContactDetailsOnlyWeLlUse": "Use adult contact details only. We’ll use them to respond to this school solution request."
+        "useAdultContactDetailsOnlyWeLlUse": "Use adult contact details only. We’ll use them to respond to this school solution request.",
+        "planActivity": "Plan an activity",
+        "findActivities": "Find activities",
+        "adjustActivity": "Adjust a plan",
+        "activityMarket": "Country / market",
+        "activityVenue": "Choose a public meeting place",
+        "activityVenueSearch": "Search the place inside your saved circle",
+        "activityUseVenue": "Use this meeting place",
+        "activitySaveArea": "Save this area for this market",
+        "activitySourceStatus": "Activity source readiness",
+        "activityCompleteProfile": "Complete your profile and save an area to continue",
+        "activityParentCheckIn": "After the activity",
+        "activityAttendedTogether": "Our family met the other families",
+        "activityChildrenPlayed": "The children played together",
+        "activityWorkshopDelivered": "The school workshop took place",
+        "activityGroupsParticipated": "Groups that participated",
+        "activityFamilyParticipants": "Adults and children from my family who attended",
+        "activityFirstMeeting": "This was our first meeting through Mirav",
+        "activityWithoutMirav": "Would this gathering have happened without Mirav?",
+        "activityYes": "Yes",
+        "activityNo": "No",
+        "activityUnknown": "Unknown",
+        "activitySaveReport": "Save my participation report",
+        "activityReportSaved": "Your report is saved. Other families report independently.",
+        "activityImpact": "Family Impact",
+        "activityCompletedMeetups": "Parent-confirmed family meetups",
+        "activityCompletedWorkshops": "Completed school workshops",
+        "activityOutcomeCoverage": "Outcome coverage",
+        "activityCompletionRate": "Confirmed completion rate",
+        "activityUnknownOutcomes": "Unconfirmed outcomes",
+        "activityCostUnknown": "Cost coverage is incomplete; financial ROI is unknown.",
+        "activityReportNotice": "These are adult reports, not location tracking or independent physical verification.",
+        "activityRefresh": "Refresh activity sources",
+        "activitySourcesNeedConnection": "Some sources need a connection or source review. No results are invented.",
+        "activitySaveSignals": "Save my Signal preferences",
+        "activitySignals": "Activity Signals",
+        "activitySignalReview": "Signals prepare suggestions. You review any publication, invitation or change.",
+        "activitySourceExternal": "External activity — no ticket or provider booking",
+        "activityStartsAt": "Starts at (local device time)",
+        "activityEndsAt": "Ends at (local device time)",
+        "activityVenueNotSelected": "Choose the public place on the map before publishing",
+        "activityPlaces": "Family places",
+        "activitySchoolGroup": "School group",
+        "activityJoin": "Join or request participation",
+        "activityNoResults": "No matching activity in this saved area. Create a plan with Mirav.",
+        "activityProposalOnly": "A teacher or school staff member must publish this proposal.",
+        "activityPrivatePreferences": "Share activity preferences with consenting nearby families",
+        "activityInterests": "Interests, separated by commas",
+        "activityAvailableFrom": "Available from",
+        "activityAvailableUntil": "Available until",
+        "activityRepeatWanted": "Suggest another activity after a successful gathering"
       },
       "media": {
         "portraitImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-portrait-v2.png",
@@ -626,13 +675,13 @@
       },
       "actions": {
         "neighborhoodPlan": {
-          "command": "Help me draft an activity for my kids and nearby families. Ask about ages, interests, a public place, and timing so I can review the plan before creating it."
+          "command": "/plan-activity"
         },
         "neighborhoodFind": {
-          "command": "Help me find activities for my kids and other parents inside my saved circle. Ask about our ages, interests, and availability before suggesting a connection."
+          "command": "/plan-activity find"
         },
         "schoolPlan": {
-          "command": "Help me draft a school workshop programme for teachers, local providers and parents to review."
+          "command": "/plan-activity"
         },
         "schoolProgramme": {
           "command": "Help me draft a school workshop programme. Themes: %themes%. Groups: %groups%. Suggest age-appropriate learning goals, a combined activity, provider requirements, supervision, and a clear parent summary. This is a plan for school review, not a booking or approval."
@@ -707,7 +756,180 @@
           "id": "parent-contribution",
           "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/financiering-onderwijs/is-de-vrijwillige-ouderbijdrage-op-de-basisschool-en-middelbare-school-verplicht"
         }
-      ]
+      ],
+      "activityCalculator": {
+        "schemaVersion": 1,
+        "currency": "EUR",
+        "defaults": {
+          "minutes": null,
+          "hourlyValue": null
+        },
+        "copy": {
+          "heading": "Optional organizing baseline",
+          "disclaimer": "Costs include unsuccessful work. Currency mismatches and missing cost or effort coverage remain unknown. Time value is an estimate, not cash received."
+        }
+      }
+    },
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "plan-activity",
+      "presentation": "surface"
+    },
+    "demoConversation": [],
+    "roiCalculator": {
+      "methodologyVersion": 2,
+      "enabled": true,
+      "currency": "EUR",
+      "heading": "Pricing & ROI",
+      "subheading": "A simple estimate from your inputs. Review the assumptions before comparing the return with the price.",
+      "disclaimer": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
+      "inputs": [],
+      "metrics": [],
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "neighborhood",
+        "copy": {
+          "navLabel": "Pricing",
+          "heading": "Pricing & ROI",
+          "intro": "A simple estimate from your inputs. Review the assumptions before comparing the return with the price.",
+          "monthly": "Month",
+          "weekly": "Week",
+          "daily": "Day",
+          "cost": "App subscription cost",
+          "benefit": "Estimated benefit",
+          "net": "Net estimate",
+          "roi": "Estimated ROI",
+          "timeBenefit": "Estimated time value",
+          "timeRoi": "Time-value ROI",
+          "timeBack": "Hours returned",
+          "missing": "Add your inputs",
+          "noRatio": "Not applicable",
+          "method": "How it’s calculated",
+          "reset": "Reset",
+          "audience": "Audience",
+          "includedVat": "Including VAT",
+          "excludedVat": "Excluding VAT",
+          "perMonth": "per month",
+          "equivalents": "Billed monthly. Day and week figures are averages, not daily or weekly charges or guaranteed returns.",
+          "timeNote": "Time value is your optional estimate, not cash received or a payroll reduction. Net minutes include your checking and approval time.",
+          "estimateNote": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
+          "limitNote": "For more usage or separately quoted work, contact us. This estimate covers the included plan only.",
+          "timeFormula": "Time value = units × net minutes saved ÷ 60 × your hourly value.",
+          "profitFormula": "Contribution profit = eligible recommendation sessions × conversion uplift ÷ 100 × profit per additional order.",
+          "proceedsFormula": "Incremental proceeds = lots or pickups × (net proceeds afterward − net proceeds beforehand).",
+          "roiFormula": "Net = benefit − app subscription cost. ROI = net ÷ app subscription cost × 100. Free plans have no ROI percentage."
+        },
+        "profiles": [
+          {
+            "id": "neighborhood",
+            "label": "Organizer · per group",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Gathering plans per month",
+                "help": "Work you expect to review in one month, within the included allowance.",
+                "defaultValue": 10,
+                "min": 0,
+                "max": 10,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Net minutes saved per unit",
+                "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                "defaultValue": null,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Your hourly capacity value",
+                "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 19,
+              "basis": "fixed",
+              "unit": "Organizer · per group",
+              "vatIncluded": false,
+              "includedUnits": 10,
+              "allowance": "10 plans / 30 participants",
+              "extras": "Participation is free. The organizer pays per group; bespoke school work is separately quoted."
+            },
+            "assumptions": [
+              "No net time saving is assumed. Enter your own estimate.",
+              "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+            ],
+            "loop": "Suitable activity or shared availability → find/create/adjust a gathering → adults approve → parents confirm that families met and children played.",
+            "ctaLabel": "Try the demo",
+            "ctaTarget": "mirav-home"
+          },
+          {
+            "id": "schools",
+            "label": "School organizer · per group",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Workshop plans per month",
+                "help": "Work you expect to review in one month, within the included allowance.",
+                "defaultValue": 10,
+                "min": 0,
+                "max": 10,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Net minutes saved per unit",
+                "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                "defaultValue": null,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Your hourly capacity value",
+                "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 19,
+              "basis": "fixed",
+              "unit": "School organizer · per group",
+              "vatIncluded": false,
+              "includedUnits": 10,
+              "allowance": "10 plans / 30 participants",
+              "extras": "Participation is free. Dedicated school services are separately quoted."
+            },
+            "assumptions": [
+              "No net time saving is assumed. Enter your own estimate.",
+              "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+            ],
+            "loop": "School activity need → prepare a workshop → school and adults approve → record the workshop occurrence and adult-confirmed participation.",
+            "ctaLabel": "Try the demo",
+            "ctaTarget": "mirav-home"
+          }
+        ]
+      }
     },
     "localization": {
       "translation": {
@@ -719,298 +941,298 @@
           {
             "language": "es",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.es.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "de",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.de.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "ja",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.ja.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "fr",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.fr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "pt",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.pt.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "ru",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.ru.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "it",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.it.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "pl",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.pl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "tr",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.tr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "zh",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.zh.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "fa",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.fa.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "vi",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.vi.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "cs",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.cs.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "el",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.el.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "da",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.da.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "fi",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.fi.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "he",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.he.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "sk",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.sk.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "th",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.th.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "bg",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.bg.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "hr",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.hr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "nb",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.nb.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "lt",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.lt.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "sr",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.sr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "sl",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.sl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "ca",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.ca.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "et",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.et.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "no",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.no.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           },
           {
             "language": "lv",
             "regionKey": null,
-            "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+            "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
             "assetPath": "assets/landing-page.lv.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-12T10:44:57.443Z"
+            "generatedAt": "2026-10-13T12:15:17.441Z"
           }
         ]
       },

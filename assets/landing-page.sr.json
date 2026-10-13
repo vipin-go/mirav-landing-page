@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "sr",
   "regionKey": null,
-  "sourceRevision": "efd8bcc19a8a2d55ae13ac1599705a08217fe6246f97b2238e72312bd46edf82",
+  "sourceRevision": "022f662b98509bcbe657ba8e602d696fea370d29a285942d52da0f18336218fd",
   "landingPage": {
     "design": {
       "variant": "community-connections",
@@ -76,12 +76,11 @@
       ]
     },
     "heroChat": {
-      "statusLabel": "Овде почиње ваше упознавање",
-      "inputPlaceholder": "Поздравите Mirav…",
+      "statusLabel": "На мрежи · родитељи гледају план",
+      "inputPlaceholder": "Предложите Mirav активност…",
       "suggestedPrompts": [
-        "Помози ми да планирам активност за децу",
-        "Нађи породичне активности у мом кругу",
-        "Састави програм школских радионица"
+        "Планирај активност",
+        "Нађи активности"
       ]
     },
     "profileModeSocialImages": {
@@ -359,7 +358,57 @@
         "yourRequestCouldNotBeSentPleaseTry": "Захтев није послат. Покушајте поново.",
         "sending": "Слање…",
         "registerMySchoolSolution": "Пријави решење за моју школу",
-        "useAdultContactDetailsOnlyWeLlUse": "Наведите само контакте одраслих. Користићемо их за одговор на овај захтев за школско решење."
+        "useAdultContactDetailsOnlyWeLlUse": "Наведите само контакте одраслих. Користићемо их за одговор на овај захтев за школско решење.",
+        "planActivity": "Планирај активност",
+        "findActivities": "Нађи активности",
+        "adjustActivity": "Измени план",
+        "activityMarket": "Земља / тржиште",
+        "activityVenue": "Изаберите јавно место за сусрет",
+        "activityVenueSearch": "Тражите место у сачуваном кругу",
+        "activityUseVenue": "Сусрет на овом месту",
+        "activitySaveArea": "Сачувај област за ово тржиште",
+        "activitySourceStatus": "Спремност извора активности",
+        "activityCompleteProfile": "Попуните профил и сачувајте област за наставак",
+        "activityParentCheckIn": "После активности",
+        "activityAttendedTogether": "Наша породица упозна друге породице",
+        "activityChildrenPlayed": "Деца су се играла заједно",
+        "activityWorkshopDelivered": "Школска радионица је одржана",
+        "activityGroupsParticipated": "Групе које су учествовале",
+        "activityFamilyParticipants": "Присутни одрасли и деца из моје породице",
+        "activityFirstMeeting": "Ово је био наш први сусрет преко Mirav",
+        "activityWithoutMirav": "Да ли би се ово окупљање одржало без Mirav?",
+        "activityYes": "Да",
+        "activityNo": "Не",
+        "activityUnknown": "Непознато",
+        "activitySaveReport": "Сачувај мој извештај о учешћу",
+        "activityReportSaved": "Извештај је сачуван. Друге породице извештавају самостално.",
+        "activityImpact": "Утицај породице",
+        "activityCompletedMeetups": "Родитељи потврђују сусрет породица",
+        "activityCompletedWorkshops": "Одржане школске радионице",
+        "activityOutcomeCoverage": "Обухват исхода",
+        "activityCompletionRate": "Удео потврђених завршетака",
+        "activityUnknownOutcomes": "Непотврђени исходи",
+        "activityCostUnknown": "Обухват трошкова је непотпун; финансијски ROI је непознат.",
+        "activityReportNotice": "Ово су извештаји одраслих, не праћење локације или независна физичка провера.",
+        "activityRefresh": "Освежи изворе активности",
+        "activitySourcesNeedConnection": "Неки извори траже повезивање или преглед. Резултати се не измишљају.",
+        "activitySaveSignals": "Сачувај моје Signal поставке",
+        "activitySignals": "Сигнали активности",
+        "activitySignalReview": "Сигнали припремају предлоге. Ви прегледате сваку објаву, позив или измену.",
+        "activitySourceExternal": "Спољна активност — без карте и резервације услуге",
+        "activityStartsAt": "Почетак (локално време уређаја)",
+        "activityEndsAt": "Крај (локално време уређаја)",
+        "activityVenueNotSelected": "Пре објављивања изаберите јавно место на мапи",
+        "activityPlaces": "Породична места",
+        "activitySchoolGroup": "Школска група",
+        "activityJoin": "Придружи се или затражи учешће",
+        "activityNoResults": "Нема одговарајуће активности у сачуваној области. Планирајте уз Mirav.",
+        "activityProposalOnly": "Овај предлог мора објавити наставник или запослени у школи.",
+        "activityPrivatePreferences": "Делите жеље за активности са сагласним породицама у близини",
+        "activityInterests": "Интересовања одвојена зарезима",
+        "activityAvailableFrom": "Доступни од",
+        "activityAvailableUntil": "Доступни до",
+        "activityRepeatWanted": "Предложи другу активност након успешног окупљања"
       },
       "media": {
         "portraitImage": "https://raw.githubusercontent.com/vipin-go/mirav-landing-page/main/assets/media/mirav-portrait-v2.png",
@@ -628,13 +677,13 @@
       },
       "actions": {
         "neighborhoodPlan": {
-          "command": "Help me draft an activity for my kids and nearby families. Ask about ages, interests, a public place, and timing so I can review the plan before creating it."
+          "command": "/plan-activity"
         },
         "neighborhoodFind": {
-          "command": "Help me find activities for my kids and other parents inside my saved circle. Ask about our ages, interests, and availability before suggesting a connection."
+          "command": "/plan-activity find"
         },
         "schoolPlan": {
-          "command": "Help me draft a school workshop programme for teachers, local providers and parents to review."
+          "command": "/plan-activity"
         },
         "schoolProgramme": {
           "command": "Help me draft a school workshop programme. Themes: %themes%. Groups: %groups%. Suggest age-appropriate learning goals, a combined activity, provider requirements, supervision, and a clear parent summary. This is a plan for school review, not a booking or approval."
@@ -709,7 +758,175 @@
           "id": "parent-contribution",
           "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/financiering-onderwijs/is-de-vrijwillige-ouderbijdrage-op-de-basisschool-en-middelbare-school-verplicht"
         }
-      ]
+      ],
+      "activityCalculator": {
+        "schemaVersion": 1,
+        "currency": "EUR",
+        "defaults": {
+          "minutes": null,
+          "hourlyValue": null
+        },
+        "copy": {
+          "heading": "Необавезна основа организације",
+          "disclaimer": "Трошкови укључују неуспео рад. Неслагање валута и непотпун обухват трошкова или труда остају непознати. Вредност времена је процена, не примљен новац."
+        }
+      }
+    },
+    "demoConversation": [],
+    "roiCalculator": {
+      "methodologyVersion": 2,
+      "enabled": true,
+      "currency": "EUR",
+      "heading": "Цене и ROI",
+      "subheading": "Једноставна процена на основу ваших уноса. Проверите претпоставке пре поређења приноса и цене.",
+      "disclaimer": "Планске процене су одвојене од мереног ROI. Мерени принос заснива се само на прихваћеним исходима и упоредивим забележеним трошковима.",
+      "inputs": [],
+      "metrics": [],
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "neighborhood",
+        "copy": {
+          "navLabel": "Цене",
+          "heading": "Цене и ROI",
+          "intro": "Једноставна процена на основу ваших уноса. Проверите претпоставке пре поређења приноса и цене.",
+          "monthly": "Месец",
+          "weekly": "Недеља",
+          "daily": "Дан",
+          "cost": "Претплата на апликацију",
+          "benefit": "Процењена корист",
+          "net": "Нето процена",
+          "roi": "Процењени ROI",
+          "timeBenefit": "Процена цене времена",
+          "timeRoi": "Временски ROI",
+          "timeBack": "Враћени сати",
+          "missing": "Унесите податке",
+          "noRatio": "Није применљиво",
+          "method": "Како се израчунава",
+          "reset": "Ресетуј",
+          "audience": "Публика",
+          "includedVat": "Са VAT",
+          "excludedVat": "Без VAT",
+          "perMonth": "месечно",
+          "equivalents": "Месечна наплата. Дневни и недељни износи су просеци, не дневне или недељне накнаде ни гарантовани приноси.",
+          "timeNote": "Вредност времена је ваша необавезна процена, не примљен новац ни умањење плата. Нето минути укључују ваше време за проверу и одобрење.",
+          "estimateNote": "Планске процене су одвојене од мереног ROI. Мерени принос заснива се само на прихваћеним исходима и упоредивим забележеним трошковима.",
+          "limitNote": "За већу употребу или засебно понуђен рад јавите нам се. Процена покрива само укључени план.",
+          "timeFormula": "Вредност времена = јединице × нето уштеда минута ÷ 60 × ваша сатница.",
+          "profitFormula": "Допринос добити = подобне сесије препорука × раст конверзије ÷ 100 × добит по додатној поруџбини.",
+          "proceedsFormula": "Додатни приход = серије или преузимања × (нето приход после − нето приход пре).",
+          "roiFormula": "Нето = корист − претплата на апликацију. ROI = нето ÷ претплата × 100. Бесплатни планови немају ROI проценат."
+        },
+        "profiles": [
+          {
+            "id": "neighborhood",
+            "label": "Организатор · по групи",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Планови окупљања месечно",
+                "help": "Рад који очекујете да прегледате за месец дана, у оквиру укљученог лимита.",
+                "defaultValue": 10,
+                "min": 0,
+                "max": 10,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Нето уштеђени мин/јединици",
+                "help": "Ваша процена након провере, одобрења и дораде. Негативне вредности значе додатан труд.",
+                "defaultValue": null,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Вредност вашег радног сата",
+                "help": "Ваша необавезна процена. Ово није обећана новчана уштеда нити смањење плате.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 19,
+              "basis": "fixed",
+              "unit": "Организатор · по групи",
+              "vatIncluded": false,
+              "includedUnits": 10,
+              "allowance": "10 планова / 30 учесника",
+              "extras": "Учешће је бесплатно. Организатор плаћа по групи; прилагођен рад за школе се посебно уговара."
+            },
+            "assumptions": [
+              "Не рачуна се на нето уштеду времена. Унесите своју процену.",
+              "Нето минути укључују преглед клијента. Новчану вредност времена уносите ви; то није примљен новац."
+            ],
+            "loop": "Погодна активност или заједнички слободан термин → нађи/креирај/измени окупљање → одрасли одобре → родитељи потврде сусрет породица и игру деце.",
+            "ctaLabel": "Пробај демо",
+            "ctaTarget": "mirav-home"
+          },
+          {
+            "id": "schools",
+            "label": "Школски организатор · по групи",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Планови радионица месечно",
+                "help": "Рад који очекујете да прегледате за месец дана, у оквиру укљученог лимита.",
+                "defaultValue": 10,
+                "min": 0,
+                "max": 10,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Нето уштеђени мин/јединици",
+                "help": "Ваша процена након провере, одобрења и дораде. Негативне вредности значе додатан труд.",
+                "defaultValue": null,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Вредност вашег радног сата",
+                "help": "Ваша необавезна процена. Ово није обећана новчана уштеда нити смањење плате.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 19,
+              "basis": "fixed",
+              "unit": "Школски организатор · по групи",
+              "vatIncluded": false,
+              "includedUnits": 10,
+              "allowance": "10 планова / 30 учесника",
+              "extras": "Учешће је бесплатно. Наменске услуге за школе се посебно уговарају."
+            },
+            "assumptions": [
+              "Не рачуна се на нето уштеду времена. Унесите своју процену.",
+              "Нето минути укључују преглед клијента. Новчану вредност времена уносите ви; то није примљен новац."
+            ],
+            "loop": "Потреба за школском активношћу → припреми радионицу → школа и одрасли одобре → забележи одржавање радионице и учешће које су одрасли потврдили.",
+            "ctaLabel": "Пробај демо",
+            "ctaTarget": "mirav-home"
+          }
+        ]
+      }
     }
   },
   "translationIndex": [
@@ -887,7 +1104,7 @@
         "heroChat",
         "statusLabel"
       ],
-      "sourceHash": "4ec04fbd5aa9a3e1e3f93c4b1fae0b924a41c7d2b30a08b877db7cbdc71c7e5f"
+      "sourceHash": "fb118a484dee1f5b48b1579c0271471398f1cfdadffba08876bc3867c0b184b0"
     },
     {
       "path": [
@@ -895,7 +1112,7 @@
         "heroChat",
         "inputPlaceholder"
       ],
-      "sourceHash": "069e1c3040870d873fe6f028dc9aef09a018f466fe77260229990e4c2c0e604b"
+      "sourceHash": "040ee41358bba2b07673a9e9a598d056318ba5135376663bf16ed5d24edb2d2e"
     },
     {
       "path": [
@@ -904,7 +1121,7 @@
         "suggestedPrompts",
         0
       ],
-      "sourceHash": "6998ac5622dcc420b1d0b3338abce765d434730eb63724553e70cb6319e54e00"
+      "sourceHash": "88c027e1a1a743057987fa73af5c1e6646e3e1830f1a8e7b4b24196ced1871f4"
     },
     {
       "path": [
@@ -913,16 +1130,7 @@
         "suggestedPrompts",
         1
       ],
-      "sourceHash": "1ce23cb1d7c5e2ad80fcb075fb9fde0afba37ab297338a6ec188d4eedc1b20ff"
-    },
-    {
-      "path": [
-        "landingPage",
-        "heroChat",
-        "suggestedPrompts",
-        2
-      ],
-      "sourceHash": "b25f5c66e27fbaaba3494dd810fdabf87854c223d93677d9611612ba090d0cbe"
+      "sourceHash": "06cab1fe08de8ae40b9e1301d1f0b6d2d36c8a75912b43895d1fd8f5270ed4cd"
     },
     {
       "path": [
@@ -3245,6 +3453,456 @@
       "path": [
         "landingPage",
         "mirav",
+        "ui",
+        "planActivity"
+      ],
+      "sourceHash": "88c027e1a1a743057987fa73af5c1e6646e3e1830f1a8e7b4b24196ced1871f4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "findActivities"
+      ],
+      "sourceHash": "06cab1fe08de8ae40b9e1301d1f0b6d2d36c8a75912b43895d1fd8f5270ed4cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "adjustActivity"
+      ],
+      "sourceHash": "ecd6970c02693663ab0dcdca534164e9bdfb8e3cb36c6761fc7dcbd6458b69b6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityMarket"
+      ],
+      "sourceHash": "6e4cb276b83a4ba1641a4f4c18d13544d48a7d651fdd76e4640bb13c6eea00be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityVenue"
+      ],
+      "sourceHash": "4c0affce497eb36b6a248e3f889d43ed5e2d65f954a79b90f81ae9478bd4e5cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityVenueSearch"
+      ],
+      "sourceHash": "27a2ea1b7d780a67f5f54a8a816032306809664dfeffcb8d420095e0237f31f4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityUseVenue"
+      ],
+      "sourceHash": "9c757f4e2c58971366df2a70cf1322e1f3b0fed8ae1fe9c9bec7754857ada113"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activitySaveArea"
+      ],
+      "sourceHash": "67e16cc2bd707c39af7c8ddfe7fb8368b81d08a31428c345db7b903d8e0a00fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activitySourceStatus"
+      ],
+      "sourceHash": "63279e7392d9285872cb9c9a92fd04de005aad0d91fd3c83dc96721deb1cd614"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityCompleteProfile"
+      ],
+      "sourceHash": "0a0a9a9be179b9b02cdfd3fe8d19b2b22fd6d0648ca9da6f0f48ba111318c5a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityParentCheckIn"
+      ],
+      "sourceHash": "86a7305653cf2807fc2f6ddc352fab5eee3b80855742a8b2c4b7ce4dbf1ba12d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityAttendedTogether"
+      ],
+      "sourceHash": "8795751f0b108280addebde2b99abdae4a69f4cc75588cf1a8c216b0fbdc2da6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityChildrenPlayed"
+      ],
+      "sourceHash": "a38793e62ab67473f2d2c7483ba4ffd62d38539fe441e4b487730b6c0d343b21"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityWorkshopDelivered"
+      ],
+      "sourceHash": "26bf41a79f72fe2bc7cfdabfd6c5042780476abede215157dc8374106990ce94"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityGroupsParticipated"
+      ],
+      "sourceHash": "5363cf6f681dbd70fbd9fff8416cd24389c6d254ddfd17fbf897b90fbcb12952"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityFamilyParticipants"
+      ],
+      "sourceHash": "3a3ee09b04b118bbc90dea1954e867019fad2a40aa9fab498d95e24ed3f8a72a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityFirstMeeting"
+      ],
+      "sourceHash": "1a235a49a6ef959f4dde503e1458f99caafdcfc55aaac65b77970c2370c77b62"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityWithoutMirav"
+      ],
+      "sourceHash": "25ac149ace1e14c7a57cc9a3893046e3cb1f71bde603e357a2e5b385ed2cc68e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityYes"
+      ],
+      "sourceHash": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityNo"
+      ],
+      "sourceHash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityUnknown"
+      ],
+      "sourceHash": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activitySaveReport"
+      ],
+      "sourceHash": "31d87252a098359479b01fe6df085a4e285fb6fd130d6220b0fb3b96b66b58a1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityReportSaved"
+      ],
+      "sourceHash": "8da34d0754c42788c3ee63e235987b1eb31ad6a3c60e8e812d9b4168979163d9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityImpact"
+      ],
+      "sourceHash": "e9d69915e960584ac2373372307b73dce0aaeba432cef2df0826ac9701b730b5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityCompletedMeetups"
+      ],
+      "sourceHash": "869049c4110c66b8c19246ea637e660d67ab333f4469c179cd82d3d71f0f1ca0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityCompletedWorkshops"
+      ],
+      "sourceHash": "87631c4e41727ce6c66d7912cb8a633e8d898e5ae27d4282bf7418058160ab8f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityOutcomeCoverage"
+      ],
+      "sourceHash": "1b3bb209894d255d77cb134d059167ec3924aaff74489c0b9dfdbbdc0eedd89d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityCompletionRate"
+      ],
+      "sourceHash": "c6e5213dbb88091501e073740c49699ec198ec14d5ae916b857dd24c094ab412"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityUnknownOutcomes"
+      ],
+      "sourceHash": "47c9f3a58dc747304a778ff67ef525a508bba963ace36f619207f7b605b9c770"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityCostUnknown"
+      ],
+      "sourceHash": "6da1587cf07e2aaba311b0192f259099ab2c73898d00d02bde9bd1d17f676ef9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityReportNotice"
+      ],
+      "sourceHash": "bc3295864974f2c11692827b532fa5c7f5161e70e45a42c71f19af514aa11711"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityRefresh"
+      ],
+      "sourceHash": "030e3f06ba0dcc64e62d8e47ee17ae5e3479b2d1100409a433d8265e773bbe5a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activitySourcesNeedConnection"
+      ],
+      "sourceHash": "5a8a0b3cb4ffbc5a64fd84737238b948bb1477464972627086974f041ec1d22a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activitySaveSignals"
+      ],
+      "sourceHash": "714d543c882fb3635b6c7fc6c005799b7a42f8bccedc3b460bf78c48c1f89738"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activitySignals"
+      ],
+      "sourceHash": "705a1f6e700997acede41567b9e6f2a34c79f2726780ec097049859d83aa1658"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activitySignalReview"
+      ],
+      "sourceHash": "0ad3e58fc1d8fbdeccd0a97ff2b9a90609db472079ddfc3d8aa2c8887bba2ad7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activitySourceExternal"
+      ],
+      "sourceHash": "81ffa5d6f34bb3d547a51384c99a3a7172bf807b1b85a9db2fc02b9f14b7f946"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityStartsAt"
+      ],
+      "sourceHash": "c25d0bf497fee12f7749c23ea8a51e18acf37e11df84fb61ab867b23a318610e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityEndsAt"
+      ],
+      "sourceHash": "f3a06c63e9333625cc741bba54a0c4dce990490bc35cf2cd65c783baa7d9cf17"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityVenueNotSelected"
+      ],
+      "sourceHash": "5b32600e038c9a7fbf6c4489f3bf4c4cd8be0fc12854e0f444a6479dffea25be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityPlaces"
+      ],
+      "sourceHash": "50072cdb1ec11ab4fb9c4521a24fee5abb4bdd2d9c0459808d5f20fe51e9e6aa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activitySchoolGroup"
+      ],
+      "sourceHash": "8e91cd2a0b04f8a31de19fdf14bab9dd5e5641aaf87723a96b9533c3819f7b42"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityJoin"
+      ],
+      "sourceHash": "90d251946a940e251846c848e3ccc4f74626477c1dc2bcf44b98bc3c3f3190d1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityNoResults"
+      ],
+      "sourceHash": "be44729f7cfa02d26cc2ed0bc9027f1c174c12c5482f9ac91390a2b189f9912b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityProposalOnly"
+      ],
+      "sourceHash": "a44f8d87da99e1d511ce5848afcb2a8d9a75e0a7c03d3aa138fea473b9698103"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityPrivatePreferences"
+      ],
+      "sourceHash": "724e4ee75c0093e5f0f0e236aa70a659ef8fd8eae77405f04f439eb8ca8b0fb2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityInterests"
+      ],
+      "sourceHash": "0866554145921670005739ed3eaa5361c10bbf42e6405818597499cf500ff1e1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityAvailableFrom"
+      ],
+      "sourceHash": "6956ec13a778489fef43ea9494cfa2f7bc0da584b7c02224dae0e8fb53d3cadc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityAvailableUntil"
+      ],
+      "sourceHash": "64c3257d27a457c22448b88bc2a92a6815464d047655ef72da35fb77c780eef9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "ui",
+        "activityRepeatWanted"
+      ],
+      "sourceHash": "b4f8ce7921bfac675a43afe16f0d07040812aa6193132aeca2b4ba73b07b21b8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
         "activities",
         "neighborhood",
         0,
@@ -4216,7 +4874,683 @@
         "label"
       ],
       "sourceHash": "f50658d8d285971b54c9c9cd15c77b0c9e3c3049ca947a3de962ace78dad42ec"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activityCalculator",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "25c1ee4df33b524efa823fd9a3a95c38bdfed3acf61d1712a04051c65c3e6204"
+    },
+    {
+      "path": [
+        "landingPage",
+        "mirav",
+        "activityCalculator",
+        "copy",
+        "disclaimer"
+      ],
+      "sourceHash": "40dab84b5b7794969069a37b3e6c47f5ce76ece5bcd007588bbde41b3a01b595"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "subheading"
+      ],
+      "sourceHash": "204e88b73e5035504d93c66c8c3069e3fbe99a5c804de46d1cfeb7c99906e917"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "disclaimer"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "204e88b73e5035504d93c66c8c3069e3fbe99a5c804de46d1cfeb7c99906e917"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "6b00164d12b12257462cb8db4599181d06f68c53fdd1d7694534c6c31c6f14ce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "403f4e0ea0a868858b6325692307e2502762c35a692ecd0422e246c8336fe797"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "314d1b6ed53e4420d1dc2abe427dcf45bee388dac89975afd7b4417b1495f830"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "819dc358abb6cc2d3458ec600d593713d5d2a99d6f1e5b6f87b4e47c6ef82a7f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "8a50178e2f99d091f21c8105e6faabbaca53a321c5510b32a46b6bb530fab484"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "c5e3629b523dde7916cd537091bba205d75b6696b6d8e4584016df627442b58e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "84a1a4780f9b2b77ea5bb2f654a8acf9bfb4a5e792168e98017bbb3b2ca208f6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "819dc358abb6cc2d3458ec600d593713d5d2a99d6f1e5b6f87b4e47c6ef82a7f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "8a8e5f07534b0da0c35670b40a5faa5b720e1506de8f02a489844b3c3202f208"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "ecb62e5258380b35f5b8328b8cb24624cbde54498ed8aa39a521de86eda7b090"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "f7d105b71bf003054fbaba76658b4d5de327a448354b327364726504108716e0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "f39af0daa0034fdcdbe0e0c6d3b408a0bd215791b8d4fbd11f5ff20519fc1155"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "6c4ebc87b6ff993cad43416a131645b0022f85c60ee59edb86a6d877e5452033"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "c5e3629b523dde7916cd537091bba205d75b6696b6d8e4584016df627442b58e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "84a1a4780f9b2b77ea5bb2f654a8acf9bfb4a5e792168e98017bbb3b2ca208f6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "f39af0daa0034fdcdbe0e0c6d3b408a0bd215791b8d4fbd11f5ff20519fc1155"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "8a8e5f07534b0da0c35670b40a5faa5b720e1506de8f02a489844b3c3202f208"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "a380f3f6c943fcbde12a514eacff4928e17d0f22643af0d89076c04d40e8e46f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "52929ee4ad7927f15c9cfcb1c47b6e2816aebca6d54a08777114bb0c8ca453d3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-12T10:44:57.443Z"
+  "generatedAt": "2026-10-13T12:15:17.441Z"
 }
