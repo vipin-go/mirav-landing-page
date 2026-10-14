@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "lv",
   "regionKey": null,
-  "sourceRevision": "3cdabc658219d031269907640657a1dfb38068fbd2f759527117fdc87d9b6316",
+  "sourceRevision": "e5b2d5e129b0f15bc18003eaf5b0d60a01fa933465caeb0d42b2e85ad1c6ed35",
   "landingPage": {
     "design": {
       "variant": "community-connections",
@@ -772,13 +772,18 @@
         }
       }
     },
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "plan-activity",
+      "presentation": "surface"
+    },
     "demoConversation": [],
     "roiCalculator": {
       "methodologyVersion": 2,
       "enabled": true,
       "currency": "EUR",
       "heading": "Cenas un ROI",
-      "subheading": "Jūsu dati. Jūsu prognozētā atdeve.",
+      "subheading": "Izvēlieties plānu. Skatiet prognozi.",
       "disclaimer": "Plāna aplēses ir šķirtas no izmērītās ROI. Izmērīto atdevi pamato tikai pieņemti rezultāti un salīdzināmas reģistrētas izmaksas.",
       "inputs": [],
       "metrics": [],
@@ -788,7 +793,7 @@
         "copy": {
           "navLabel": "Cenu noteikšana",
           "heading": "Cenas un ROI",
-          "intro": "Jūsu dati. Jūsu prognozētā atdeve.",
+          "intro": "Izvēlieties plānu. Skatiet prognozi.",
           "monthly": "Mēnesis",
           "weekly": "Nedēļa",
           "daily": "Diena",
@@ -799,7 +804,7 @@
           "timeBenefit": "Aplēstā laika vērtība",
           "timeRoi": "Laika vērt. ROI",
           "timeBack": "Atgūtās stundas",
-          "missing": "Ievadīt datus",
+          "missing": "Prognoze nav pieejama",
           "noRatio": "Not applicable",
           "method": "Kā to aprēķina",
           "reset": "Atiest.",
@@ -808,10 +813,10 @@
           "excludedVat": "Bez VAT",
           "perMonth": "mēnesī",
           "equivalents": "Maksā reizi mēnesī. Dienas un nedēļas rādītāji ir vidējie, ne maksa par dienu vai nedēļu vai garantēta atdeve.",
-          "timeNote": "Laika vērtība ir tava izvēles aplēse, ne ienākums vai algu izmaksu samazinājums. Neto minūtēs ietilpst tavs pārbaudes un apstiprināšanas laiks.",
+          "timeNote": "Prognozētā laika vērtība ir atgūtā darba kapacitāte, nevis saņemta nauda vai algu izmaksu samazinājums. Neto minūtēs ņemta vērā pārbaude un apstiprināšana.",
           "estimateNote": "Plāna aplēses ir šķirtas no izmērītās ROI. Izmērīto atdevi pamato tikai pieņemti rezultāti un salīdzināmas reģistrētas izmaksas.",
           "limitNote": "Papildu lietojumam vai atsevišķi cenotiem darbiem sazinies ar mums. Aplēse aptver tikai iekļauto plānu.",
-          "timeFormula": "Laika vērtība = vienības×neto ietaupītās min.÷60×tava stundas vērtība.",
+          "timeFormula": "Prognozētā laika vērtība = iekļautais darba apjoms × fiksētais atgūto neto minūšu skaits ÷ 60 × atsauces stundas vērtība.",
           "profitFormula": "Seguma peļņa = derīgās ieteikumu sesijas × konversijas pieaugums ÷ 100 × peļņa no papildu pasūtījuma.",
           "proceedsFormula": "Papildu ieņēmumi = partijas vai savākšanas reizes × (neto ieņēmumi pēc − neto ieņēmumi pirms).",
           "roiFormula": "Neto = ieguvums − lietotnes abonmaksa. ROI = neto ÷ lietotnes abonmaksa × 100. Bezmaksas plāniem nav ROI procenta."
@@ -826,7 +831,7 @@
               {
                 "id": "units",
                 "label": "Tikšanās plāni mēnesī",
-                "help": "Darbs, ko plāno pārskatīt mēnesī, nepārsniedzot iekļauto apjomu.",
+                "help": "Prognoze pieņem, ka tiek izmantots viss iekļautais mēneša apjoms. Augstāki piedāvāto plānu līmeņi palielina gan kapacitāti, gan cenu.",
                 "defaultValue": 10,
                 "min": 0,
                 "max": 10,
@@ -836,8 +841,8 @@
               {
                 "id": "minutes_saved",
                 "label": "Ietaupītās min.",
-                "help": "Tava aplēse pēc pārbaudes, apstiprināšanas un labojumiem. Negatīva vērtība nozīmē papildu darbu.",
-                "defaultValue": null,
+                "help": "Fiksēta prognoze, ņemot vērā sagatavošanu, pārbaudi, apstiprināšanu un labojumus; tas nav izmērīts ietaupījums.",
+                "defaultValue": 18,
                 "min": -1440,
                 "max": 1440,
                 "step": 0.1,
@@ -846,8 +851,8 @@
               {
                 "id": "hourly_value",
                 "label": "Vērtība stundā",
-                "help": "Tavs izvēles vērtējums. Tas nesola naudas ietaupījumu vai algu izmaksu samazinājumu.",
-                "defaultValue": null,
+                "help": "Fiksēts atgūtās kapacitātes atsauces novērtējums; tā nav saņemta nauda vai algas samazinājums.",
+                "defaultValue": 34.9,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -861,11 +866,21 @@
               "vatIncluded": false,
               "includedUnits": 10,
               "allowance": "10 plāni / 30 dalībnieki",
-              "extras": "Dalība ir bez maksas. Rīkotājs maksā par grupu; pielāgotus darbus skolām ceno atsevišķi."
+              "extras": "Dalība ir bez maksas. Rīkotājs maksā par grupu; pielāgotus darbus skolām ceno atsevišķi.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Bez maksas · 1 plāns / 5 dalībnieki"
+              },
+              "trialDays": 7,
+              "trialLabel": "7 dienu izmēģinājums · pēc tam mēneša maksa"
             },
             "assumptions": [
-              "Neto laika ietaupījums nav pieņemts. Ievadi savu aplēsi.",
-              "Neto minūtēs ietilpst klienta pārbaude. Laika vērtību naudā norādi tu; tā nav saņemta nauda."
+              "Prognozes redakcija 2026-10-13. Pilna iekļautā apjoma izmantošana, pieejams darbs un lineārs 1×/2×/3× kapacitātes scenārijs; papildu pieprasījums nav garantēts.",
+              "Autoru noteiktais uzdevuma laiks: 90 minūtes manuāli vai 72 cilvēka darba minūtes ar palīgrīkiem uz darba vienību, ieskaitot pārbaudi, apstiprināšanu un labojumus. 18 neto minūtes (20%) ir scenārijs, nevis novērots šīs personas sniegums.",
+              "20% laika samazinājuma scenārijs balstīts pētījumos par zināšanu darbu ar MI atbalstu. To rezultāti nepierāda ietaupījumu šai personai vai katram uzdevumam: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "Atgūtā uzņēmuma darba kapacitāte novērtēta ar €34.90/stundā — ES visas tautsaimniecības darbaspēka stundas izmaksu atsauces rādītāju 2025. gadam. Tā nav konkrētas profesijas likme vai algu izmaksu ietaupījums: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+              "Visi skaitļi ir prognozes. Iestatīšanas darbs, apguves laiks un papildu pakalpojumi nav iekļauti; faktiskais neto ieguvums var būt mazāks vai negatīvs. Pārdošanai, darbā iekārtošanai, finansējumam, mācību vai sociālajiem rezultātiem netiek piešķirta naudas vērtība.",
+              "Bezmaksas piekļuve atjaunojas katru mēnesi ar norādīto pamata apjomu. Premium mediji, integrācijas un papildu lietojums nav iekļauti. Maksas plāniem ir septiņu dienu izmēģinājums; tā lietojums ierobežots ar vienu pamata bezmaksas apjomu, nevis papildu pilnu mēneša apjomu. Norādītās cenas ir regulārās maksas pēc izmēģinājuma. Šie ir autoru izstrādāti piedāvājumu projekti; kalkulators nepiešķir lietošanas tiesības un nemaina norēķinus."
             ],
             "loop": "Piemērota nodarbe vai kopīgs brīvlaiks → atrast/veidot/pielāgot tikšanos → pieaugušie piekrīt → vecāki apliecina: ģimenes tikās, bērni spēlējās.",
             "ctaLabel": "Izmēģini demo",
@@ -880,7 +895,7 @@
               {
                 "id": "units",
                 "label": "Darbnīcu plāni mēnesī",
-                "help": "Darbs, ko plāno pārskatīt mēnesī, nepārsniedzot iekļauto apjomu.",
+                "help": "Prognoze pieņem, ka tiek izmantots viss iekļautais mēneša apjoms. Augstāki piedāvāto plānu līmeņi palielina gan kapacitāti, gan cenu.",
                 "defaultValue": 10,
                 "min": 0,
                 "max": 10,
@@ -890,8 +905,8 @@
               {
                 "id": "minutes_saved",
                 "label": "Ietaupītās min.",
-                "help": "Tava aplēse pēc pārbaudes, apstiprināšanas un labojumiem. Negatīva vērtība nozīmē papildu darbu.",
-                "defaultValue": null,
+                "help": "Fiksēta prognoze, ņemot vērā sagatavošanu, pārbaudi, apstiprināšanu un labojumus; tas nav izmērīts ietaupījums.",
+                "defaultValue": 24,
                 "min": -1440,
                 "max": 1440,
                 "step": 0.1,
@@ -900,8 +915,8 @@
               {
                 "id": "hourly_value",
                 "label": "Vērtība stundā",
-                "help": "Tavs izvēles vērtējums. Tas nesola naudas ietaupījumu vai algu izmaksu samazinājumu.",
-                "defaultValue": null,
+                "help": "Fiksēts atgūtās kapacitātes atsauces novērtējums; tā nav saņemta nauda vai algas samazinājums.",
+                "defaultValue": 34.9,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -915,11 +930,22 @@
               "vatIncluded": false,
               "includedUnits": 10,
               "allowance": "10 plāni / 30 dalībnieki",
-              "extras": "Dalība ir bez maksas. Īpašus pakalpojumus skolām ceno atsevišķi."
+              "extras": "Dalība ir bez maksas. Īpašus pakalpojumus skolām ceno atsevišķi.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Bez maksas · 1 plāns / 5 dalībnieki"
+              },
+              "trialDays": 7,
+              "trialLabel": "7 dienu izmēģinājums · pēc tam mēneša maksa"
             },
             "assumptions": [
-              "Neto laika ietaupījums nav pieņemts. Ievadi savu aplēsi.",
-              "Neto minūtēs ietilpst klienta pārbaude. Laika vērtību naudā norādi tu; tā nav saņemta nauda."
+              "Prognozes redakcija 2026-10-13. Pilna iekļautā apjoma izmantošana, pieejams darbs un lineārs 1×/2×/3× kapacitātes scenārijs; papildu pieprasījums nav garantēts.",
+              "Autoru noteiktais uzdevuma laiks: 120 minūtes manuāli vai 96 cilvēka darba minūtes ar palīgrīkiem uz darba vienību, ieskaitot pārbaudi, apstiprināšanu un labojumus. 24 neto minūtes (20%) ir scenārijs, nevis novērots šīs personas sniegums.",
+              "20% laika samazinājuma scenārijs balstīts pētījumos par zināšanu darbu ar MI atbalstu. To rezultāti nepierāda ietaupījumu šai personai vai katram uzdevumam: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "Atgūtā uzņēmuma darba kapacitāte novērtēta ar €34.90/stundā — ES visas tautsaimniecības darbaspēka stundas izmaksu atsauces rādītāju 2025. gadam. Tā nav konkrētas profesijas likme vai algu izmaksu ietaupījums: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+              "Visi skaitļi ir prognozes. Iestatīšanas darbs, apguves laiks un papildu pakalpojumi nav iekļauti; faktiskais neto ieguvums var būt mazāks vai negatīvs. Pārdošanai, darbā iekārtošanai, finansējumam, mācību vai sociālajiem rezultātiem netiek piešķirta naudas vērtība.",
+              "Izglītības plānošanas konteksts: EEF izmēģinājumā ar Aila konstatēts īsāks sagatavošanās laiks. Izmēģinājums neapstiprina šim kursam/semināram atvēlēto laiku vai mācību rezultātus: https://educationendowmentfoundation.org.uk/projects-and-evaluation/projects/aila-teacher-choices-trial",
+              "Bezmaksas piekļuve atjaunojas katru mēnesi ar norādīto pamata apjomu. Premium mediji, integrācijas un papildu lietojums nav iekļauti. Maksas plāniem ir septiņu dienu izmēģinājums; tā lietojums ierobežots ar vienu pamata bezmaksas apjomu, nevis papildu pilnu mēneša apjomu. Norādītās cenas ir regulārās maksas pēc izmēģinājuma. Šie ir autoru izstrādāti piedāvājumu projekti; kalkulators nepiešķir lietošanas tiesības un nemaina norēķinus."
             ],
             "loop": "Skolas nodarbes vajadzība → sagatavot darbnīcu → skola un pieaugušie piekrīt → reģistrēt norisi un pieaugušo apliecinātu dalību.",
             "ctaLabel": "Izmēģini demo",
@@ -4909,7 +4935,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -4947,7 +4973,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -5057,7 +5083,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -5147,7 +5173,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -5177,7 +5203,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -5244,7 +5270,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -5270,7 +5296,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -5296,7 +5322,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -5341,10 +5367,35 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "1f53adb876d16ecc5b85275359e61afb21a12b3aa2b35654c544660679ee15d5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -5356,7 +5407,55 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "2e7e2721e18a53b3a1deb571b743ebb4d357ce5ebbf14c2a30f1f5aad5a2ded8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "657ba73c2f83806a89ec3c7ceab83bc0665381866b29d91484962500c9aac45e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [
@@ -5415,7 +5514,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -5441,7 +5540,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -5467,7 +5566,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -5512,10 +5611,35 @@
         "compact",
         "profiles",
         1,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "1f53adb876d16ecc5b85275359e61afb21a12b3aa2b35654c544660679ee15d5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
         "assumptions",
         0
       ],
-      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -5527,7 +5651,67 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "c03167087957cfc77f543bd71ab45386351733c4a7a21828f5c137835c75d67f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "657ba73c2f83806a89ec3c7ceab83bc0665381866b29d91484962500c9aac45e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "c17a7d2c0458eb6c6e707ae4256723f6189a2a6e3ff164378536a21fb2da42fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        6
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [
